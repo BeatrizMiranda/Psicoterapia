@@ -1,3 +1,19 @@
 /*
   Theme Name: Psicoterapia
 */
+@font-face {
+    font-family: Catamaran-Regular;
+    src: url(Catamaran/Catamaran-Regular.ttf);
+}
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(Catamaran/Catamaran-ExtraLight.ttf);
+}
+h1{
+  font-family: Catamaran-ExtraLight;
+  font-size: 55px;
+  font-weight: lighter;
+}
+h2{
+  font-family: Catamaran-Regular;
+}

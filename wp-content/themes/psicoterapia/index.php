@@ -1,3 +1,2 @@
-<?php
-
-  echo "fuck";
+<?php get_header(); ?>
+<?php get_footer(); ?>
