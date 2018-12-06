@@ -21,13 +21,13 @@
           <div>
             <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="60" alt="Logo do Psicoterapia"/>
           </div>
-          <h3>Psicoterapia para Todos</h1>
+          <h3>Psicoterapia para Todos</h3>
         </div>
 
         <div class="row">
 
           <div class="col-md-3 col-sm-3 col-xs-5 col-md-offset-2">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="240" alt="Logo do Psicoterapia"/>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="200" alt="Logo do Psicoterapia"/>
           </div>
 
           <div class="col-md-7 col-sm-7 col-xs-7">

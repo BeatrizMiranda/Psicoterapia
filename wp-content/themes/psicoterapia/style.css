@@ -9,11 +9,31 @@
   font-family: Catamaran-ExtraLight;
   src: url(Catamaran/Catamaran-ExtraLight.ttf);
 }
+body{
+  font-size: 20px;
+}
+.recuo {
+  text-indent:2em;
+}
 h1{
   font-family: Catamaran-ExtraLight;
-  font-size: 55px;
+  font-size: 35px;
   font-weight: lighter;
 }
 h2{
   font-family: Catamaran-Regular;
+}
+#comoInscrevo {
+  background-color: rgb(225,238,255);
+  color: rgb(30,84,108);
+  padding: 30px;
+  margin: 20px 0 20px 0;
+}
+
+#comoInscrevo p{
+  padding: 10px;
+}
+#comoInscrevo h1{
+  font-weight: bolder;
+  padding-bottom: 15px;
 }
