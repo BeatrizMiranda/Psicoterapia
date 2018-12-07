@@ -9,6 +9,9 @@
   font-family: Catamaran-ExtraLight;
   src: url(Catamaran/Catamaran-ExtraLight.ttf);
 }
+* {
+    box-sizing: border-box;
+}
 body{
   font-size: 20px;
 }
@@ -23,7 +26,10 @@ h1{
 h2{
   font-family: Catamaran-Regular;
 }
-#comoInscrevo {
+p{
+   text-align: justify;
+}
+#comoInscrevo{
   background-color: rgb(225,238,255);
   color: rgb(30,84,108);
   padding: 30px;
@@ -33,7 +39,33 @@ h2{
 #comoInscrevo p{
   padding: 10px;
 }
+
 #comoInscrevo h1{
   font-weight: bolder;
   padding-bottom: 15px;
+}
+
+#consultas{
+  color: rgb(30,84,108);
+  padding: 30px;
+}
+
+#consultas h1{
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.caixaConsulta{
+  border: solid 2px rgb(30,84,108);
+  color: rgb(30,84,108);
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin:15px;
+}
+.caixaConsulta h1{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.caixaConsulta p {
+  margin:15px;
 }
