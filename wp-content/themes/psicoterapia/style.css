@@ -15,9 +15,7 @@
 body{
   font-size: 20px;
 }
-.recuo {
-  text-indent:2em;
-}
+
 h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
@@ -28,6 +26,7 @@ h2{
 }
 p{
    text-align: justify;
+   text-indent:2em;
 }
 #comoInscrevo{
   background-color: rgb(225,238,255);
@@ -56,7 +55,7 @@ p{
 }
 
 .caixaConsulta{
-  border: solid 2px rgb(30,84,108);
+  border: solid 3px rgb(30,84,108);
   color: rgb(30,84,108);
   border-radius: 10px;
   padding: 0 10px 0 10px;

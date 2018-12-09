@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div>
             <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="60" alt="Logo do Psicoterapia"/>

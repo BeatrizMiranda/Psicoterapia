@@ -3,12 +3,12 @@
 
   <center><h1> Como me inscrevo? </h1> </center>
 
-  <p class="recuo">
+  <p>
     Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
     um de nossos profissionais entrará em contato para agendar a triagem.
     <a>Clique aqui</a> para ir ao formulário.
   </p>
-  <p class="recuo">
+  <p>
     A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
     documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
   </p>
@@ -17,11 +17,11 @@
 
 <section id="consultas">
   <center><h1> Consultas </h1> </center>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <?php
         $args = array(
-          'orderby'        => 'most_recent'
+          'orderby'     => 'date'
         );
 
         $custom_query = new WP_Query( $args );
@@ -34,7 +34,7 @@
         <div class="caixaConsulta">
 
           <center><h1> <?php the_title(); ?> </h1></center>
-          <p class="recuo"><?php the_excerpt();?></p>
+          <?php the_excerpt();?>
 
         </div>
       </div>
