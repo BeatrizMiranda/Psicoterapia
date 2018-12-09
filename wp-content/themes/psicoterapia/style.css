@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body{
-  font-size: 20px;
+  font-size: 19px;
 }
 
 h1{
@@ -26,7 +26,7 @@ h2{
 }
 p{
    text-align: justify;
-   text-indent:2em;
+
 }
 #comoInscrevo{
   background-color: rgb(225,238,255);
@@ -36,7 +36,13 @@ p{
 }
 
 #comoInscrevo p{
-  padding: 10px;
+  margin: 30px;
+  padding: 0px;
+}
+@media only screen and (max-width: 769px) {
+  #comoInscrevo p{
+    margin: 0px;
+  }
 }
 
 #comoInscrevo h1{
@@ -46,22 +52,28 @@ p{
 
 #consultas{
   color: rgb(30,84,108);
-  padding: 30px;
+  padding: 15px;
 }
 
 #consultas h1{
   font-weight: bolder;
   padding-bottom: 15px;
 }
-
 .caixaConsulta{
-  border: solid 3px rgb(30,84,108);
-  color: rgb(30,84,108);
-  border-radius: 10px;
-  padding: 0 10px 0 10px;
-  margin:15px;
+  padding: 8px;
 }
-.caixaConsulta h1{
+
+.caixaConsulta div{
+  border: solid 2px rgb(30,84,108);
+  color: rgb(30,84,108);
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  margin:9px;
+  min-height: 210px;
+
+  align-items: center;
+}
+.caixaConsulta div h1{
   font-size: 25px;
   font-weight: bolder;
 }

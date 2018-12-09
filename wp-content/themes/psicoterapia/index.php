@@ -30,8 +30,8 @@
           while ($custom_query->have_posts()): $custom_query->the_post();
       ?>
 
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="caixaConsulta">
+      <div class="col-md-4 col-sm-6 col-xs-12 caixaConsulta">
+        <div>
 
           <center><h1> <?php the_title(); ?> </h1></center>
           <?php the_excerpt();?>
