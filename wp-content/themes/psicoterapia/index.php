@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section id="comoInscrevo">
+<section id="comoInscrevo" class="azulClarinho">
 
   <center><h1> Como me inscrevo? </h1> </center>
 

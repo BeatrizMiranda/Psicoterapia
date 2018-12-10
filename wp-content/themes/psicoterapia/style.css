@@ -14,6 +14,7 @@
 }
 body{
   font-size: 19px;
+  color: rgb(30,84,108);
 }
 
 h1{
@@ -26,11 +27,24 @@ h2{
 }
 p{
    text-align: justify;
-
 }
-#comoInscrevo{
+/* Cores */
+.azul{
+  background-color: rgb(86,161,211);
+  color: white;
+}
+.azulClarinho{
   background-color: rgb(225,238,255);
-  color: rgb(30,84,108);
+}
+.azulFinal{
+  background-color: rgb(167, 195, 230)
+}
+.azulescuro{
+  background-color: rgb(30,84,108);
+  color: white;
+}
+
+#comoInscrevo{
   padding: 30px;
   margin: 20px 0 20px 0;
 }
@@ -51,7 +65,6 @@ p{
 }
 
 #consultas{
-  color: rgb(30,84,108);
   padding: 15px;
 }
 
@@ -65,7 +78,6 @@ p{
 
 .caixaConsulta div{
   border: solid 2px rgb(30,84,108);
-  color: rgb(30,84,108);
   border-radius: 5px;
   padding: 0 10px 0 10px;
   margin:9px;
@@ -79,4 +91,18 @@ p{
 }
 .caixaConsulta p {
   margin:15px;
+}
+
+footer div{
+  padding: 10px;
+}
+.noPadding{
+  padding: 0
+}
+
+#desenvolvedores{
+  text-align: center;
+}
+.foto img{
+  border-radius: 50%;
 }
