@@ -134,3 +134,18 @@ footer{
     padding-bottom: 0px;
   }
 }
+
+#valores{
+  background-color: rgb(124,167,219);
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+#valores div{
+  padding:5px;
+  margin:0;
+}
+#valores h1{
+  padding-top: 10px;
+  font-weight: bolder;
+}
