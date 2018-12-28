@@ -35,6 +35,7 @@
     </div>
   </div>
 </section>
+
 <section id="comoInscrevo" class="azulClarinho">
 
   <center><h1> Como me inscrevo? </h1> </center>
@@ -77,6 +78,55 @@
       </div>
 
       <?php endwhile; endif ?>
+    </div>
+  </div>
+</section>
+<section id="cadastre">
+  <center><h1>Cadastre-se</h1></center>
+  <div class="caixaCadastro">
+    <div class="alinharCaixa insc-caixa">
+      <form action="/action_page.php">
+          <fieldset class="fieldset">
+            <legend>Inscrição</legend>
+            <div id="campos">
+              <p>
+            Faça o seu cadastro que entraremos em contato
+            </p>
+            <ul>
+                <li><label>Nome:</label><input type="text" name="nome"><br></li>
+                <li><label>Telefone:</label><input type="text" name="telefone" id="tel"><br></li>
+                <li><label>E-mail:</label><input type="email" name="email"><br></li>
+              </ul>
+              <div id="caixa-botao">
+                <input id="botao" type="submit" value="Enviar">
+              </div>
+            </div>
+          </fieldset>
+      </form>
+    </div>
+    <div class="alinharCaixa">
+      <fieldset class="duvida-caixa">
+          <legend>Alguma dúvida?</legend>
+          <div class="icones">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
+          </div>
+        <div>
+          <p>
+          Ligue ou mande uma mensagem:<br>
+
+          (11) 95030-2017 - Vivo<br><br>
+          Ou mande um e-mail:<br>
+
+          exemplo@psicoterapiaparatodos.com.br
+          <br><br>
+          Acesse nossa página no Facebook:<br>
+
+          facebook.com/projetopsicoterapiaparatodos
+          </p>
+        </div>
+      </fieldset>
     </div>
   </div>
 </section>

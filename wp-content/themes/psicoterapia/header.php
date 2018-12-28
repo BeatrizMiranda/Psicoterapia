@@ -12,6 +12,7 @@
 
     <!--Css-->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/ang1.css">
 
   </head>
 
