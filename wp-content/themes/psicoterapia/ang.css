@@ -1,0 +1,64 @@
+/*
+  Theme Name: Psicoterapia
+*/
+@font-face {
+    font-family: Catamaran-Regular;
+    src: url(Catamaran/Catamaran-Regular.ttf);
+}
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(Catamaran/Catamaran-ExtraLight.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+  font-size: 17.4px; /* A cima de 17.4 a espessura da fonte não se diferencia da font com estilo Bolder */
+  color: rgb(30,84,108);
+}
+
+h1 {
+  font-family: Catamaran-ExtraLight;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: Catamaran-Regular;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.caixaComoComeco {
+  text-align: center;
+  width: 100%;
+
+  padding: 8px;
+}
+
+.caixaComoComeco div {
+  width: 28%;
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+
+  border: solid 2px rgb(30,84,108);
+  border-radius: 5px;
+  padding: 0 10px; 
+  margin: 9px 18px;
+  min-height: 230px;
+}
+
+#doc-box {
+  text-align: justify;
+}
+
+.caixaComoComeco div h1 {
+  font-size: 25px;
+}
+
+.caixaComoComeco p {
+  margin: 15px
+}
