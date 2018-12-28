@@ -12,9 +12,9 @@
 * {
     box-sizing: border-box;
 }
+
 body{
   font-size: 19px;
-  color: rgb(30,84,108);
 }
 
 h1{
@@ -58,7 +58,7 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
-	margin-top: -20px; 
+	margin-top: -20px;
 }
 
 a.vem-conhecer:hover{
@@ -72,7 +72,7 @@ a.vem-conhecer:hover{
 
 
 
-/* 
+/*
 *
 INICIO MENU FIXO TOPO
 */
@@ -84,7 +84,7 @@ INICIO MENU FIXO TOPO
 }
 
 .logo-menu{
-	width: 50px; 
+	width: 50px;
 	padding-top: 5px;
 }
 
@@ -209,13 +209,13 @@ input label{
 
 
 
-/* 
+/*
 FIM MENU FIXO TOPO
 *
 */
 
 
-/* 
+/*
 *
 INICIO CABECALHO
 */
@@ -257,12 +257,12 @@ header .container{
 }
 
 @media (max-width: 525px){
-	
+
 	header .container{
 		padding: 20px ;
 		margin-bottom: 20px;
 	}
-	
+
 	.cabecalho{
 		margin: 0;
 		text-align: center;
@@ -292,21 +292,21 @@ header .container{
 	}
 }
 
-/* 
+/*
 FIM CABECALHO
 *
 */
 
 
 
-/* 
+/*
 *
 INICIO SESSÃO SOBRE NOS
 */
 
 .sobre-nos{
 	margin: 0;
-	background-color: #7ca7db; 
+	background-color: #7ca7db;
 }
 
 .sobre-nos .titulo{
@@ -364,12 +364,11 @@ span.texto-dados-oms{
 	}
 }
 
-/* 
+/*
 FIM SESSÃO SOBRE NOS
 *
 */
 
-=======
 p{
    text-align: justify;
 }
@@ -494,4 +493,3 @@ footer{
   padding-top: 10px;
   font-weight: bolder;
 }
->>>>>>> 32201e90ace9e8ccb4efc3daa9145c6726a3953e
