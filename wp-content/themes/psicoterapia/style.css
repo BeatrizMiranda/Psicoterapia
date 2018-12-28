@@ -14,6 +14,349 @@ h1{
   font-size: 55px;
   font-weight: lighter;
 }
+
+@media (max-width: 525px){
+	h1{
+	  font-size: 30px;
+	}
+}
+
 h2{
   font-family: Catamaran-Regular;
 }
+
+h3{
+ font-family: Catamaran-ExtraLight;
+}
+
+h4{
+	font-family: Catamaran-Regular;
+}
+
+span{
+	font-family: Catamaran-ExtraLight;
+	font-size: 20px;
+}
+
+/*
+	setando botoes
+*/
+a.vem-conhecer{
+	font-family: Catamaran-Regular;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #1e546c;
+	padding: 10px 20px;
+	background: #afc9e8;
+	border-radius: 10px;
+	margin-top: -20px; 
+}
+
+a.vem-conhecer:hover{
+	background: #9db9dd;
+	text-decoration: none;
+}
+
+.botao-cabecalho{
+	margin-top: -10px;
+}
+
+
+
+/* 
+*
+INICIO MENU FIXO TOPO
+*/
+
+.menu-fixo{
+	padding: 5px 50px;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+}
+
+.logo-menu{
+	width: 50px; 
+	padding-top: 5px;
+}
+
+.titulo-menu{
+	color: #1e546c;
+	font-size: 28px;
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+@media (max-width: 525px){
+	.logo-menu{
+		width: 40px !important;
+	}
+
+	.menu-fixo{
+		padding: 2.5px 5px;
+	}
+
+	.titulo-menu{
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 321px){
+	.logo-menu{
+		width: 30px !important;
+	}
+
+	.titulo-menu{
+		font-size: 18px !important;
+	}
+}
+
+
+/* inicio menu hamburguer*/
+
+*,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.hamburguer {
+        position: relative;
+        display: block;
+        background: #1e546c;
+        width: 32px;
+        height: 3.30px;
+        top: 16px;
+        left: 100px;
+        transition: .5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+        background: #1e546c;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: .5s ease-in-out;
+}
+
+.hamburguer:before {
+    top: -10px;
+}
+
+.hamburguer:after {
+    bottom: -10px;
+}
+
+@media (max-width: 525px){
+	.hamburguer {
+        left: 0;
+        top: 10px;
+	}
+}
+
+@media (max-width: 375px){
+	.hamburguer {
+        left: 300px !important;
+        top: -20px;
+	}
+}
+
+
+@media (max-width: 320px){
+	.hamburguer {
+        left: 250px !important;
+        top: -20px;
+	}
+}
+
+
+input {
+    display: none;
+}
+
+input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+input label{
+	width: 30px;
+	height: 30px;
+}
+/* fim menu hamburguer*/
+
+
+
+/* 
+FIM MENU FIXO TOPO
+*
+*/
+
+
+/* 
+*
+INICIO CABECALHO
+*/
+
+header .container{
+	padding: 50px 0px;
+}
+
+.cabecalho .titulo{
+	color: #1e546c;
+}
+
+.botao-cabecalho{
+	margin-top: -10px;
+}
+
+@media (max-width: 1025px){
+	.cabecalho .logo{
+		width: 240px;
+    	padding-top: 20px;
+	}
+}
+
+@media (max-width: 769px){
+
+	.cabecalho .logo{
+		width: 240px;
+		padding-left: 30px;
+    	padding-top: 10px;
+	}
+
+	.cabecalho .titulo h1{
+		font-size: 40px !important;
+	}
+
+	.cabecalho .titulo h2{
+		font-size: 22px !important;
+	}
+}
+
+@media (max-width: 525px){
+	
+	header .container{
+		padding: 20px ;
+		margin-bottom: 20px;
+	}
+	
+	.cabecalho{
+		margin: 0;
+		text-align: center;
+	}
+
+	.cabecalho .logo{
+		width: 250px;
+	}
+
+	.cabecalho .titulo h2{
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 321px){
+	.cabecalho .logo{
+		width: 200px;
+	}
+
+	.cabecalho .titulo h1{
+		font-size: 30px !important;
+	}
+
+	.cabecalho .titulo h2{
+		font-size: 20px !important;
+	}
+}
+
+/* 
+FIM CABECALHO
+*
+*/
+
+
+
+/* 
+*
+INICIO SESSÃO SOBRE NOS
+*/
+
+.sobre-nos{
+	margin: 0;
+	background-color: #7ca7db; 
+}
+
+.sobre-nos .titulo{
+	padding-top: 40px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bolder;
+	letter-spacing: 1.5px;
+}
+
+h4.como-surgiu-tit{
+	color: #fff;
+	text-align: left;
+	font-size: 22px !important;
+}
+span.como-surgiu-texto{
+	color: #fff;
+	text-align: left !important;
+	font-size: 20px !important;
+}
+.container-dados-oms{
+	border: 2px solid #fff;
+	padding: 20px;
+	margin-top: 30px;
+	border-radius: 6px;
+}
+span.texto-dados-oms{
+	color: #fff;
+	text-align: left !important;
+	font-size: 20px !important;
+}
+
+@media (max-width: 769px){
+	span.como-surgiu-texto{
+		font-size: 18px !important;
+	}
+
+	.container-dados-oms{
+		margin-top: 45px;
+	}
+
+	span.texto-dados-oms{
+		font-size: 17px !important;
+	}
+}
+
+
+@media (max-width: 525px){
+	span.texto-dados-oms{
+		font-size: 16px !important;
+	}
+
+	.container-dados-oms{
+		margin: 20px 12.5px;
+	}
+}
+
+/* 
+FIM SESSÃO SOBRE NOS
+*
+*/
+
