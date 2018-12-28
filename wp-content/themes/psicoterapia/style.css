@@ -9,9 +9,17 @@
   font-family: Catamaran-ExtraLight;
   src: url(Catamaran/Catamaran-ExtraLight.ttf);
 }
+* {
+    box-sizing: border-box;
+}
+body{
+  font-size: 19px;
+  color: rgb(30,84,108);
+}
+
 h1{
   font-family: Catamaran-ExtraLight;
-  font-size: 55px;
+  font-size: 35px;
   font-weight: lighter;
 }
 
@@ -24,6 +32,7 @@ h1{
 h2{
   font-family: Catamaran-Regular;
 }
+<<<<<<< HEAD
 
 h3{
  font-family: Catamaran-ExtraLight;
@@ -360,3 +369,129 @@ FIM SESSÃO SOBRE NOS
 *
 */
 
+=======
+p{
+   text-align: justify;
+}
+/* Cores */
+.azul{
+  background-color: rgb(86,161,211);
+  color: white;
+}
+.azulClarinho{
+  background-color: rgb(225,238,255);
+}
+.azulFinal{
+  background-color: rgb(167, 195, 230)
+}
+.azulescuro{
+  background-color: rgb(30,84,108);
+  color: white;
+}
+
+#comoInscrevo{
+  padding: 30px;
+  margin: 20px 0 20px 0;
+}
+
+#comoInscrevo p{
+  margin: 30px;
+  padding: 0px;
+}
+@media only screen and (max-width: 769px) {
+  #comoInscrevo p{
+    margin: 0px;
+  }
+}
+
+#comoInscrevo h1{
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+#consultas{
+  padding: 15px;
+}
+
+#consultas h1{
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+.caixaConsulta{
+  padding: 8px;
+}
+
+.caixaConsulta div{
+  border: solid 2px rgb(30,84,108);
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  margin:9px;
+  min-height: 210px;
+
+  align-items: center;
+}
+.caixaConsulta div h1{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.caixaConsulta p {
+  margin:15px;
+}
+
+.noPadding{
+  padding: 0
+}
+
+#desenvolvedores{
+  text-align: center;
+}
+#desenvolvedores div{
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.foto img{
+  border-radius: 50%;
+}
+footer{
+    font-size: 16px;
+}
+#ifMeninas{
+  padding: 15px 0px 15px 0px;
+}
+#contato{
+  padding:40px;
+}
+#linkContatos{
+  margin: 20px 0px 20px 0px;
+}
+@media only screen and (max-width: 769px) {
+  #contato{
+    padding:5px;
+  }
+
+  #linkContatos a, div{
+    margin: 10px 0px 10px 0px;
+  }
+  #desenvolvedores div{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+#valores{
+  background-color: rgb(124,167,219);
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+#valores div{
+  padding:5px;
+  margin:0;
+}
+#valores h1{
+  padding-top: 10px;
+  font-weight: bolder;
+}
+>>>>>>> 32201e90ace9e8ccb4efc3daa9145c6726a3953e

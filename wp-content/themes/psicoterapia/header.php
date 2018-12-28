@@ -17,6 +17,7 @@
   
   <body>
     <header>
+<<<<<<< HEAD
       <div class="row menu-fixo">
         <div class="col-md-2 col-xs-2">
           <img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
@@ -48,6 +49,15 @@
             <h1>Psicoterapia para Todos</h1>
             <h2>Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
           </div>
+=======
+      <div class="container-fluid">
+        <div class="row">
+          <div>
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="60" alt="Logo do Psicoterapia"/>
+          </div>
+          <h3>Psicoterapia para Todos</h3>
+        </div>
+>>>>>>> 32201e90ace9e8ccb4efc3daa9145c6726a3953e
 
         </div>
       </div>
@@ -70,10 +80,15 @@
             <span class="como-surgiu-texto text-left">
               O projeto surgiu a partir da iniciativa de um grupo de profissionais que constataram que apesar da grande procura pela psicoterapia, muitos clientes não aderiram por limitações financeiras. 
 
+<<<<<<< HEAD
             <br>
 
             Como enfrentamento dessa problemática, pretendemos estruturar uma rede de profissionais engajados na cauda da saúde mental e que compreendam a realidade de nossa população.
           </span>
+=======
+          <div class="col-md-3 col-sm-3 col-xs-5 col-md-offset-2">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" width="200" alt="Logo do Psicoterapia"/>
+>>>>>>> 32201e90ace9e8ccb4efc3daa9145c6726a3953e
           </div>
 
           <div class="col-md-5 col-sm-6 col-xs-11 text-left container-dados-oms">
