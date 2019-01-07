@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 <section>
-  <div class="row sobre-nos">
+  <div class="row sobre-nos azulIndigo">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center botao-cabecalho">
-          <a class="vem-conhecer" href="#sobre-nos-titulo">Vem conhecer!</a>
+          <a class="vem-conhecer" href="#sobre-nos-titulo">
+            Vem conhecer!
+          </a>
         </div>
 
         <div class="col-xs-12 text-center">
@@ -12,7 +14,7 @@
         </div>
 
         <div class="col-md-5 col-sm-6 col-md-offset-1 col-xs-12">
-          <h4 class="como-surgiu-tit">  Como surgiu? </h4>
+          <h4 class="como-surgiu-tit">Como surgiu? </h4>
 
           <span class="como-surgiu-texto text-left">
             O projeto surgiu a partir da iniciativa de um grupo de profissionais que constataram que apesar da grande procura
@@ -35,6 +37,7 @@
     </div>
   </div>
 </section>
+
 <section id="comoInscrevo" class="azulClarinho">
 
   <center><h1> Como me inscrevo? </h1> </center>

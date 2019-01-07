@@ -130,7 +130,7 @@
       <section id="fim">
 
         <div class="azulFinal row" style="text-align:right">
-          2018
+          <span class="2018-footer">2018</span>
         </div>
       </section>
 

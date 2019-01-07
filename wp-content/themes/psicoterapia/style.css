@@ -306,24 +306,27 @@ INICIO SESSÃO SOBRE NOS
 
 .sobre-nos{
 	margin: 0;
-	background-color: #7ca7db;
+	padding-bottom: 50px;
+}
+
+@media (max-width: 525px){
+	.sobre-nos{
+		padding-bottom: 30px;
+	}
 }
 
 .sobre-nos .titulo{
 	padding-top: 40px;
-	color: #fff;
 	font-size: 30px;
 	font-weight: bolder;
 	letter-spacing: 1.5px;
 }
 
 h4.como-surgiu-tit{
-	color: #fff;
 	text-align: left;
 	font-size: 22px !important;
 }
 span.como-surgiu-texto{
-	color: #fff;
 	text-align: left !important;
 	font-size: 20px !important;
 }
@@ -387,10 +390,13 @@ p{
   background-color: rgb(30,84,108);
   color: white;
 }
+.azulIndigo{
+	background-color: rgb(124,167,219);
+	color: #fff;
+}
 
 #comoInscrevo{
   padding: 30px;
-  margin: 20px 0 20px 0;
 }
 
 #comoInscrevo p{
@@ -492,4 +498,7 @@ footer{
 #valores h1{
   padding-top: 10px;
   font-weight: bolder;
+}
+.final-footer{
+
 }
