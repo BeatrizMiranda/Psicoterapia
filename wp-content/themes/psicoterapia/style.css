@@ -32,7 +32,6 @@ h1{
 h2{
   font-family: Catamaran-Regular;
 }
-<<<<<<< HEAD
 
 h3{
  font-family: Catamaran-ExtraLight;
@@ -69,8 +68,6 @@ a.vem-conhecer:hover{
 .botao-cabecalho{
 	margin-top: -10px;
 }
-
-
 
 /*
 *
@@ -368,6 +365,68 @@ span.texto-dados-oms{
 FIM SESSÃO SOBRE NOS
 *
 */
+/* Inicio Sessão Como começo */
+
+.corpo-comoComeco {
+  font-size: 17.4px;
+  color: rgb(30,84,108);
+}
+
+.corpo-comoComeco h1 {
+  font-family: Catamaran-ExtraLight;
+  font-size: 35px;
+}
+
+.caixaComoComeco {
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+}
+
+.caixaComoComeco div {
+  width: 28%;
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+  border: solid 2px rgb(30,84,108);
+  border-radius: 5px;
+  padding: 0 10px; 
+  margin: 9px 18px;
+  min-height: 230px;
+}
+
+.doc-box {
+  text-align: justify;
+}
+
+.doc-box ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.caixaComoComeco div h1 {
+  font-size: 25px;
+}
+
+.caixaComoComeco p {
+  margin: 15px
+}
+
+.caixaComoComeco div p {
+  margin: 15px
+}
+
+.corpo-cadastre {
+  background-color: rgb(225,238,255);
+  font-size: 14.4px;
+  color: rgb(30,84,108);
+}
+
+.corpo-cadastre h1 {
+  font-family: Catamaran-ExtraLight;
+  font-size: 35px;
+}
+/* Fim Sessão Como começo */
 
 p{
    text-align: justify;
@@ -440,6 +499,99 @@ p{
 .noPadding{
   padding: 0
 }
+
+/* Início Sessão Cadastre */
+#campos {
+  text-align: justify;
+}
+
+.campos ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.campos ul input {
+  width: 15em;
+}
+
+.campos input {
+  border-radius: 5px;
+  margin-left: 3em;
+}
+
+.campos label {
+  margin-right: 1em;
+}
+
+.caixaCadastro {
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+}
+
+.alinharCaixa {
+  width: 28%;
+  text-align: center;
+  overflow: auto;
+  display: inline-block;
+}
+
+.insc-caixa p {
+  text-align: justify;
+  margin: 20px 0 0 -5px;
+}
+
+.insc-caixa input {
+  margin-left: 0px;
+}
+
+#tel {
+  width: 14em;
+}
+
+#caixa-botao {
+  float: right;
+  margin-top: 1.5em;
+}
+
+#botao {
+  color: rgb(30,84,108);
+  background-color: white;
+  border-radius: 4px;
+  border-style: double;
+  border-width: 4px;
+  border-color: rgb(30,84,108);
+}
+
+.fieldset {
+  border: solid 2px rgb(30,84,108);
+  border-radius: 5px;
+  padding: 0 0 0 25px;
+  margin: 9px 18px;
+  min-height: 230px;
+}
+
+.fieldset div {
+  float: left;
+  padding-bottom: 0;
+  margin: 0;
+  border: 0;
+}
+
+.fieldset div h1 {
+  font-size: 25px;
+}
+
+.fieldset input {
+  margin: 15px 15px 0 0;
+  padding: 0 10px;
+}
+
+.loguinho {
+  width: 1.5em;
+}
+/* Fim Sessão Cadastre */
 
 #desenvolvedores{
   text-align: center;

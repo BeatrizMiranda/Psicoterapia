@@ -22,7 +22,6 @@
             mental e que compreendam a realidade de nossa população.
           </span>
         </div>
-
         <div class="col-md-5 col-sm-6 col-xs-11 text-left container-dados-oms">
           <span class="texto-dados-oms">
             Temos uma demanda social bastante urgente, conforme apontam os dados fornecidos pela OMS no Brasil.
@@ -35,7 +34,7 @@
     </div>
   </div>
 </section>
-<section>
+<section class="corpo-comoComeco">
   <center><h1>Como começo?</h1></center>
   <div class="caixaComoComeco">
     <div>
@@ -46,7 +45,7 @@
       É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
       </p>
     </div>
-    <div id="doc-box">
+    <div class="doc-box">
       <h1>Quais são os documentos obrigatórios?</h1>
       <p>
       <ul>
@@ -104,18 +103,18 @@
     </div>
   </div>
 </section>
-<section id="cadastre">
+<section id="cadastre" class="corpo-cadastre">
   <center><h1>Cadastre-se</h1></center>
   <div class="caixaCadastro">
     <div class="alinharCaixa insc-caixa">
       <form action="/action_page.php">
           <fieldset class="fieldset">
             <legend>Inscrição</legend>
-            <div id="campos">
+            <div class="campos">
               <p>
-            Faça o seu cadastro que entraremos em contato
-            </p>
-            <ul>
+              Faça o seu cadastro que entraremos em contato
+              </p>
+              <ul>
                 <li><label>Nome:</label><input type="text" name="nome"><br></li>
                 <li><label>Telefone:</label><input type="text" name="telefone" id="tel"><br></li>
                 <li><label>E-mail:</label><input type="email" name="email"><br></li>
@@ -131,9 +130,9 @@
       <fieldset class="duvida-caixa">
           <legend>Alguma dúvida?</legend>
           <div class="icones">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
           </div>
         <div>
           <p>
