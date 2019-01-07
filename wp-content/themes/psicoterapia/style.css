@@ -17,6 +17,10 @@ body{
   font-size: 19px;
 }
 
+p{
+   text-align: justify;
+}
+
 h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
@@ -365,7 +369,12 @@ span.texto-dados-oms{
 FIM SESSÃO SOBRE NOS
 *
 */
-/* Inicio Sessão Como começo */
+
+/*
+Inicio Sessão Como começo
+*
+*/
+
 
 .corpo-comoComeco {
   font-size: 17.4px;
@@ -390,7 +399,7 @@ FIM SESSÃO SOBRE NOS
   overflow: auto;
   border: solid 2px rgb(30,84,108);
   border-radius: 5px;
-  padding: 0 10px; 
+  padding: 0 10px;
   margin: 9px 18px;
   min-height: 230px;
 }
@@ -425,12 +434,21 @@ FIM SESSÃO SOBRE NOS
 .corpo-cadastre h1 {
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
-}
-/* Fim Sessão Como começo */
 
-p{
-   text-align: justify;
 }
+
+/*
+Fim Sessão Como começo
+*
+*/
+
+/*
+Inicio da Sessão Como me inscrevo
+*
+*/
+
+
+
 /* Cores */
 .azul{
   background-color: rgb(86,161,211);
@@ -466,6 +484,16 @@ p{
   font-weight: bolder;
   padding-bottom: 15px;
 }
+/*
+Fim da Sessão Como me inscrevo
+*
+*/
+
+/*
+Inicio da Sessão Consultas
+*
+*/
+
 
 #consultas{
   padding: 15px;
@@ -500,7 +528,17 @@ p{
   padding: 0
 }
 
-/* Início Sessão Cadastre */
+/*
+FIM da Sessão Como me inscrevo
+*
+*/
+
+
+/*
+Inicio da Sessão Cadastre-se
+*
+*/
+
 #campos {
   text-align: justify;
 }
@@ -591,7 +629,41 @@ p{
 .loguinho {
   width: 1.5em;
 }
-/* Fim Sessão Cadastre */
+/*
+FIM da Sessão Cadastre-se
+*
+*/
+
+/*
+Inicio da Sessão Valores
+*
+*/
+
+#valores{
+  background-color: rgb(124,167,219);
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+#valores div{
+  padding:5px;
+  margin:0;
+}
+#valores h1{
+  padding-top: 10px;
+  font-weight: bolder;
+
+
+/*
+FIM da Sessão Valores
+*
+*/
+
+/*
+inicio do footer
+*
+*/
+
 
 #desenvolvedores{
   text-align: center;
@@ -631,17 +703,7 @@ footer{
   }
 }
 
-#valores{
-  background-color: rgb(124,167,219);
-  color: white;
-  text-align: center;
-  padding:20px;
-}
-#valores div{
-  padding:5px;
-  margin:0;
-}
-#valores h1{
-  padding-top: 10px;
-  font-weight: bolder;
-}
+/*
+FIM do footer
+*
+*/
