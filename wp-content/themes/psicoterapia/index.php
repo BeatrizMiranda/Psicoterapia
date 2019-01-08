@@ -34,26 +34,33 @@
     </div>
   </div>
 </section>
-<section class="corpo-comoComeco">
+
+<section class="container comoComeco">
   <center><h1>Como começo?</h1></center>
-  <div class="caixaComoComeco">
-    <div>
-      <h1>Quem pode participar?</h1>
-      <p>
-      Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
-      <br><br>
-      É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
-      </p>
+  <div class="row caixaComoComeco">
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <div>
+        <h1>Quem pode participar?</h1>
+        <br>
+        <p>
+        Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
+        <br>
+        É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
+        </p>
+      </div>
     </div>
-    <div class="doc-box">
-      <h1>Quais são os documentos obrigatórios?</h1>
-      <p>
-      <ul>
-        <li>- Comprovante de endereço,</li>
-        <li>- Xerox do RG e do CPF,</li>
-        <li>- Xerox carteira de trabalho ou recibos salariais.</li>
-      </ul>
-      </p>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <div>
+        <h1>Quais são os documentos obrigatórios?</h1>
+        <br/>
+        <p>
+        <ul>
+          <li>- Xerox do RG e do CPF,</li>
+          <li>- Comprovante de endereço,</li>
+          <li>- Xerox carteira de trabalho ou recibos salariais.</li>
+        </ul>
+        </p>
+      </div>
     </div>
   </div>
 </section>

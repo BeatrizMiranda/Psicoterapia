@@ -375,66 +375,27 @@ Inicio Sessão Como começo
 *
 */
 
-
-.corpo-comoComeco {
-  font-size: 17.4px;
+.comoComeco{
   color: rgb(30,84,108);
 }
-
-.corpo-comoComeco h1 {
+.comoComeco h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
+  padding: 8px 0px;
 }
 
-.caixaComoComeco {
-  text-align: center;
-  width: 100%;
-  padding: 8px;
-}
 
-.caixaComoComeco div {
-  width: 28%;
-  display: inline-block;
-  text-align: center;
-  overflow: auto;
+.caixaComoComeco div div{
+  margin: 10px;
   border: solid 2px rgb(30,84,108);
   border-radius: 5px;
-  padding: 0 10px;
-  margin: 9px 18px;
-  min-height: 230px;
+  text-align: center;
+  min-height: 260px;
+  padding: 5px 30px;
 }
 
-.doc-box {
-  text-align: justify;
-}
-
-.doc-box ul {
+.caixaComoComeco div div ul{
   list-style-type: none;
-  padding: 0px;
-}
-
-.caixaComoComeco div h1 {
-  font-size: 25px;
-}
-
-.caixaComoComeco p {
-  margin: 15px
-}
-
-.caixaComoComeco div p {
-  margin: 15px
-}
-
-.corpo-cadastre {
-  background-color: rgb(225,238,255);
-  font-size: 14.4px;
-  color: rgb(30,84,108);
-}
-
-.corpo-cadastre h1 {
-  font-family: Catamaran-ExtraLight;
-  font-size: 35px;
-
 }
 
 /*
@@ -481,7 +442,6 @@ Inicio da Sessão Como me inscrevo
 }
 
 #comoInscrevo h1{
-  font-weight: bolder;
   padding-bottom: 15px;
 }
 /*
@@ -500,7 +460,6 @@ Inicio da Sessão Consultas
 }
 
 #consultas h1{
-  font-weight: bolder;
   padding-bottom: 15px;
 }
 .caixaConsulta{
@@ -538,6 +497,19 @@ FIM da Sessão Como me inscrevo
 Inicio da Sessão Cadastre-se
 *
 */
+
+
+.corpo-cadastre {
+  background-color: rgb(225,238,255);
+  font-size: 14.4px;
+  color: rgb(30,84,108);
+}
+
+.corpo-cadastre h1 {
+  font-family: Catamaran-ExtraLight;
+  font-size: 35px;
+  padding: 15px 0px;
+}
 
 #campos {
   text-align: justify;
@@ -650,9 +622,8 @@ Inicio da Sessão Valores
   margin:0;
 }
 #valores h1{
-  padding-top: 10px;
-  font-weight: bolder;
-
+  padding-top: 15px;
+}
 
 /*
 FIM da Sessão Valores
@@ -668,6 +639,7 @@ inicio do footer
 #desenvolvedores{
   text-align: center;
 }
+
 #desenvolvedores div{
   padding-top: 5px;
   padding-right: 15px;
