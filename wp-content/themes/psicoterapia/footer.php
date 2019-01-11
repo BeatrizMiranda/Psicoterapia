@@ -1,9 +1,4 @@
     <footer class="container-fluid">
-      <section class="row">
-        <div class="azul col-md-12 col-xs-12">
-          <center>Psicoterapia para Todos</center>
-        </div>
-      </section>
 
       <section class="row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
 
@@ -106,10 +101,10 @@
                   bra.ifsp.edu.br/ifmeninas/
                 </a>
 
-                <div class="col-md-3 col-sm-3 col-xs-12">
+                <a href="mailto:ifmeninas@gmail.com" target="_blank" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="25" alt="ícone de email"/>
                   ifmeninas@gmail.com
-                </div>
+                </a>
 
                 <a id="facebook" target="_blank" href="https://www.facebook.com/ifmeninas/" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="25" alt="ícone do facebook"/>

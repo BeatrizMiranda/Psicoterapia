@@ -24,7 +24,6 @@
             mental e que compreendam a realidade de nossa população.
           </span>
         </div>
-
         <div class="col-md-5 col-sm-6 col-xs-11 text-left container-dados-oms">
           <span class="texto-dados-oms">
             Temos uma demanda social bastante urgente, conforme apontam os dados fornecidos pela OMS no Brasil.
@@ -37,6 +36,31 @@
     </div>
   </div>
 </section>
+
+<section class="corpo-comoComeco">
+  <center><h1>Como começo?</h1></center>
+  <div class="caixaComoComeco">
+    <div>
+      <h1>Quem pode participar?</h1>
+      <p>
+      Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
+      <br><br>
+      É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
+      </p>
+    </div>
+    <div class="doc-box">
+      <h1>Quais são os documentos obrigatórios?</h1>
+      <p>
+      <ul>
+        <li>- Comprovante de endereço,</li>
+        <li>- Xerox do RG e do CPF,</li>
+        <li>- Xerox carteira de trabalho ou recibos salariais.</li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</section>
+>>>>>>> 561c885912d55f8f33dba43a5f0fd017c0c8535c
 
 <section id="comoInscrevo" class="azulClarinho">
 
@@ -80,6 +104,55 @@
       </div>
 
       <?php endwhile; endif ?>
+    </div>
+  </div>
+</section>
+<section id="cadastre" class="corpo-cadastre">
+  <center><h1>Cadastre-se</h1></center>
+  <div class="caixaCadastro">
+    <div class="alinharCaixa insc-caixa">
+      <form action="/action_page.php">
+          <fieldset class="fieldset">
+            <legend>Inscrição</legend>
+            <div class="campos">
+              <p>
+              Faça o seu cadastro que entraremos em contato
+              </p>
+              <ul>
+                <li><label>Nome:</label><input type="text" name="nome"><br></li>
+                <li><label>Telefone:</label><input type="text" name="telefone" id="tel"><br></li>
+                <li><label>E-mail:</label><input type="email" name="email"><br></li>
+              </ul>
+              <div id="caixa-botao">
+                <input id="botao" type="submit" value="Enviar">
+              </div>
+            </div>
+          </fieldset>
+      </form>
+    </div>
+    <div class="alinharCaixa">
+      <fieldset class="duvida-caixa">
+          <legend>Alguma dúvida?</legend>
+          <div class="icones">
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
+            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
+          </div>
+        <div>
+          <p>
+          Ligue ou mande uma mensagem:<br>
+
+          (11) 95030-2017 - Vivo<br><br>
+          Ou mande um e-mail:<br>
+
+          exemplo@psicoterapiaparatodos.com.br
+          <br><br>
+          Acesse nossa página no Facebook:<br>
+
+          facebook.com/projetopsicoterapiaparatodos
+          </p>
+        </div>
+      </fieldset>
     </div>
   </div>
 </section>
