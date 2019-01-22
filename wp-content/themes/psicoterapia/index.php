@@ -110,55 +110,81 @@
     </div>
   </div>
 </section>
+
 <section id="cadastre" class="corpo-cadastre">
   <center><h1>Cadastre-se</h1></center>
-  <div class="caixaCadastro">
-    <div class="alinharCaixa insc-caixa">
-      <form action="/action_page.php">
-          <fieldset class="fieldset">
-            <legend>Inscrição</legend>
-            <div class="campos">
+  <div class="container">
+    <div class="row caixaCadastre">
+
+          <form class="col-md-6 col-sm-6 col-xs-12">
+            <fieldset class="scheduler-border">
+              <legend class="scheduler-border">Inscrição</legend>
               <p>
-              Faça o seu cadastro que entraremos em contato
+                <center>Faça o seu cadastro que entraremos em contato!</center>
               </p>
-              <ul>
-                <li><label>Nome:</label><input type="text" name="nome"><br></li>
-                <li><label>Telefone:</label><input type="text" name="telefone" id="tel"><br></li>
-                <li><label>E-mail:</label><input type="email" name="email"><br></li>
-              </ul>
-              <div id="caixa-botao">
-                <input id="botao" type="submit" value="Enviar">
+              <br/>
+              <div class="row">
+                <form >
+
+                  <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                    <label for="nome">Nome: </label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                  </div>
+                  <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                    <label for="telefone">Telefone: </label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                  </div>
+                  <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                    <label for="email">E-mail: </label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <br/>
+                  <button type="submit" class="btn btn-primary botao col-xs-offset-9 col-md-2 col-xs-2">Enviar</button>
+
+                </form>
               </div>
+            </fieldset>
+          </form>
+
+
+          <form class="col-md-6 col-sm-6 col-xs-12">
+            <fieldset class="scheduler-border">
+              <legend class="scheduler-border">Alguma Dúvida?</legend>
+              <div class="row">
+                <p class="col-md-12 col-sm-12 col-xs-12"><center>Ligue ou mande uma mensagem:</center></p>
+
+              </div>
+            </fieldset>
+          </form>
+
+        <!--<fieldset class="duvida-caixa">
+            <legend>Alguma dúvida?</legend>
+            <div class="icones">
+              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
+              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
+              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
             </div>
-          </fieldset>
-      </form>
-    </div>
-    <div class="alinharCaixa">
-      <fieldset class="duvida-caixa">
-          <legend>Alguma dúvida?</legend>
-          <div class="icones">
-            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
-            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
-            <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
+          <div>
+            <p>
+            Ligue ou mande uma mensagem:<br>
+
+            (11) 95030-2017 - Vivo<br><br>
+            Ou mande um e-mail:<br>
+
+            exemplo@psicoterapiaparatodos.com.br
+            <br><br>
+            Acesse nossa página no Facebook:<br>
+
+            facebook.com/projetopsicoterapiaparatodos
+            </p>
           </div>
-        <div>
-          <p>
-          Ligue ou mande uma mensagem:<br>
+        </fieldset>-->
 
-          (11) 95030-2017 - Vivo<br><br>
-          Ou mande um e-mail:<br>
 
-          exemplo@psicoterapiaparatodos.com.br
-          <br><br>
-          Acesse nossa página no Facebook:<br>
-
-          facebook.com/projetopsicoterapiaparatodos
-          </p>
-        </div>
-      </fieldset>
     </div>
   </div>
 </section>
+
 <section id="valores">
   <h1><center> O que guia o projeto? </center></h1>
   <div class="row">
