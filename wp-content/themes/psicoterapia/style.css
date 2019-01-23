@@ -536,8 +536,13 @@ fieldset.scheduler-border {
   font-size: 17px;
   border:none;
 }
-
-
+.contato{
+  padding: 9px;
+}
+.contato img{
+  padding-left: 25px;
+  margin-top: 16px;
+}
 
 /*
 FIM da Sessão Cadastre-se

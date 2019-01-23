@@ -32,6 +32,7 @@
 
       </div>
     </div>
+    <br/>
   </div>
 </section>
 
@@ -72,7 +73,7 @@
   <p>
     Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
     um de nossos profissionais entrará em contato para agendar a triagem.
-    <a>Clique aqui</a> para ir ao formulário.
+    <a href="#cadastre">Clique aqui</a> para ir ao formulário.
   </p>
   <p>
     A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
@@ -122,7 +123,7 @@
               <p>
                 <center>Faça o seu cadastro que entraremos em contato!</center>
               </p>
-              <br/>
+
               <div class="row">
                 <form >
 
@@ -138,7 +139,6 @@
                     <label for="email">E-mail: </label>
                     <input type="text" class="form-control" id="email" placeholder="Email">
                   </div>
-                  <br/>
                   <button type="submit" class="btn btn-primary botao col-xs-offset-9 col-md-2 col-xs-2">Enviar</button>
 
                 </form>
@@ -150,36 +150,20 @@
           <form class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
               <legend class="scheduler-border">Alguma Dúvida?</legend>
-              <div class="row">
-                <p class="col-md-12 col-sm-12 col-xs-12"><center>Ligue ou mande uma mensagem:</center></p>
+              <div class="row contato">
+
+                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png" alt="ícone de telefone">
+                <p class="col-md-10 col-sm-10 col-xs-10"><center>Ligue ou mande uma mensagem: <br/> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo</center></p>
+
+                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
+                <p class="col-md-10 col-sm-10 col-xs-10"><center>Ou um email: <br/> <a href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></center></p>
+
+                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
+                <p class="col-md-10 col-sm-10 col-xs-10"><center>Acesse nossa página no facebook: <br/> <a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></center></p>
 
               </div>
             </fieldset>
           </form>
-
-        <!--<fieldset class="duvida-caixa">
-            <legend>Alguma dúvida?</legend>
-            <div class="icones">
-              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_telefone.png"><br>
-              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg"><br>
-              <img class="loguinho" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg"><br>
-            </div>
-          <div>
-            <p>
-            Ligue ou mande uma mensagem:<br>
-
-            (11) 95030-2017 - Vivo<br><br>
-            Ou mande um e-mail:<br>
-
-            exemplo@psicoterapiaparatodos.com.br
-            <br><br>
-            Acesse nossa página no Facebook:<br>
-
-            facebook.com/projetopsicoterapiaparatodos
-            </p>
-          </div>
-        </fieldset>-->
-
 
     </div>
   </div>
