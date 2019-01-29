@@ -229,9 +229,6 @@ header .container{
 	color: #1e546c;
 }
 
-.botao-cabecalho{
-	margin-top: -10px;
-}
 
 @media (max-width: 1025px){
 	.cabecalho .logo{
@@ -535,6 +532,7 @@ fieldset.scheduler-border {
   color: #1e546c;
   font-size: 17px;
   border:none;
+  padding:5px 12px;
 }
 .contato{
   padding: 9px;

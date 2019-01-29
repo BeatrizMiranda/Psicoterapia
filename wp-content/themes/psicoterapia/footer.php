@@ -10,8 +10,9 @@
               </div>
               <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
                 <center>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> (11) 95030-2017 Vivo</p>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> psicoterapia.todos@outlook.com</p>
+
+                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
+                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> <a href="mailto:psicoterapia.todos@outlook.com">Psicoterapia.todos@outlook.com</a></p>
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Facebook: </span> <a href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></p>
                 </center>
               </div>
@@ -122,17 +123,11 @@
           </div>
         </div>
       </section>
-      <section id="fim">
-
-        <div class="azulFinal row" style="text-align:right">
-          2018
-        </div>
-      </section>
-
     </footer>
 
     <!-- Links -->
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.mask.min.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jScript.js"></script>
   </body>
 </html>

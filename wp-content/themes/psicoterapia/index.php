@@ -36,37 +36,40 @@
   </div>
 </section>
 
-<section class="container comoComeco">
-  <center><h1>Como começo?</h1></center>
-  <div class="row caixaComoComeco">
-    <div class="col-md-6 col-sm-6 col-xs-12">
-      <div>
-        <h1>Quem pode participar?</h1>
-        <br>
-        <p>
-        Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
-        <br>
-        É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
-        </p>
+<section class="comoComeco">
+  <div class="container">
+    <center><h1>Como começo?</h1></center>
+    <div class="row caixaComoComeco">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div>
+          <h1>Quem pode participar?</h1>
+          <br>
+          <p>
+          Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
+          <br>
+          É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-6 col-sm-6 col-xs-12">
-      <div>
-        <h1>Quais são os documentos obrigatórios?</h1>
-        <br/>
-        <p>
-        <ul>
-          <li>- Xerox do RG e do CPF,</li>
-          <li>- Comprovante de endereço,</li>
-          <li>- Xerox carteira de trabalho ou recibos salariais.</li>
-        </ul>
-        </p>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div>
+          <h1>Quais são os documentos obrigatórios?</h1>
+          <br/>
+          <p>
+          <ul>
+            <li>- Xerox do RG e do CPF,</li>
+            <li>- Comprovante de endereço,</li>
+            <li>- Xerox carteira de trabalho ou recibos salariais.</li>
+          </ul>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section id="comoInscrevo" class="azulClarinho">
+  <div class="container">
 
   <center><h1> Como me inscrevo? </h1> </center>
 
@@ -80,6 +83,7 @@
     documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
   </p>
 
+  </div>
 </section>
 
 <section id="consultas">
@@ -125,21 +129,21 @@
               </p>
 
               <div class="row">
-                <form >
+                <form id="formulario"  action="" method="get">
 
                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
                     <label for="nome">Nome: </label>
-                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                    <input type="text" class="form-control" id="nome" placeholder="Nome" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
                     <label for="telefone">Telefone: </label>
-                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                    <input type="text" class="form-control telefone" id="telefone" placeholder="Telefone" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
                     <label for="email">E-mail: </label>
-                    <input type="text" class="form-control" id="email" placeholder="Email">
+                    <input type="text" class="form-control" id="email" placeholder="Email" required="required">
                   </div>
-                  <button type="submit" class="btn btn-primary botao col-xs-offset-9 col-md-2 col-xs-2">Enviar</button>
+                  <button type="submit" class="btn btn-primary botao col-md-offset-10 col-xs-offset-9">Enviar</button>
 
                 </form>
               </div>
