@@ -45,9 +45,17 @@
             src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
             width="220px" alt="Logo do Psicoterapia"/>
           </div>
-          <div class="col-md-7 col-sm-7 col-xs-12 text-xs-center titulo">
+          <div class="col-md-5 col-sm-7 col-xs-12 text-xs-center titulo">
             <h1>Psicoterapia para Todos</h1>
             <h2>Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
+						<div class="col-md-1 col-md-offset-1">
+							<div class="ba">
+								A+
+							</div>
+							<div class="bd">
+								A-
+							</div>
+						</div>
           </div>
 
         </div>
