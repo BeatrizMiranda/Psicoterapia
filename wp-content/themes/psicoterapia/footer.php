@@ -5,10 +5,10 @@
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row noPadding">
 
-              <div class="col-md-12 col-sm-12 col-xs-12 azulescuro">
-                Contato:
+              <div class="col-md-12 col-sm-12 col-xs-12 azulescuro padding">
+                <h3>Contato</h3>
               </div>
-              <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
+              <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 text-center">
                 <center>
 
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
@@ -22,8 +22,8 @@
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row noPadding">
 
-              <div class="col-md-12 col-xs-12 azulescuro">
-                O site foi desenvolvido por:
+              <div class="col-md-12 col-xs-12 azulescuro padding">
+                <h3>O site foi desenvolvido por</h3>
               </div>
               <div class="col-md-12 col-sm-12 col-xs-12" id="desenvolvedores">
                 <div class="row">
@@ -87,7 +87,7 @@
         <div class="col-md-10 col-sm-10 col-xs-12">
           <div class="row">
 
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas">
               <center>
                 Esse projeto foi desenvolvido em parceria com o IF(meninas){nas exatas}, que visa promover
                 a participação feminina na área de Exatas, motivando alunas a ingressar e permanecer na área.

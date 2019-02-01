@@ -2,7 +2,7 @@ $(document).ready(function () {
   $('.telefone').mask('(00) 00000-0000');
 
   /***********Aumentar e diminuir letra**************/
-    $('body').css({fontSize: 19});
+    $('body').css({fontSize: 20});
 
   /*  $(".ba").click(function () {
         if (fonte < 16) {
