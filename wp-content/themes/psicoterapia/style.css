@@ -576,6 +576,9 @@ inicio do footer
 *
 */
 
+.padding{
+  padding: 10px;
+}
 
 #desenvolvedores{
   text-align: center;

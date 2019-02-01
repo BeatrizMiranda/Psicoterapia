@@ -109,12 +109,12 @@
 
                 <a id="facebook" target="_blank" href="https://www.facebook.com/ifmeninas/" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="25" alt="ícone do facebook"/>
-                  facebook.com/ifmeninas/
+                  ifmeninas
                 </a>
 
                 <a id="twitter" target="_blank" href="https://twitter.com/ifmeninasnacomp" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="25" alt="ícone do Twitter"/>
-                  twitter.com/ifmeninasnacomp
+                  ifmeninasnacomp
                 </a>
 
               </div>
