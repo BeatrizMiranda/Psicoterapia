@@ -88,7 +88,7 @@
 
 <section id="consultas">
   <center><h1> Consultas </h1> </center>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <?php
         $args = array(
