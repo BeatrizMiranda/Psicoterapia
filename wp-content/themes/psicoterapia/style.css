@@ -13,6 +13,9 @@
     box-sizing: border-box;
 }
 
+body{
+  font-size: 19px;
+}
 
 p{
    text-align: justify;
@@ -22,7 +25,6 @@ h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
   font-weight: lighter;
-  color: rgb(30,84,108)
 }
 
 @media (max-width: 525px){
@@ -379,10 +381,9 @@ Inicio Sessão Como começo
   padding: 8px 0px;
 }
 
-
 .caixaComoComeco div div{
   margin: 10px;
-  border: solid 2px rgb(30,84,108);
+  border: solid 2px;
   border-radius: 5px;
   text-align: center;
   min-height: 260px;
@@ -399,7 +400,7 @@ Fim Sessão Como começo
 */
 
 /*
-Inicio da Sessão Como me inscrevo
+Inicio da Sessã o Como me inscrevo
 *
 */
 
@@ -511,7 +512,7 @@ Inicio da Sessão Cadastre-se
 }
 /*o Boostrap muda todo o fieldset */
 fieldset.scheduler-border {
-    border: 2px groove #1e546c !important;
+    border: 2px solid rgb(30,84,108) !important;
     border-radius: 5px;
     padding: 0 1.4em 1.4em 1.4em !important;
     margin: 0 0 1.5em 0 !important;
@@ -524,7 +525,7 @@ fieldset.scheduler-border {
         width:auto;
         padding:0 10px;
         border-bottom:none;
-        color: rgb(30,84,108);
+        color: rgb(30,84,108)
     }
 .botao{
   background-color: white;
