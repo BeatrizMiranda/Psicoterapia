@@ -19,7 +19,7 @@
   <body>
     <header>
 
-  <!--    <div class="row menu-fixo">
+      <div class="row menu-fixo">
         <div class="col-md-2 col-xs-2">
           <img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
         </div>
@@ -37,7 +37,7 @@
           </div>
         </label>
 
-      </div>-->
+      </div>
 
 	    <div class="container">
         <div class="row cabecalho">
