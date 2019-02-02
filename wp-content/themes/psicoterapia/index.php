@@ -119,7 +119,7 @@
 </section>
 
 <section id="cadastre" class="corpo-cadastre">
-  <center><h1 class="tituloSessoes">Cadastre-se</h1></center>
+  <center><h1 >Cadastre-se</h1></center>
   <div class="container">
     <div class="row caixaCadastre">
 
@@ -175,7 +175,8 @@
   </div>
 </section>
 
-<section id="valores">
+<div id="valores">
+  <section class="container">
 
     <h1><center> O que guia o projeto? </center></h1>
 
@@ -209,6 +210,7 @@
 
     </div>
 
-</section>
+  </section>
+</div>
 
 <?php get_footer(); ?>

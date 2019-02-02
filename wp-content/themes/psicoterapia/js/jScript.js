@@ -2,24 +2,23 @@ $(document).ready(function () {
   $('.telefone').mask('(00) 00000-0000');
 
   /***********Aumentar e diminuir letra**************/
-    $('body').css({fontSize: 20});
-
-  /*  $(".ba").click(function () {
-        if (fonte < 16) {
+  $('body').css({fontSize: 20});
+  var fonte = 20;
+    $(".ba").click(function () {
+        if (fonte < 25) {
             fonte = fonte + 1;
-            $('html').css({fontSize: fonte + 'px'});
+            $('body').css({fontSize: fonte + 'px'});
         }
     });
 
     $(".bd").click(function () {
-        if (fonte > 8) {
+        if (fonte > 14) {
             fonte = fonte - 1;
-            $('html').css({fontSize: fonte + 'px'});
+            $('body').css({fontSize: fonte + 'px'});
         }
     });
-    */
 
-    /**************************************************/
+/*    *************************************************/
     /*Menu fixo apartir da imagem
     if( $('section.homepage').length ){
       $(function(){

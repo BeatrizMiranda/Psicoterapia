@@ -297,6 +297,12 @@ header .container{
 	}
 }
 
+/*BOTOES LETRAS*/
+
+.ba p:hover, .bd p:hover{
+ text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
 /*
 FIM CABECALHO
 *
@@ -377,6 +383,7 @@ Inicio Sessão Como começo
 
 .comoComeco{
   color: rgb(30,84,108);
+  padding: 15px;
 }
 
 .caixaComoComeco div div{
@@ -562,7 +569,6 @@ Inicio da Sessão Valores
 }
 .noPadding h3{
   color: white;
-
 }
 
 /*
