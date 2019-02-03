@@ -18,26 +18,27 @@
 
   <body>
     <header>
+			<div class="container-fluid">
+	      <div class="row menu-fixo">
+        	<div class="col-md-2 col-xs-2">
+          	<img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
+        	</div>
 
-      <div class="row menu-fixo">
-        <div class="col-md-2 col-xs-2">
-          <img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
-        </div>
+        	<div class="col-md-8 col-xs-8 text-center">
+          	<span class="titulo-menu">
+            	Psicoterapia para Todos
+          	</span>
+        	</div>
 
-        <div>
-          <span class=" col-md-8 col-xs-8 titulo-menu">
-            Psicoterapia para Todos
-          </span>
-        </div>
-
-        <input id="menu-hamburguer" type="checkbox"/>
-        <label for="menu-hamburguer">
-          <div class="col-md-2 col-xs-1 menu">
-            <span class="hamburguer"></span>
-          </div>
-        </label>
-
-      </div>
+     			<input id="menu-hamburguer" type="checkbox"/>
+        	<label for="menu-hamburguer">
+          	<div class="col-md-2 col-xs-1 menu">
+            	<span class="hamburguer"></span>
+          	</div>
+        	</label>
+      	</div>
+			</div>
+			
 
 	    <div class="container">
         <div class="row cabecalho">
@@ -54,10 +55,10 @@
         </div>
 				<div class="row">
 					<div class="col-md-1 col-md-offset-11 row botoesLetras">
-						<div class="ba col-xs-5">
+						<div class="ba col-xs-5 selecao">
 							<p>A+</p>
 						</div>
-						<div class="bd col-xs-offset-1 col-xs-5">
+						<div class="bd col-xs-offset-1 col-xs-5 selecao">
 							<p>A-</p>
 						</div>
 					</div>

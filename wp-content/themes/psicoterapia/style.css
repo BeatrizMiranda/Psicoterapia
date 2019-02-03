@@ -108,7 +108,7 @@ INICIO MENU FIXO TOPO
 
 @media (max-width: 525px){
 	.logo-menu{
-		width: 40px !important;
+		/*width: 40px !important;*/
 	}
 
 	.menu-fixo{
@@ -300,7 +300,14 @@ header .container{
 }
 
 /*BOTOES LETRAS*/
-
+.selecao {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
 .ba p:hover, .bd p:hover{
  text-shadow: gray 0.1em 0.1em 0.2em;
 }
@@ -528,6 +535,12 @@ fieldset.scheduler-border {
         border-bottom:none;
         color: rgb(30,84,108)
     }
+/*TELA PEQUENA*/
+@media (max-width: 525px){
+	form{
+	  font-size: 16px;
+	}
+}
 .botao{
   background-color: white;
   color: #1e546c;
