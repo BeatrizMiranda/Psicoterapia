@@ -18,27 +18,21 @@
 
   <body>
     <header>
-			<div class="container-fluid">
-	      <div class="row menu-fixo">
-        	<div class="col-md-2 col-xs-2">
-          	<img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
-        	</div>
-
-        	<div class="col-md-8 col-xs-8 text-center">
-          	<span class="titulo-menu">
-            	Psicoterapia para Todos
-          	</span>
-        	</div>
-
-     			<input id="menu-hamburguer" type="checkbox"/>
-        	<label for="menu-hamburguer">
-          	<div class="col-md-2 col-xs-1 menu">
-            	<span class="hamburguer"></span>
-          	</div>
-        	</label>
-      	</div>
-			</div>
-			
+			<section class="container-fluid" id="menu">
+			  <div class="row menuFixo">
+			    <div class="col-xs-2 text-center">
+			      <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50"/>
+			    </div>
+			    <div class="col-xs-8 text-center tituloMenu">
+			        Psicoterapia para Todos
+			    </div>
+			      <div class="col-xs-2" onclick="myFunction(this)">
+			        <div class="bar1"></div>
+			        <div class="bar2"></div>
+			        <div class="bar3"></div>
+			      </div>
+			  </div>
+			</section>
 
 	    <div class="container">
         <div class="row cabecalho">
