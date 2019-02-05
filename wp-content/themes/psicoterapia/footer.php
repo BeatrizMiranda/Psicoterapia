@@ -9,12 +9,9 @@
                 <h3>Contato</h3>
               </div>
               <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 text-center">
-                <center>
-
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> <a href="mailto:psicoterapia.todos@outlook.com">Psicoterapia.todos@outlook.com</a></p>
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Facebook: </span> <a href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></p>
-                </center>
               </div>
 
           </div>
@@ -87,11 +84,9 @@
         <div class="col-md-10 col-sm-10 col-xs-12">
           <div class="row">
 
-            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas">
-              <center>
+            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center">
                 Esse projeto foi desenvolvido em parceria com o IF(meninas){nas exatas}, que visa promover
                 a participação feminina na área de Exatas, motivando alunas a ingressar e permanecer na área.
-              </center>
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12">

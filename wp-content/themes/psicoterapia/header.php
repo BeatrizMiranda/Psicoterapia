@@ -35,20 +35,8 @@
 			</section>
 
 	    <div class="container">
-        <div class="row cabecalho">
-
-          <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-2 logo">
-            <img class="col-xs-12"
-            src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
-            width="220px" alt="Logo do Psicoterapia"/>
-          </div>
-          <div class="col-md-5 col-sm-7 col-xs-12 text-xs-center titulo">
-            <h1>Psicoterapia para Todos</h1>
-            <h2>Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
-					</div>
-        </div>
 				<div class="row">
-					<div class="col-md-1 col-md-offset-11 row botoesLetras">
+					<div class="col-md-1 col-md-offset-11 col-xs-5 col-xs-offset-7 row">
 						<div class="ba col-xs-5 selecao">
 							<p>A+</p>
 						</div>
@@ -57,5 +45,16 @@
 						</div>
 					</div>
 				</div>
+        <div class="row cabecalho">
+          <div class="col-md-3 col-md-offset-2 col-xs-12 logo">
+            <img class="text-center"
+            src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
+            width="220px" alt="Logo do Psicoterapia"/>
+          </div>
+          <div class="col-md-5 col-sm-7 col-xs-12 text-xs-center titulo">
+            <h1>Psicoterapia para Todos</h1>
+            <h2>Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
+					</div>
+        </div>
       </div>
     </header>

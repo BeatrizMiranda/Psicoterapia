@@ -70,7 +70,6 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
-	margin-top: -20px;
 }
 
 a.vem-conhecer:hover{
@@ -79,145 +78,66 @@ a.vem-conhecer:hover{
 }
 
 .botao-cabecalho{
-	margin-top: -10px;
+	margin-top: -15px;
 }
+/* tela pequena */
+@media (max-width: 525px){
+  .botao-cabecalho{
+    margin-top: -35px;
+  }
+}
+
 
 /*
+Inicio de menu bar
 *
-INICIO MENU FIXO TOPO
 */
 
-.menu-fixo{
-	padding: 5px 50px;
-	margin: 0;
-	border-bottom: 1px solid #eee;
+.menuFixo{
+  padding:10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width:100%;
+  z-index: 99;
+  margin-top: 0;
 }
-
-.logo-menu{
-	width: 50px;
-	padding-top: 5px;
+.tituloMenu{
+  color: #1e546c;
+  font-family: Catamaran-ExtraLight;
+  font-size: 26px;
 }
-
-.titulo-menu{
-	color: #1e546c;
-	font-size: 28px;
-	padding-top: 10px;
-	text-align: center;
-
-}
-
 @media (max-width: 525px){
-	.logo-menu{
-		/*width: 40px !important;*/
-	}
-
-	.menu-fixo{
-		padding: 2.5px 5px;
-	}
-
-	.titulo-menu{
-		font-size: 20px !important;
-	}
+  .tituloMenu{
+    font-size: 18px;
+  }
 }
 
-@media (max-width: 321px){
-	.logo-menu{
-		width: 30px !important;
-	}
-
-	.titulo-menu{
-		font-size: 18px !important;
-	}
+.bar1, .bar2, .bar3 {
+  cursor: pointer;
+  width: 35px;
+  height: 5px;
+  background-color: #1e546c;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 5px;
 }
 
-
-/* inicio menu hamburguer*/
-
-*,
-    *:before,
-    *:after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-.hamburguer {
-        position: relative;
-        display: block;
-        background: #1e546c;
-        width: 32px;
-        height: 3.30px;
-        top: 16px;
-        left: 100px;
-        transition: .5s ease-in-out;
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.hamburguer:before,
-.hamburguer:after {
-        background: #1e546c;
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        transition: .5s ease-in-out;
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
-
-.hamburguer:before {
-    top: -10px;
-}
-
-.hamburguer:after {
-    bottom: -10px;
-}
-
-@media (max-width: 525px){
-	.hamburguer {
-        left: 0;
-        top: 10px;
-	}
-}
-
-@media (max-width: 375px){
-	.hamburguer {
-        left: 300px !important;
-        top: -20px;
-	}
-}
-
-
-@media (max-width: 320px){
-	.hamburguer {
-        left: 250px !important;
-        top: -20px;
-	}
-}
-
-
-input {
-    display: none;
-}
-
-input:checked ~ label .hamburguer {
-    transform: rotate(45deg);
-}
-
-input:checked ~ label .hamburguer:before {
-    transform: rotate(90deg);
-    top: 0;
-}
-
-input:checked ~ label .hamburguer:after {
-    transform: rotate(90deg);
-    bottom: 0;
-}
-input label{
-	width: 30px;
-	height: 30px;
-}
-/* fim menu hamburguer*/
-
-
+/*
+FIM do menu
+*
+*/
 
 /*
 FIM MENU FIXO TOPO
@@ -267,7 +187,6 @@ header .container{
 
 	header .container{
 		padding: 20px ;
-		margin-bottom: 20px;
 	}
 
 	.cabecalho{
@@ -406,7 +325,9 @@ Inicio Sessão Como começo
 
 .caixaComoComeco div div ul{
   list-style-type: none;
+  padding-left:0;
 }
+
 
 /*
 Fim Sessão Como começo
@@ -555,7 +476,15 @@ fieldset.scheduler-border {
   padding-left: 25px;
   margin-top: 16px;
 }
-
+/*TELA PEQUENA*/
+@media (max-width: 525px){
+  .emailLink{
+    margin-bottom: 0px;
+  }
+}
+.emailLink{
+    margin-bottom: 20px;
+}
 /*
 FIM da Sessão Cadastre-se
 *
@@ -614,6 +543,11 @@ inicio do footer
 .foto img{
   border-radius: 50%;
 }
+@media (max-width: 525px){
+  .foto img{
+    width: 70px;
+  }
+}
 footer{
     font-size: 16px;
     color: #1e546c;
@@ -647,50 +581,5 @@ footer{
 
 /*
 FIM do footer
-*
-*/
-
-/*
-Inicio de menu bar
-*
-*/
-
-.menuFixo{
-  padding:10px;
-  position: fixed;
-  top: 0;
-  background-color: white;
-  width:100%;
-  z-index: 99;
-}
-.tituloMenu{
-  color: #1e546c;
-  font-family: Catamaran-ExtraLight;
-  font-size: 26px;
-}
-
-.bar1, .bar2, .bar3 {
-  cursor: pointer;
-  width: 35px;
-  height: 5px;
-  background-color: #1e546c;
-  margin: 6px 0;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-/*
-FIM do menu
 *
 */

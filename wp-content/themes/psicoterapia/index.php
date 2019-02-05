@@ -39,7 +39,7 @@
 
 <section class="comoComeco">
   <div class="container">
-    <center><h1 class="tituloSessoes">Como começo?</h1></center>
+    <h1 class="tituloSessoes text-center">Como começo?</h1>
     <div class="row caixaComoComeco">
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div>
@@ -74,7 +74,7 @@
 <section id="comoInscrevo" class="azulClarinho">
   <div class="container">
 
-  <center><h1 class="tituloSessoes"> Como me inscrevo? </h1> </center>
+  <h1 class="tituloSessoes text-center"> Como me inscrevo? </h1>
 
   <p>
     Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
@@ -90,7 +90,7 @@
 </section>
 
 <section id="consultas">
-  <center><h1 class="tituloSessoes"> Consultas </h1> </center>
+  <h1 class="tituloSessoes text-center"> Consultas </h1>
   <div class="container">
     <div class="row">
       <?php
@@ -107,7 +107,7 @@
       <div class="col-md-4 col-sm-6 col-xs-12 caixaConsulta">
         <div>
 
-          <center><h3> <?php the_title(); ?> </h3></center>
+          <h3 class="text-center"> <?php the_title(); ?> </h3>
 
           <span>
           <?php the_excerpt();?>
@@ -121,15 +121,15 @@
 </section>
 
 <section id="cadastre" class="corpo-cadastre">
-  <center><h1 >Cadastre-se</h1></center>
+  <h1 class="text-center"> Cadastre-se </h1>
   <div class="container">
     <div class="row caixaCadastre">
 
           <form class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
               <legend class="scheduler-border">Inscrição</legend>
-              <p>
-                <center>Faça o seu cadastro que entraremos em contato!</center>
+              <p class="text-center">
+                Faça o seu cadastro que entraremos em contato!
               </p>
 
               <div class="row">
@@ -147,7 +147,7 @@
                     <label for="email">E-mail: </label>
                     <input type="text" class="form-control" id="email" placeholder="Email" required="required">
                   </div>
-                  <button type="submit" class="btn btn-primary botao col-md-offset-10 col-xs-offset-9">Enviar</button>
+                  <button type="submit" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
 
                 </form>
               </div>
@@ -160,14 +160,16 @@
               <legend class="scheduler-border">Alguma Dúvida?</legend>
               <div class="row contato">
 
-                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
-                <p class="col-md-10 col-sm-10 col-xs-10"><center>Ligue ou mande uma mensagem: <br/> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo</center></p>
+                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
+                <p class="col-md-10 col-xs-9 text-center">Ligue ou mande uma mensagem: <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
 
-                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
-                <p class="col-md-10 col-sm-10 col-xs-10"><center>Ou um email: <br/> <a href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></center></p>
+                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
+                <p class="col-md-10 col-xs-9 text-center"> Um nos mande um email: </p>
 
-                <img class=" col-md-2 col-sm-2 col-xs-2" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
-                <p class="col-md-10 col-sm-10 col-xs-10"><center>Acesse nossa página no facebook: <br/> <a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></center></p>
+                <p class="col-md-10 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></p>
+
+                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
+                <p class="col-md-10 col-xs-9 text-center">Acesse nosso facebook: <br> <a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a> </p>
 
               </div>
             </fieldset>
@@ -180,12 +182,12 @@
 <div id="valores">
   <section class="container">
 
-    <h1><center> O que guia o projeto? </center></h1>
+    <h1 class="text-center"> O que guia o projeto? </h1>
 
     <div class="row">
 
       <div class="col-md-4 col-xs-12">
-        <center><h1>Missão</h1></center>
+        <h1 class="text-center">Missão</h1>
         Tornar a psicoterapia acessível para maior faixa da poplação, levando conscientização sobre a importância dos cuidados com a saúde mental.
       </div>
 
@@ -195,7 +197,7 @@
       </div>
 
       <div class="col-md-4 col-xs-12">
-        <center><h1>Visão</h1></center>
+        <h1 class="text-center">Visão</h1>
         Ser reconhecido pela excelência de serviço, conduta ética e comprometimento com a causa da saúde mental.
       </div>
 
@@ -203,7 +205,7 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6 col-xs-12">
-        <center><h1>Valores</h1></center>
+        <h1 class="text-center">Valores</h1>
         - Compreensão do ser humano como ser biopsicossocial.<br/>
         - Comprometimento com as causas sociais.<br/>
         - Respeito às subjetividades.<br/>
