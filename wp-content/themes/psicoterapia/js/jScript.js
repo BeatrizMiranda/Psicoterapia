@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('#menu').css("display", "none");
-  
+
   $('.telefone').mask('(00) 00000-0000');
 
 

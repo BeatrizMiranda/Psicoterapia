@@ -26,12 +26,7 @@ h1{
   font-weight: lighter;
   color: #1e546c;
 }
-/*TELA PEQUENA*/
-@media (max-width: 525px){
-	h1{
-	  font-size: 30px;
-	}
-}
+
 
 h2{
   font-family: Catamaran-Regular;
@@ -60,35 +55,6 @@ span{
 }
 
 /*
-	setando botoes
-*/
-a.vem-conhecer{
-	font-family: Catamaran-Regular;
-	font-weight: bolder;
-	font-size: 18px;
-	color: #1e546c;
-	padding: 10px 20px;
-	background: #afc9e8;
-	border-radius: 10px;
-}
-
-a.vem-conhecer:hover{
-	background: #9db9dd;
-	text-decoration: none;
-}
-
-.botao-cabecalho{
-	margin-top: -15px;
-}
-/* tela pequena */
-@media (max-width: 525px){
-  .botao-cabecalho{
-    margin-top: -35px;
-  }
-}
-
-
-/*
 Inicio de menu bar
 *
 */
@@ -107,11 +73,7 @@ Inicio de menu bar
   font-family: Catamaran-ExtraLight;
   font-size: 26px;
 }
-@media (max-width: 525px){
-  .tituloMenu{
-    font-size: 18px;
-  }
-}
+
 
 .bar1, .bar2, .bar3 {
   cursor: pointer;
@@ -134,16 +96,36 @@ Inicio de menu bar
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
+
+
 /*
-FIM do menu
+FIM MENU
 *
 */
 
-/*
-FIM MENU FIXO TOPO
-*
-*/
 
+
+/*
+	setando botoes
+*/
+a.vem-conhecer{
+	font-family: Catamaran-Regular;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #1e546c;
+	padding: 10px 20px;
+	background: #afc9e8;
+	border-radius: 10px;
+}
+
+a.vem-conhecer:hover{
+	background: #9db9dd;
+	text-decoration: none;
+}
+
+.botao-cabecalho{
+	margin-top: -15px;
+}
 
 /*
 *
@@ -152,17 +134,23 @@ INICIO CABECALHO
 
 header .container{
 	padding: 50px 0px;
+  padding-bottom: 0px;
+}
+.cabecalho{
+  margin-top: 10px;
 }
 
 .cabecalho .titulo{
 	color: #1e546c;
 }
-
+.cabecalho .logo{
+  text-align: center;
+}
 
 @media (max-width: 1025px){
 	.cabecalho .logo{
 		width: 240px;
-    	padding-top: 20px;
+    padding-top: 20px;
 	}
 }
 
@@ -171,7 +159,7 @@ header .container{
 	.cabecalho .logo{
 		width: 240px;
 		padding-left: 30px;
-    	padding-top: 10px;
+    padding-top: 10px;
 	}
 
 	.cabecalho .titulo h1{
@@ -181,27 +169,6 @@ header .container{
 	.cabecalho .titulo h2{
 		font-size: 22px !important;
 	}
-}
-
-@media (max-width: 525px){
-
-	header .container{
-		padding: 20px ;
-	}
-
-	.cabecalho{
-		margin: 0;
-		text-align: center;
-	}
-
-	.cabecalho .logo{
-		width: 250px;
-	}
-
-	.cabecalho .titulo h2{
-		font-size: 22px;
-	}
-
 }
 
 @media (max-width: 321px){
@@ -274,31 +241,6 @@ span.texto-dados-oms{
 	text-align: left !important;
 }
 
-@media (max-width: 769px){
-	span.como-surgiu-texto{
-		font-size: 18px !important;
-	}
-
-	.container-dados-oms{
-		margin-top: 45px;
-	}
-
-	span.texto-dados-oms{
-		font-size: 17px !important;
-	}
-}
-
-
-@media (max-width: 525px){
-	span.texto-dados-oms{
-		font-size: 16px !important;
-	}
-
-	.container-dados-oms{
-		margin: 20px 12.5px;
-	}
-}
-
 /*
 FIM SESSÃO SOBRE NOS
 *
@@ -335,7 +277,7 @@ Fim Sessão Como começo
 */
 
 /*
-Inicio da Sessã o Como me inscrevo
+Inicio da Sessão Como me inscrevo
 *
 */
 
@@ -456,12 +398,8 @@ fieldset.scheduler-border {
         border-bottom:none;
         color: rgb(30,84,108)
     }
-/*TELA PEQUENA*/
-@media (max-width: 525px){
-	form{
-	  font-size: 16px;
-	}
-}
+
+
 .botao{
   background-color: white;
   color: #1e546c;
@@ -476,12 +414,7 @@ fieldset.scheduler-border {
   padding-left: 25px;
   margin-top: 16px;
 }
-/*TELA PEQUENA*/
-@media (max-width: 525px){
-  .emailLink{
-    margin-bottom: 0px;
-  }
-}
+
 .emailLink{
     margin-bottom: 20px;
 }
@@ -543,11 +476,7 @@ inicio do footer
 .foto img{
   border-radius: 50%;
 }
-@media (max-width: 525px){
-  .foto img{
-    width: 70px;
-  }
-}
+
 footer{
     font-size: 16px;
     color: #1e546c;
@@ -583,3 +512,77 @@ footer{
 FIM do footer
 *
 */
+
+
+/* Configuração da tela de tablet */
+
+@media (max-width: 769px){
+  /* SOBRE NOS */
+	span.como-surgiu-texto{
+		font-size: 18px !important;
+	}
+
+	.container-dados-oms{
+		margin-top: 45px;
+	}
+
+	span.texto-dados-oms{
+		font-size: 17px !important;
+	}
+}
+
+/* Configuração da tela pequena */
+
+@media (max-width: 525px){
+	h1{
+	  font-size: 30px;
+	}
+  /* MENU */
+  .tituloMenu{
+    font-size: 18px;
+  }
+  /* botao Call Action  */
+  .botao-cabecalho{
+    margin-top: -35px;
+  }
+  /* cabecalho */
+
+	header .container{
+		padding: 20px ;
+	}
+
+	.cabecalho{
+		margin: 0;
+		text-align: center;
+	}
+
+ 	.cabecalho .logo{
+		width: 250px;
+	}
+
+  .cabecalho .titulo h2{
+  	font-size: 22px;
+  }
+
+  /* SOBRE NOS */
+	span.texto-dados-oms{
+		font-size: 16px !important;
+	}
+
+	.container-dados-oms{
+		margin: 20px 12.5px;
+	}
+
+  /* CADASTRE-SE */
+	form{
+	  font-size: 16px;
+	}
+  .emailLink{
+    margin-bottom: 0px;
+  }
+
+  /* fotter */
+  .foto img{
+    width: 70px;
+  }
+}
