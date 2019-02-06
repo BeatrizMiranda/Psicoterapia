@@ -12,9 +12,8 @@
 * {
     box-sizing: border-box;
 }
-
 body{
-  font-size: 19px;
+  font-size: 20px;
 }
 
 p{
@@ -25,30 +24,118 @@ h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
   font-weight: lighter;
+  color: #1e546c;
 }
 
-@media (max-width: 525px){
-	h1{
-	  font-size: 30px;
-	}
-}
 
 h2{
   font-family: Catamaran-Regular;
+  font-size: 25px;
+  color: #1e546c;
 }
 
 h3{
  font-family: Catamaran-ExtraLight;
+ font-size: 23px;
+ color: #1e546c;
 }
 
 h4{
 	font-family: Catamaran-Regular;
+  color: #1e546c;
 }
 
 span{
 	font-family: Catamaran-ExtraLight;
-	font-size: 20px;
+  color: #1e546c;
 }
+.tituloSessoes{
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+/*
+Inicio de menu bar
+*
+*/
+
+.menuFixo{
+  padding:10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width:100%;
+  z-index: 99;
+  margin-top: 0;
+}
+.tituloMenu{
+  color: #1e546c;
+  font-family: Catamaran-ExtraLight;
+  font-size: 26px;
+}
+
+
+.bar1, .bar2, .bar3 {
+  cursor: pointer;
+  width: 35px;
+  height: 5px;
+  background-color: #1e546c;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* menu dropdown aparecendo */
+.menuDown div{
+	background-color: rgba(124, 167, 219, .9);
+  z-index: 1;
+  position: fixed;
+  right:0;
+  height:100%;
+  top: 65px;
+}
+.menuDown ul{
+  padding:0;
+  padding-top: 30px;
+}
+.menuDown ul li{
+  list-style: none;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.menuDown ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menuDown ul li:hover{
+  background-color: rgba(30,84,108,5);
+}
+.menuDown ul li:hover a{
+  color:white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+/*
+FIM MENU
+*
+*/
+
+
 
 /*
 	setando botoes
@@ -61,7 +148,6 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
-	margin-top: -20px;
 }
 
 a.vem-conhecer:hover{
@@ -70,151 +156,8 @@ a.vem-conhecer:hover{
 }
 
 .botao-cabecalho{
-	margin-top: -10px;
+	margin-top: -15px;
 }
-
-/*
-*
-INICIO MENU FIXO TOPO
-*/
-
-.menu-fixo{
-	padding: 5px 50px;
-	margin: 0;
-	border-bottom: 1px solid #eee;
-}
-
-.logo-menu{
-	width: 50px;
-	padding-top: 5px;
-}
-
-.titulo-menu{
-	color: #1e546c;
-	font-size: 28px;
-	padding-top: 10px;
-	text-align: center;
-
-}
-
-@media (max-width: 525px){
-	.logo-menu{
-		width: 40px !important;
-	}
-
-	.menu-fixo{
-		padding: 2.5px 5px;
-	}
-
-	.titulo-menu{
-		font-size: 20px !important;
-	}
-}
-
-@media (max-width: 321px){
-	.logo-menu{
-		width: 30px !important;
-	}
-
-	.titulo-menu{
-		font-size: 18px !important;
-	}
-}
-
-
-/* inicio menu hamburguer*/
-
-*,
-    *:before,
-    *:after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-.hamburguer {
-        position: relative;
-        display: block;
-        background: #1e546c;
-        width: 32px;
-        height: 3.30px;
-        top: 16px;
-        left: 100px;
-        transition: .5s ease-in-out;
-}
-
-.hamburguer:before,
-.hamburguer:after {
-        background: #1e546c;
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        transition: .5s ease-in-out;
-}
-
-.hamburguer:before {
-    top: -10px;
-}
-
-.hamburguer:after {
-    bottom: -10px;
-}
-
-@media (max-width: 525px){
-	.hamburguer {
-        left: 0;
-        top: 10px;
-	}
-}
-
-@media (max-width: 375px){
-	.hamburguer {
-        left: 300px !important;
-        top: -20px;
-	}
-}
-
-
-@media (max-width: 320px){
-	.hamburguer {
-        left: 250px !important;
-        top: -20px;
-	}
-}
-
-
-input {
-    display: none;
-}
-
-input:checked ~ label .hamburguer {
-    transform: rotate(45deg);
-}
-
-input:checked ~ label .hamburguer:before {
-    transform: rotate(90deg);
-    top: 0;
-}
-
-input:checked ~ label .hamburguer:after {
-    transform: rotate(90deg);
-    bottom: 0;
-}
-input label{
-	width: 30px;
-	height: 30px;
-}
-/* fim menu hamburguer*/
-
-
-
-/*
-FIM MENU FIXO TOPO
-*
-*/
-
 
 /*
 *
@@ -222,18 +165,24 @@ INICIO CABECALHO
 */
 
 header .container{
-	padding: 50px 0px;
+	padding-top: 15px;
+  padding-bottom: 0px;
+}
+.cabecalho{
+  margin-top: 10px;
 }
 
 .cabecalho .titulo{
 	color: #1e546c;
 }
-
+.cabecalho .logo{
+  text-align: center;
+}
 
 @media (max-width: 1025px){
 	.cabecalho .logo{
 		width: 240px;
-    	padding-top: 20px;
+    padding-top: 20px;
 	}
 }
 
@@ -242,7 +191,7 @@ header .container{
 	.cabecalho .logo{
 		width: 240px;
 		padding-left: 30px;
-    	padding-top: 10px;
+    padding-top: 10px;
 	}
 
 	.cabecalho .titulo h1{
@@ -252,28 +201,6 @@ header .container{
 	.cabecalho .titulo h2{
 		font-size: 22px !important;
 	}
-}
-
-@media (max-width: 525px){
-
-	header .container{
-		padding: 20px ;
-		margin-bottom: 20px;
-	}
-
-	.cabecalho{
-		margin: 0;
-		text-align: center;
-	}
-
-	.cabecalho .logo{
-		width: 250px;
-	}
-
-	.cabecalho .titulo h2{
-		font-size: 22px;
-	}
-
 }
 
 @media (max-width: 321px){
@@ -288,6 +215,19 @@ header .container{
 	.cabecalho .titulo h2{
 		font-size: 20px !important;
 	}
+}
+
+/*BOTOES LETRAS*/
+.selecao {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.ba p:hover, .bd p:hover{
+ text-shadow: gray 0.1em 0.1em 0.2em;
 }
 
 /*
@@ -310,20 +250,17 @@ INICIO SESSÃO SOBRE NOS
 .sobre-nos .titulo{
 	padding-top: 40px;
 	color: #fff;
-	font-size: 30px;
 	font-weight: bolder;
 	letter-spacing: 1.5px;
 }
 
-h4.como-surgiu-tit{
+.como-surgiu-tit{
 	color: #fff;
 	text-align: left;
-	font-size: 22px !important;
 }
 span.como-surgiu-texto{
 	color: #fff;
 	text-align: left !important;
-	font-size: 20px !important;
 }
 .container-dados-oms{
 	border: 2px solid #fff;
@@ -334,32 +271,6 @@ span.como-surgiu-texto{
 span.texto-dados-oms{
 	color: #fff;
 	text-align: left !important;
-	font-size: 20px !important;
-}
-
-@media (max-width: 769px){
-	span.como-surgiu-texto{
-		font-size: 18px !important;
-	}
-
-	.container-dados-oms{
-		margin-top: 45px;
-	}
-
-	span.texto-dados-oms{
-		font-size: 17px !important;
-	}
-}
-
-
-@media (max-width: 525px){
-	span.texto-dados-oms{
-		font-size: 16px !important;
-	}
-
-	.container-dados-oms{
-		margin: 20px 12.5px;
-	}
 }
 
 /*
@@ -374,11 +285,7 @@ Inicio Sessão Como começo
 
 .comoComeco{
   color: rgb(30,84,108);
-}
-.comoComeco h1{
-  font-family: Catamaran-ExtraLight;
-  font-size: 35px;
-  padding: 8px 0px;
+  padding: 15px;
 }
 
 .caixaComoComeco div div{
@@ -386,13 +293,15 @@ Inicio Sessão Como começo
   border: solid 2px;
   border-radius: 5px;
   text-align: center;
-  min-height: 260px;
+  min-height: 270px;
   padding: 5px 30px;
 }
 
 .caixaComoComeco div div ul{
   list-style-type: none;
+  padding-left:0;
 }
+
 
 /*
 Fim Sessão Como começo
@@ -400,7 +309,7 @@ Fim Sessão Como começo
 */
 
 /*
-Inicio da Sessã o Como me inscrevo
+Inicio da Sessão Como me inscrevo
 *
 */
 
@@ -424,7 +333,6 @@ Inicio da Sessã o Como me inscrevo
 
 #comoInscrevo{
   padding: 30px;
-  margin: 20px 0 20px 0;
 }
 
 #comoInscrevo p{
@@ -435,10 +343,6 @@ Inicio da Sessã o Como me inscrevo
   #comoInscrevo p{
     margin: 0px;
   }
-}
-
-#comoInscrevo h1{
-  padding-bottom: 15px;
 }
 /*
 Fim da Sessão Como me inscrevo
@@ -455,8 +359,9 @@ Inicio da Sessão Consultas
   padding: 15px;
 }
 
-#consultas h1{
+#consultas h3{
   padding-bottom: 15px;
+  font-weight: bold;
 }
 .caixaConsulta{
   padding: 8px;
@@ -471,9 +376,8 @@ Inicio da Sessão Consultas
 
   align-items: center;
 }
-.caixaConsulta div h1{
-  font-size: 25px;
-  font-weight: bolder;
+.caixaConsulta div h3{
+  	color: #1e546c;
 }
 .caixaConsulta p {
   margin:15px;
@@ -502,7 +406,6 @@ Inicio da Sessão Cadastre-se
 
 .corpo-cadastre h1 {
   font-family: Catamaran-ExtraLight;
-  font-size: 35px;
   padding: 20px 0px;
 }
 
@@ -527,6 +430,8 @@ fieldset.scheduler-border {
         border-bottom:none;
         color: rgb(30,84,108)
     }
+
+
 .botao{
   background-color: white;
   color: #1e546c;
@@ -542,6 +447,9 @@ fieldset.scheduler-border {
   margin-top: 16px;
 }
 
+.emailLink{
+    margin-bottom: 20px;
+}
 /*
 FIM da Sessão Cadastre-se
 *
@@ -558,12 +466,18 @@ Inicio da Sessão Valores
   text-align: center;
   padding:20px;
 }
+#valores h1{
+  color: white;
+}
 #valores div{
   padding:5px;
   margin:0;
 }
 #valores h1{
   padding-top: 15px;
+}
+.noPadding h3{
+  color: white;
 }
 
 /*
@@ -580,7 +494,8 @@ inicio do footer
 }
 
 .padding{
-  padding: 10px;
+  padding: 2px;
+  text-align: center;
 }
 
 #desenvolvedores{
@@ -596,8 +511,10 @@ inicio do footer
 .foto img{
   border-radius: 50%;
 }
+
 footer{
     font-size: 16px;
+    color: #1e546c;
 }
 #ifMeninas{
   padding: 15px 0px 15px 0px;
@@ -621,8 +538,86 @@ footer{
     padding-bottom: 0px;
   }
 }
+.textoifmeninas{
+  font-weight: bold;
+
+}
 
 /*
 FIM do footer
 *
 */
+
+
+/* Configuração da tela de tablet */
+
+@media (max-width: 769px){
+  /* SOBRE NOS */
+	span.como-surgiu-texto{
+		font-size: 18px !important;
+	}
+
+	.container-dados-oms{
+		margin-top: 45px;
+	}
+
+	span.texto-dados-oms{
+		font-size: 17px !important;
+	}
+}
+
+/* Configuração da tela pequena */
+
+@media (max-width: 525px){
+	h1{
+	  font-size: 30px;
+	}
+  /* MENU */
+  .tituloMenu{
+    font-size: 18px;
+  }
+  /* botao Call Action  */
+  .botao-cabecalho{
+    margin-top: -35px;
+  }
+  /* cabecalho */
+
+	header .container{
+		padding: 20px ;
+	}
+
+	.cabecalho{
+		margin: 0;
+		text-align: center;
+	}
+
+ 	.cabecalho .logo{
+		width: 250px;
+	}
+
+  .cabecalho .titulo h2{
+  	font-size: 22px;
+  }
+
+  /* SOBRE NOS */
+	span.texto-dados-oms{
+		font-size: 16px !important;
+	}
+
+	.container-dados-oms{
+		margin: 20px 12.5px;
+	}
+
+  /* CADASTRE-SE */
+	form{
+	  font-size: 16px;
+	}
+  .emailLink{
+    margin-bottom: 0px;
+  }
+
+  /* fotter */
+  .foto img{
+    width: 70px;
+  }
+}
