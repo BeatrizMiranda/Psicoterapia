@@ -12,9 +12,8 @@
 * {
     box-sizing: border-box;
 }
-
 body{
-  font-size: 19px;
+  font-size: 20px;
 }
 
 p{
@@ -25,92 +24,73 @@ h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
   font-weight: lighter;
+  color: #1e546c;
 }
 
-@media (max-width: 525px){
-	h1{
-	  font-size: 30px;
-	}
-}
 
 h2{
   font-family: Catamaran-Regular;
+  font-size: 25px;
+  color: #1e546c;
 }
 
 h3{
  font-family: Catamaran-ExtraLight;
+ font-size: 23px;
+ color: #1e546c;
 }
 
 h4{
 	font-family: Catamaran-Regular;
+  color: #1e546c;
 }
 
 span{
 	font-family: Catamaran-ExtraLight;
-	font-size: 20px;
+  color: #1e546c;
+}
+.tituloSessoes{
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 
 /*
-	setando botoes
-*/
-a.vem-conhecer{
-	font-family: Catamaran-Regular;
-	font-weight: bolder;
-	font-size: 18px;
-	color: #1e546c;
-	padding: 10px 20px;
-	background: #afc9e8;
-	border-radius: 10px;
-	margin-top: -20px;
-}
-
-a.vem-conhecer:hover{
-	background: #9db9dd;
-	text-decoration: none;
-}
-
-.botao-cabecalho{
-	margin-top: -10px;
-}
-
-/*
+Inicio de menu bar
 *
-INICIO MENU FIXO TOPO
 */
 
-.menu-fixo{
-	padding: 5px 50px;
-	margin: 0;
-	border-bottom: 1px solid #eee;
+.menuFixo{
+  padding:10px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width:100%;
+  z-index: 99;
+  margin-top: 0;
+}
+.tituloMenu{
+  color: #1e546c;
+  font-family: Catamaran-ExtraLight;
+  font-size: 26px;
 }
 
-.logo-menu{
-	width: 50px;
-	padding-top: 5px;
+
+.bar1, .bar2, .bar3 {
+  cursor: pointer;
+  width: 35px;
+  height: 5px;
+  background-color: #1e546c;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 5px;
 }
 
-.titulo-menu{
-	color: #1e546c;
-	font-size: 28px;
-	padding-top: 10px;
-	text-align: center;
-
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-@media (max-width: 525px){
-	.logo-menu{
-		width: 40px !important;
-	}
-
-	.menu-fixo{
-		padding: 2.5px 5px;
-	}
-
-	.titulo-menu{
-		font-size: 20px !important;
-	}
-}
-
+<<<<<<< HEAD
 @media (max-width: 321px){
 	.titulo-menu{
 		font-size: 18px !important;
@@ -123,28 +103,106 @@ FIM MENU FIXO TOPO
 *
 */
 
+=======
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* menu dropdown aparecendo */
+.menuDown div{
+	background-color: rgba(124, 167, 219, .9);
+  z-index: 1;
+  position: fixed;
+  right:0;
+  height:100%;
+  top: 65px;
+}
+.menuDown ul{
+  padding:0;
+  padding-top: 30px;
+}
+.menuDown ul li{
+  list-style: none;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.menuDown ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menuDown ul li:hover{
+  background-color: rgba(30,84,108,5);
+}
+.menuDown ul li:hover a{
+  color:white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+/*
+FIM MENU
+*
+*/
+
+
+
+/*
+	setando botoes
+*/
+a.vem-conhecer{
+	font-family: Catamaran-Regular;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #1e546c;
+	padding: 10px 20px;
+	background: #afc9e8;
+	border-radius: 10px;
+}
+
+a.vem-conhecer:hover{
+	background: #9db9dd;
+	text-decoration: none;
+}
+
+.botao-cabecalho{
+	margin-top: -15px;
+}
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 
 /*
 *
 INICIO CABECALHO
 */
 
+<<<<<<< HEAD
 header .cont-cabecalho{
 	padding: 50px 0px;
+=======
+header .container{
+	padding-top: 15px;
+  padding-bottom: 0px;
+}
+.cabecalho{
+  margin-top: 10px;
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 }
 
 .cabecalho .titulo{
 	color: #1e546c;
 }
-
-.botao-cabecalho{
-	margin-top: -10px;
+.cabecalho .logo{
+  text-align: center;
 }
 
 @media (max-width: 1025px){
 	.cabecalho .logo{
 		width: 240px;
-    	padding-top: 20px;
+    padding-top: 20px;
 	}
 }
 
@@ -153,7 +211,7 @@ header .cont-cabecalho{
 	.cabecalho .logo{
 		width: 240px;
 		padding-left: 30px;
-    	padding-top: 10px;
+    padding-top: 10px;
 	}
 
 	.cabecalho .titulo h1{
@@ -163,28 +221,6 @@ header .cont-cabecalho{
 	.cabecalho .titulo h2{
 		font-size: 22px !important;
 	}
-}
-
-@media (max-width: 525px){
-
-	header .container{
-		padding: 20px ;
-		margin-bottom: 20px;
-	}
-
-	.cabecalho{
-		margin: 0;
-		text-align: center;
-	}
-
-	.cabecalho .logo{
-		width: 250px;
-	}
-
-	.cabecalho .titulo h2{
-		font-size: 22px;
-	}
-
 }
 
 @media (max-width: 321px){
@@ -199,6 +235,19 @@ header .cont-cabecalho{
 	.cabecalho .titulo h2{
 		font-size: 20px !important;
 	}
+}
+
+/*BOTOES LETRAS*/
+.selecao {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.ba p:hover, .bd p:hover{
+ text-shadow: gray 0.1em 0.1em 0.2em;
 }
 
 /*
@@ -226,18 +275,25 @@ INICIO SESSÃO SOBRE NOS
 
 .sobre-nos .titulo{
 	padding-top: 40px;
+<<<<<<< HEAD
 	font-size: 30px;
+=======
+	color: #fff;
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 	font-weight: bolder;
 	letter-spacing: 1.5px;
 }
 
+<<<<<<< HEAD
 h4.como-surgiu-tit{
+=======
+.como-surgiu-tit{
+	color: #fff;
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 	text-align: left;
-	font-size: 22px !important;
 }
 span.como-surgiu-texto{
 	text-align: left !important;
-	font-size: 20px !important;
 }
 .container-dados-oms{
 	border: 2px solid #fff;
@@ -248,32 +304,6 @@ span.como-surgiu-texto{
 span.texto-dados-oms{
 	color: #fff;
 	text-align: left !important;
-	font-size: 20px !important;
-}
-
-@media (max-width: 769px){
-	span.como-surgiu-texto{
-		font-size: 18px !important;
-	}
-
-	.container-dados-oms{
-		margin-top: 45px;
-	}
-
-	span.texto-dados-oms{
-		font-size: 17px !important;
-	}
-}
-
-
-@media (max-width: 525px){
-	span.texto-dados-oms{
-		font-size: 16px !important;
-	}
-
-	.container-dados-oms{
-		margin: 20px 12.5px;
-	}
 }
 
 /*
@@ -288,26 +318,23 @@ Inicio Sessão Como começo
 
 .comoComeco{
   color: rgb(30,84,108);
+  padding: 15px;
 }
-.comoComeco h1{
-  font-family: Catamaran-ExtraLight;
-  font-size: 35px;
-  padding: 8px 0px;
-}
-
 
 .caixaComoComeco div div{
   margin: 10px;
-  border: solid 2px rgb(30,84,108);
+  border: solid 2px;
   border-radius: 5px;
   text-align: center;
-  min-height: 260px;
+  min-height: 270px;
   padding: 5px 30px;
 }
 
 .caixaComoComeco div div ul{
   list-style-type: none;
+  padding-left:0;
 }
+
 
 /*
 Fim Sessão Como começo
@@ -354,10 +381,6 @@ Inicio da Sessão Como me inscrevo
     margin: 0px;
   }
 }
-
-#comoInscrevo h1{
-  padding-bottom: 15px;
-}
 /*
 Fim da Sessão Como me inscrevo
 *
@@ -373,8 +396,9 @@ Inicio da Sessão Consultas
   padding: 15px;
 }
 
-#consultas h1{
+#consultas h3{
   padding-bottom: 15px;
+  font-weight: bold;
 }
 .caixaConsulta{
   padding: 8px;
@@ -385,13 +409,12 @@ Inicio da Sessão Consultas
   border-radius: 5px;
   padding: 0 10px 0 10px;
   margin:9px;
-  min-height: 210px;
+  min-height: 230px;
 
   align-items: center;
 }
-.caixaConsulta div h1{
-  font-size: 25px;
-  font-weight: bolder;
+.caixaConsulta div h3{
+  	color: #1e546c;
 }
 .caixaConsulta p {
   margin:15px;
@@ -415,105 +438,54 @@ Inicio da Sessão Cadastre-se
 
 .corpo-cadastre {
   background-color: rgb(225,238,255);
-  font-size: 14.4px;
   color: rgb(30,84,108);
 }
 
 .corpo-cadastre h1 {
   font-family: Catamaran-ExtraLight;
-  font-size: 35px;
-  padding: 15px 0px;
+  padding: 20px 0px;
 }
 
-#campos {
-  text-align: justify;
+.caixaCadastre form{
+  text-align: left;
+  min-height: 260px;
+}
+/*o Boostrap muda todo o fieldset */
+fieldset.scheduler-border {
+    border: 2px solid rgb(30,84,108) !important;
+    border-radius: 5px;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
 }
 
-.campos ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
+    legend.scheduler-border {
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+        color: rgb(30,84,108)
+    }
 
-.campos ul input {
-  width: 15em;
-}
 
-.campos input {
-  border-radius: 5px;
-  margin-left: 3em;
-}
-
-.campos label {
-  margin-right: 1em;
-}
-
-.caixaCadastro {
-  text-align: center;
-  width: 100%;
-  padding: 8px;
-}
-
-.alinharCaixa {
-  width: 28%;
-  text-align: center;
-  overflow: auto;
-  display: inline-block;
-}
-
-.insc-caixa p {
-  text-align: justify;
-  margin: 20px 0 0 -5px;
-}
-
-.insc-caixa input {
-  margin-left: 0px;
-}
-
-#tel {
-  width: 14em;
-}
-
-#caixa-botao {
-  float: right;
-  margin-top: 1.5em;
-}
-
-#botao {
-  color: rgb(30,84,108);
+.botao{
   background-color: white;
-  border-radius: 4px;
-  border-style: double;
-  border-width: 4px;
-  border-color: rgb(30,84,108);
+  color: #1e546c;
+  font-size: 17px;
+  border:none;
+  padding:5px 12px;
+}
+.contato{
+  padding: 9px;
+}
+.contato img{
+  padding-left: 25px;
+  margin-top: 16px;
 }
 
-.fieldset {
-  border: solid 2px rgb(30,84,108);
-  border-radius: 5px;
-  padding: 0 0 0 25px;
-  margin: 9px 18px;
-  min-height: 230px;
-}
-
-.fieldset div {
-  float: left;
-  padding-bottom: 0;
-  margin: 0;
-  border: 0;
-}
-
-.fieldset div h1 {
-  font-size: 25px;
-}
-
-.fieldset input {
-  margin: 15px 15px 0 0;
-  padding: 0 10px;
-}
-
-.loguinho {
-  width: 1.5em;
+.emailLink{
+    margin-bottom: 20px;
 }
 /*
 FIM da Sessão Cadastre-se
@@ -531,12 +503,18 @@ Inicio da Sessão Valores
   text-align: center;
   padding:20px;
 }
+#valores h1{
+  color: white;
+}
 #valores div{
   padding:5px;
   margin:0;
 }
 #valores h1{
   padding-top: 15px;
+}
+.noPadding h3{
+  color: white;
 }
 
 /*
@@ -549,6 +527,10 @@ inicio do footer
 *
 */
 
+.padding{
+  padding: 2px;
+  text-align: center;
+}
 
 #desenvolvedores{
   text-align: center;
@@ -563,8 +545,10 @@ inicio do footer
 .foto img{
   border-radius: 50%;
 }
+
 footer{
     font-size: 16px;
+    color: #1e546c;
 }
 #ifMeninas{
   padding: 15px 0px 15px 0px;
@@ -587,6 +571,10 @@ footer{
     padding-top: 0px;
     padding-bottom: 0px;
   }
+}
+.textoifmeninas{
+  font-weight: bold;
+
 }
 
 <<<<<<< HEAD
@@ -612,4 +600,81 @@ footer{
 FIM do footer
 *
 */
+<<<<<<< HEAD
 >>>>>>> 2ebdaafc9842c8510b37699cd3d31d18e6068ddb
+=======
+
+
+/* Configuração da tela de tablet */
+
+@media (max-width: 769px){
+  /* SOBRE NOS */
+	span.como-surgiu-texto{
+		font-size: 18px !important;
+	}
+
+	.container-dados-oms{
+		margin-top: 45px;
+	}
+
+	span.texto-dados-oms{
+		font-size: 17px !important;
+	}
+}
+
+/* Configuração da tela pequena */
+
+@media (max-width: 525px){
+	h1{
+	  font-size: 30px;
+	}
+  /* MENU */
+  .tituloMenu{
+    font-size: 18px;
+  }
+  /* botao Call Action  */
+  .botao-cabecalho{
+    margin-top: -35px;
+  }
+  /* cabecalho */
+
+	header .container{
+		padding: 20px ;
+	}
+
+	.cabecalho{
+		margin: 0;
+		text-align: center;
+	}
+
+ 	.cabecalho .logo{
+		width: 250px;
+	}
+
+  .cabecalho .titulo h2{
+  	font-size: 22px;
+  }
+
+  /* SOBRE NOS */
+	span.texto-dados-oms{
+		font-size: 16px !important;
+	}
+
+	.container-dados-oms{
+		margin: 20px 12.5px;
+	}
+
+  /* CADASTRE-SE */
+	form{
+	  font-size: 16px;
+	}
+  .emailLink{
+    margin-bottom: 0px;
+  }
+
+  /* fotter */
+  .foto img{
+    width: 70px;
+  }
+}
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326

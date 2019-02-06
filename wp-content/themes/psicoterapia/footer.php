@@ -5,15 +5,13 @@
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row noPadding">
 
-              <div class="col-md-12 col-sm-12 col-xs-12 azulescuro">
-                Contato:
+              <div class="col-md-12 col-sm-12 col-xs-12 azulescuro padding">
+                <h3>Contato</h3>
               </div>
-              <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
-                <center>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> (11) 95030-2017 Vivo</p>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> psicoterapia.todos@outlook.com</p>
+              <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 text-center">
+                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
+                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> <a href="mailto:psicoterapia.todos@outlook.com">Psicoterapia.todos@outlook.com</a></p>
                 <p><span style="color: rgb(30,84,108); font-weight:bolder;">Facebook: </span> <a href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></p>
-                </center>
               </div>
 
           </div>
@@ -21,8 +19,8 @@
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row noPadding">
 
-              <div class="col-md-12 col-xs-12 azulescuro">
-                O site foi desenvolvido por:
+              <div class="col-md-12 col-xs-12 azulescuro padding">
+                <h3>O site foi desenvolvido por</h3>
               </div>
               <div class="col-md-12 col-sm-12 col-xs-12" id="desenvolvedores">
                 <div class="row">
@@ -86,11 +84,9 @@
         <div class="col-md-10 col-sm-10 col-xs-12">
           <div class="row">
 
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <center>
+            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center">
                 Esse projeto foi desenvolvido em parceria com o IF(meninas){nas exatas}, que visa promover
                 a participação feminina na área de Exatas, motivando alunas a ingressar e permanecer na área.
-              </center>
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -108,12 +104,12 @@
 
                 <a id="facebook" target="_blank" href="https://www.facebook.com/ifmeninas/" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="25" alt="ícone do facebook"/>
-                  facebook.com/ifmeninas/
+                  ifmeninas
                 </a>
 
                 <a id="twitter" target="_blank" href="https://twitter.com/ifmeninasnacomp" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="25" alt="ícone do Twitter"/>
-                  twitter.com/ifmeninasnacomp
+                  ifmeninasnacomp
                 </a>
 
               </div>
@@ -122,6 +118,7 @@
           </div>
         </div>
       </section>
+<<<<<<< HEAD
       <section id="fim">
 
         <div class="azulFinal row" style="text-align:right">
@@ -129,10 +126,13 @@
         </div>
       </section>
 
+=======
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
     </footer>
 
     <!-- Links -->
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.mask.min.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jScript.js"></script>
   </body>
 </html>
