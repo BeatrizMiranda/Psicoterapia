@@ -97,6 +97,38 @@ Inicio de menu bar
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/* menu dropdown aparecendo */
+.menuDown div{
+	background-color: rgba(124, 167, 219, .9);
+  z-index: 1;
+  position: fixed;
+  right:0;
+  height:100%;
+  top: 65px;
+}
+.menuDown ul{
+  padding:0;
+  padding-top: 30px;
+}
+.menuDown ul li{
+  list-style: none;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.menuDown ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menuDown ul li:hover{
+  background-color: rgba(30,84,108,5);
+}
+.menuDown ul li:hover a{
+  color:white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 
 /*
 FIM MENU
@@ -133,7 +165,7 @@ INICIO CABECALHO
 */
 
 header .container{
-	padding: 50px 0px;
+	padding-top: 15px;
   padding-bottom: 0px;
 }
 .cabecalho{

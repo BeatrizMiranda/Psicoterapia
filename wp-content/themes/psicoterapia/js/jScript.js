@@ -1,5 +1,17 @@
+/*Função do menu*/
+function myFunction(x) {
+  x.classList.toggle("change");
+
+  if($('.hamburguer').hasClass('change')){
+    $('.menuDown').css("display", "block");
+  }else{
+    $('.menuDown').css("display", "none");
+  }
+}
+
 $(document).ready(function () {
   $('#menu').css("display", "none");
+  $('.menuDown').css("display", "none");
 
   $('.telefone').mask('(00) 00000-0000');
 
@@ -25,7 +37,7 @@ $(document).ready(function () {
     $(window).scroll(function() {
        var scroll = $(window).scrollTop();
 
-       if (scroll > 400) {
+       if (scroll > 300) {
          $('#menu').css("display", "block");
        } else {
          $('#menu').css("display", "none");
@@ -33,8 +45,3 @@ $(document).ready(function () {
        }
     });
 });
-
-/*Função do menu*/
-function myFunction(x) {
-  x.classList.toggle("change");
-}

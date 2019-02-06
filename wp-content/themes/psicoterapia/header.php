@@ -12,31 +12,39 @@
 
     <!--Css-->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/ang1.css">
-			<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/ang.css">
+
   </head>
 
   <body>
-    <header>
-			<section class="container-fluid" id="menu">
-			  <div class="row menuFixo">
-			    <div class="col-xs-2 text-center">
-			      <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50"/>
-			    </div>
-			    <div class="col-xs-8 text-center tituloMenu">
-			        Psicoterapia para Todos
-			    </div>
-			      <div class="col-xs-2" onclick="myFunction(this)">
-			        <div class="bar1"></div>
-			        <div class="bar2"></div>
-			        <div class="bar3"></div>
-			      </div>
-			  </div>
-			</section>
+		<nav class="container-fluid navbar" id="menu">
+			<div class="row menuFixo">
+				<div class="col-xs-2 text-center">
+					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50"/>
+				</div>
+				<div class="col-xs-8 text-center tituloMenu navbar-brand">
+					Psicoterapia para Todos
+				</div>
+				<div class="col-xs-2 hamburguer" onclick="myFunction(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="menuDown">
+			<div class="col-md-3">
+				<ul>
+					<li><a>Blog</a></li>
+					<li><a>Encontre seu Psicólogo</a></li>
+					<li><a>Sobre</a></li>
+				</ul>
+			</div>
+		</div>
 
+    <header>
 	    <div class="container">
 				<div class="row">
-					<div class="col-xs-1 col-xs-offset-11" onclick="myFunction(this)">
+					<div class="col-xs-1 col-xs-offset-11 hamburguer" onclick="myFunction(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
 						<div class="bar3"></div>
