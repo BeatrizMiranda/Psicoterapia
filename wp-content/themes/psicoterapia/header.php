@@ -19,25 +19,45 @@
   <body>
     <header>
       <div class="row menu-fixo">
-        <div class="col-md-2 col-xs-2">
+        <div class="col-md-2 col-xs-2 col-md-offset-1">
           <img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
         </div>
 
         <div>
-          <span class=" col-md-8 col-xs-8 titulo-menu">
+          <span class=" col-md-6 col-xs-8 titulo-menu">
             Psicoterapia para Todos
           </span>
         </div>
-
-        <input id="menu-hamburguer" type="checkbox"/>
-        <label for="menu-hamburguer">
-          <div class="col-md-2 col-xs-1 menu">
-            <span class="hamburguer"></span>
-          </div>
-        </label>
-
       </div>
+      
       <div class="container">
+        <label>
+        <div class="row menu-lista">
+
+          
+          <div class="col-md-2 col-xs-12 col-md-offset-8">
+            <ul >
+              <label>Institucional</label>
+              <li>
+                <a href="">Sobre Nós</a>
+              </li>
+              <li>
+                <a href="">Como começo?</a>
+              </li>
+              <li>
+                <a href="">Como me inscrevo?</a>
+              </li>
+              <li>
+                <a href="">Consultas</a>
+              </li>
+            </ul>
+          </div>
+          </label>
+
+        </div>
+      </div>
+
+      <div class="container cont-cabecalho">
         <div class="row cabecalho">
 
           <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-2 logo">

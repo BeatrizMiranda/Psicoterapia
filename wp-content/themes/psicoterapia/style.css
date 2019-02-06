@@ -17,6 +17,10 @@ body{
   font-size: 19px;
 }
 
+p{
+   text-align: justify;
+}
+
 h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
@@ -114,112 +118,6 @@ INICIO MENU FIXO TOPO
 }
 
 
-/* inicio menu hamburguer*/
-
-*,
-    *:before,
-    *:after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-.menu {
-	top: 5px;
-    background: #eee;
-    width: 45px;
-    height: 45px;
-    border-radius: 25px;
-
-    cursor: pointer;
-    box-shadow: 0 0 0 0 #1e546c, 0 0 0 0 #1e546c;
-    transition: box-shadow 5.1s cubic-bezier(.19,1,.22,1);
-}
-
-@media (max-width: 425px){
-	.menu {
-	    width: 35px;
-	    height: 35px;
-	}
-}
-
-.hamburguer {
-	top: 20px;
-	left: -8px;
-    position: relative;
-    display: block;
-    background: #1e546c;
-    width: 32px;
-    height: 3.30px;
-    transition: .5s ease-in-out;
-}
-
-.hamburguer:before,
-.hamburguer:after {
-    background: #1e546c;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: .5s ease-in-out;
-}
-
-.hamburguer:before {
-    top: -10px;
-}
-
-.hamburguer:after {
-    bottom: -10px;
-}
-
-@media (max-width: 425px){
-	.hamburguer {
-		top: 15px !important;
-		left: -10px !important;
-	    width: 27px !important;
-	}
-
-	.hamburguer:before {
-	    top: -8px !important;
-	}
-
-	.hamburguer:after {
-	    bottom: -8px !important;
-	}
-}
-
-input {
-    display: none;
-}
-
-input:checked ~ label .hamburguer {
-    transform: rotate(45deg);
-}
-
-input:checked ~ label .hamburguer:before {
-    transform: rotate(90deg);
-    top: 0 !important;
-}
-
-input:checked ~ label .hamburguer:after {
-    transform: rotate(90deg);
-    bottom: 0 !important;
-}
-input label{
-	width: 30px;
-	height: 30px;
-}
-
-input:checked ~ label .menu {
-    box-shadow: 0 0 0 130vw #eee, 0 0 0 130vh #eee;
-}
-
-
-/* fim menu hamburguer*/
-
-
-
 /*
 FIM MENU FIXO TOPO
 *
@@ -231,7 +129,7 @@ FIM MENU FIXO TOPO
 INICIO CABECALHO
 */
 
-header .container{
+header .cont-cabecalho{
 	padding: 50px 0px;
 }
 
@@ -382,72 +280,47 @@ span.texto-dados-oms{
 FIM SESSÃO SOBRE NOS
 *
 */
-/* Inicio Sessão Como começo */
 
-.corpo-comoComeco {
-  font-size: 17.4px;
+/*
+Inicio Sessão Como começo
+*
+*/
+
+.comoComeco{
   color: rgb(30,84,108);
 }
-
-.corpo-comoComeco h1 {
+.comoComeco h1{
   font-family: Catamaran-ExtraLight;
   font-size: 35px;
+  padding: 8px 0px;
 }
 
-.caixaComoComeco {
-  text-align: center;
-  width: 100%;
-  padding: 8px;
-}
 
-.caixaComoComeco div {
-  width: 28%;
-  display: inline-block;
-  text-align: center;
-  overflow: auto;
+.caixaComoComeco div div{
+  margin: 10px;
   border: solid 2px rgb(30,84,108);
   border-radius: 5px;
-  padding: 0 10px; 
-  margin: 9px 18px;
-  min-height: 230px;
+  text-align: center;
+  min-height: 260px;
+  padding: 5px 30px;
 }
 
-.doc-box {
-  text-align: justify;
-}
-
-.doc-box ul {
+.caixaComoComeco div div ul{
   list-style-type: none;
-  padding: 0px;
 }
 
-.caixaComoComeco div h1 {
-  font-size: 25px;
-}
+/*
+Fim Sessão Como começo
+*
+*/
 
-.caixaComoComeco p {
-  margin: 15px
-}
+/*
+Inicio da Sessão Como me inscrevo
+*
+*/
 
-.caixaComoComeco div p {
-  margin: 15px
-}
 
-.corpo-cadastre {
-  background-color: rgb(225,238,255);
-  font-size: 14.4px;
-  color: rgb(30,84,108);
-}
 
-.corpo-cadastre h1 {
-  font-family: Catamaran-ExtraLight;
-  font-size: 35px;
-}
-/* Fim Sessão Como começo */
-
-p{
-   text-align: justify;
-}
 /* Cores */
 .azul{
   background-color: rgb(86,161,211);
@@ -483,16 +356,24 @@ p{
 }
 
 #comoInscrevo h1{
-  font-weight: bolder;
   padding-bottom: 15px;
 }
+/*
+Fim da Sessão Como me inscrevo
+*
+*/
+
+/*
+Inicio da Sessão Consultas
+*
+*/
+
 
 #consultas{
   padding: 15px;
 }
 
 #consultas h1{
-  font-weight: bolder;
   padding-bottom: 15px;
 }
 .caixaConsulta{
@@ -520,7 +401,30 @@ p{
   padding: 0
 }
 
-/* Início Sessão Cadastre */
+/*
+FIM da Sessão Como me inscrevo
+*
+*/
+
+
+/*
+Inicio da Sessão Cadastre-se
+*
+*/
+
+
+.corpo-cadastre {
+  background-color: rgb(225,238,255);
+  font-size: 14.4px;
+  color: rgb(30,84,108);
+}
+
+.corpo-cadastre h1 {
+  font-family: Catamaran-ExtraLight;
+  font-size: 35px;
+  padding: 15px 0px;
+}
+
 #campos {
   text-align: justify;
 }
@@ -611,11 +515,45 @@ p{
 .loguinho {
   width: 1.5em;
 }
-/* Fim Sessão Cadastre */
+/*
+FIM da Sessão Cadastre-se
+*
+*/
+
+/*
+Inicio da Sessão Valores
+*
+*/
+
+#valores{
+  background-color: rgb(124,167,219);
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+#valores div{
+  padding:5px;
+  margin:0;
+}
+#valores h1{
+  padding-top: 15px;
+}
+
+/*
+FIM da Sessão Valores
+*
+*/
+
+/*
+inicio do footer
+*
+*/
+
 
 #desenvolvedores{
   text-align: center;
 }
+
 #desenvolvedores div{
   padding-top: 5px;
   padding-right: 15px;
@@ -651,6 +589,7 @@ footer{
   }
 }
 
+<<<<<<< HEAD
 #valores{
   background-color: rgb(124,167,219);
   color: white;
@@ -668,3 +607,9 @@ footer{
 .final-footer{
 
 }
+=======
+/*
+FIM do footer
+*
+*/
+>>>>>>> 2ebdaafc9842c8510b37699cd3d31d18e6068ddb
