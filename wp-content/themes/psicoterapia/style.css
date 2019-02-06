@@ -575,6 +575,9 @@ FIM da Sessão Valores
 inicio do footer
 *
 */
+.margin {
+  margin-top: 0;
+}
 
 .padding{
   padding: 10px;
