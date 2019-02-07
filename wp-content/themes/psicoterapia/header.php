@@ -32,11 +32,13 @@
 			</div>
 		</nav>
 		<div class="menuDown">
-			<div class="col-md-3">
+			<div class="col-md-\3">
 				<ul>
 					<li><a>Blog</a></li>
 					<li><a>Encontre seu Psicólogo</a></li>
 					<li><a>Sobre</a></li>
+					<li><a>Sobre nos</a></li>
+
 				</ul>
 			</div>
 		</div>
