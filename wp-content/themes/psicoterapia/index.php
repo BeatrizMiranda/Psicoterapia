@@ -1,18 +1,11 @@
 <?php get_header(); ?>
-<<<<<<< HEAD
-<section>
-  <div class="row sobre-nos azulIndigo">
-=======
 
 <section id="sobre_nos">
   <div class="row sobre-nos">
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center botao-cabecalho">
-          <a class="vem-conhecer" href="#sobre-nos-titulo">
-            Vem conhecer!
-          </a>
+          <a class="vem-conhecer" href="#sobre-nos-titulo">Vem conhecer!</a>
         </div>
 
         <div class="col-xs-12 text-center">
@@ -20,11 +13,7 @@
         </div>
 
         <div class="col-md-5 col-sm-6 col-md-offset-1 col-xs-12">
-<<<<<<< HEAD
-          <h4 class="como-surgiu-tit">Como surgiu? </h4>
-=======
           <h2 class="como-surgiu-tit">  Como surgiu? </h2>
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 
           <span class="como-surgiu-texto text-left">
             O projeto surgiu a partir da iniciativa de um grupo de profissionais que constataram que apesar da grande procura
@@ -48,24 +37,6 @@
   </div>
 </section>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<section class="corpo-comoComeco">
-=======
-<section class="container comoComeco">
->>>>>>> 2ebdaafc9842c8510b37699cd3d31d18e6068ddb
-  <center><h1>Como começo?</h1></center>
-  <div class="row caixaComoComeco">
-    <div class="col-md-6 col-sm-6 col-xs-12">
-      <div>
-        <h1>Quem pode participar?</h1>
-        <br>
-        <p>
-        Qualquer cidadão brasileiro de baixa renda (Classe B1 - C2). De todas as faixas etárias.
-        <br>
-        É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
-        </p>
-=======
 <section class="comoComeco">
   <div class="container">
     <h1 class="tituloSessoes text-center">Como começo?</h1>
@@ -80,7 +51,6 @@
           É necessário comprovar sua renda por meio de um questionário socioeconômico e apresentar a documentação exigida ao lado.
           </span>
         </div>
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div>
@@ -98,7 +68,6 @@
     </div>
   </div>
 </section>
->>>>>>> 561c885912d55f8f33dba43a5f0fd017c0c8535c
 
 
 

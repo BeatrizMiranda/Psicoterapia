@@ -90,20 +90,6 @@ Inicio de menu bar
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-<<<<<<< HEAD
-@media (max-width: 321px){
-	.titulo-menu{
-		font-size: 18px !important;
-	}
-}
-
-
-/*
-FIM MENU FIXO TOPO
-*
-*/
-
-=======
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
@@ -172,24 +158,18 @@ a.vem-conhecer:hover{
 .botao-cabecalho{
 	margin-top: -15px;
 }
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 
 /*
 *
 INICIO CABECALHO
 */
 
-<<<<<<< HEAD
-header .cont-cabecalho{
-	padding: 50px 0px;
-=======
 header .container{
 	padding-top: 15px;
   padding-bottom: 0px;
 }
 .cabecalho{
   margin-top: 10px;
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 }
 
 .cabecalho .titulo{
@@ -264,35 +244,22 @@ INICIO SESSÃO SOBRE NOS
 
 .sobre-nos{
 	margin: 0;
-	padding-bottom: 50px;
-}
-
-@media (max-width: 525px){
-	.sobre-nos{
-		padding-bottom: 30px;
-	}
+	background-color: #7ca7db;
 }
 
 .sobre-nos .titulo{
 	padding-top: 40px;
-<<<<<<< HEAD
-	font-size: 30px;
-=======
 	color: #fff;
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 	font-weight: bolder;
 	letter-spacing: 1.5px;
 }
 
-<<<<<<< HEAD
-h4.como-surgiu-tit{
-=======
 .como-surgiu-tit{
 	color: #fff;
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
 	text-align: left;
 }
 span.como-surgiu-texto{
+	color: #fff;
 	text-align: left !important;
 }
 .container-dados-oms{
@@ -362,10 +329,6 @@ Inicio da Sessão Como me inscrevo
 .azulescuro{
   background-color: rgb(30,84,108);
   color: white;
-}
-.azulIndigo{
-	background-color: rgb(124,167,219);
-	color: #fff;
 }
 
 #comoInscrevo{
@@ -564,7 +527,7 @@ footer{
     padding:5px;
   }
 
-  #linkContatos a,  #linkContatos div{
+  #linkContatos a, div{
     margin: 10px 0px 10px 0px;
   }
   #desenvolvedores div{
@@ -577,32 +540,10 @@ footer{
 
 }
 
-<<<<<<< HEAD
-#valores{
-  background-color: rgb(124,167,219);
-  color: white;
-  text-align: center;
-  padding:20px;
-}
-#valores div{
-  padding:5px;
-  margin:0;
-}
-#valores h1{
-  padding-top: 10px;
-  font-weight: bolder;
-}
-.final-footer{
-
-}
-=======
 /*
 FIM do footer
 *
 */
-<<<<<<< HEAD
->>>>>>> 2ebdaafc9842c8510b37699cd3d31d18e6068ddb
-=======
 
 
 /* Configuração da tela de tablet */
@@ -677,4 +618,3 @@ FIM do footer
     width: 70px;
   }
 }
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326

@@ -16,49 +16,6 @@
   </head>
 
   <body>
-<<<<<<< HEAD
-    <header>
-      <div class="row menu-fixo">
-        <div class="col-md-2 col-xs-2 col-md-offset-1">
-          <img class="logo-menu" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Logo do Psicoterapia"/>
-        </div>
-
-        <div>
-          <span class=" col-md-6 col-xs-8 titulo-menu">
-            Psicoterapia para Todos
-          </span>
-        </div>
-      </div>
-      
-      <div class="container">
-        <label>
-        <div class="row menu-lista">
-
-          
-          <div class="col-md-2 col-xs-12 col-md-offset-8">
-            <ul >
-              <label>Institucional</label>
-              <li>
-                <a href="">Sobre Nós</a>
-              </li>
-              <li>
-                <a href="">Como começo?</a>
-              </li>
-              <li>
-                <a href="">Como me inscrevo?</a>
-              </li>
-              <li>
-                <a href="">Consultas</a>
-              </li>
-            </ul>
-          </div>
-          </label>
-
-        </div>
-      </div>
-
-      <div class="container cont-cabecalho">
-=======
 		<nav class="container-fluid navbar" id="menu">
 			<div class="row menuFixo">
 				<div class="col-xs-2 text-center">
@@ -75,13 +32,11 @@
 			</div>
 		</nav>
 		<div class="menuDown">
-			<div class="col-md-\3">
+			<div class="col-md-3">
 				<ul>
 					<li><a>Blog</a></li>
 					<li><a>Encontre seu Psicólogo</a></li>
 					<li><a>Sobre</a></li>
-					<li><a>Sobre nos</a></li>
-
 				</ul>
 			</div>
 		</div>
@@ -96,7 +51,6 @@
 					</div>
 				</div>
 
->>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
         <div class="row cabecalho">
 
           <div class="text-center col-md-3 col-md-offset-2 col-sm-4 col-xs-12 logo">
