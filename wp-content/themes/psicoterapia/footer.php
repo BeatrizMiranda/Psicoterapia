@@ -118,6 +118,16 @@
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+      <section id="fim">
+
+        <div class="azulFinal row" style="text-align:right">
+          <span class="2018-footer">2018</span>
+        </div>
+      </section>
+
+=======
+>>>>>>> 79ff3d3faadeebf5decef8a106244d69e908f326
     </footer>
 
     <!-- Links -->
