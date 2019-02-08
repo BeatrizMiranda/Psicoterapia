@@ -8,7 +8,6 @@
 
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="<?php echo get_stylesheet_directory_uri();?>/bootstrap/js/bootstrap.min.js"></script>
 
     <!--Css-->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
@@ -31,15 +30,18 @@
 				</div>
 			</div>
 		</nav>
-		<div class="menuDown">
-			<div class="col-md-3">
+		<nav class="menuDown">
+			<div class="col-md-12">
 				<ul>
-					<li><a>Blog</a></li>
-					<li><a>Encontre seu Psicólogo</a></li>
-					<li><a>Sobre</a></li>
+					<li><a>Sobre Nos</a></li>
+					<li><a>Como começo?</a></li>
+					<li><a>Como me inscrevo?</a></li>
+					<li><a>Consultas?</a></li>
+					<li><a>Cadastre-se?</a></li>
+					<li><a>O que guia o projeto?</a></li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 
     <header>
 	    <div class="container">
@@ -77,3 +79,18 @@
 				</div>
       </div>
     </header>
+		<!-- <div class="panel-group" id="accordion">
+		 <div class="panel panel-default">
+			 <div class="panel-heading">
+				 <h4 class="panel-title">
+					 <a data-toggle="collapse" data-parent="#accordion" href="#institucional">
+					 Institucional</a>
+				 </h4>
+			 </div>
+			 <div id="institucional" class="panel-collapse collapse in">
+				 <div class="panel-body">
+					 lala
+			 	 </div>
+			 </div>
+		 </div>
+		</div> -->

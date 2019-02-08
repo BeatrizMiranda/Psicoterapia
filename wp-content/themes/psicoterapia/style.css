@@ -99,18 +99,16 @@ Inicio de menu bar
 
 /* menu dropdown aparecendo */
 .menuDown div{
-	background-color: rgba(124, 167, 219, .9);
+	background-color: rgba(234, 249, 255,.9);
   z-index: 1;
   position: fixed;
-  right:0;
-  height:100%;
   top: 65px;
 }
 .menuDown ul{
   padding:0;
   padding-top: 30px;
 }
-.menuDown ul li{
+.menuDown ul li, .menuDown ul li ul li{
   list-style: none;
   padding:10px;
   border-radius: 5px;
@@ -122,11 +120,10 @@ Inicio de menu bar
 }
 
 .menuDown ul li:hover{
-  background-color: rgba(30,84,108,5);
+	background-color: rgba(213, 232, 239,.8);
 }
 .menuDown ul li:hover a{
-  color:white;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 
