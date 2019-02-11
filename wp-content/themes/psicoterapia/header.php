@@ -8,7 +8,6 @@
 
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="<?php echo get_stylesheet_directory_uri();?>/bootstrap/js/bootstrap.min.js"></script>
 
     <!--Css-->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
@@ -18,11 +17,11 @@
   <body>
 		<nav class="container-fluid navbar" id="menu">
 			<div class="row menuFixo">
-				<div class="col-xs-2 text-center">
-					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50"/>
+				<div class="col-xs-2 text-center ">
+					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
 				</div>
 				<div class="col-xs-8 text-center tituloMenu navbar-brand">
-					Psicoterapia para Todos
+					<span>Psicoterapia para Todos</span>
 				</div>
 				<div class="col-xs-2 hamburguer" onclick="myFunction(this)">
 					<div class="bar1"></div>
@@ -31,26 +30,22 @@
 				</div>
 			</div>
 		</nav>
-		<div class="menuDown">
-			<div class="col-md-3">
+
+	 <nav class="menuDown">
+			<div class="col-md-3 col-md-offset-9 col-xs-12">
 				<ul>
-					<li><a>Blog</a></li>
-					<li><a>Encontre seu Psicólogo</a></li>
-					<li><a>Sobre</a></li>
+					<a href="#sobre_nos"><li>Sobre nós</li></a>
+					<a href="#comoComeco"><li>Como começo?</li></a>
+					<a href="#comoInscrevo"><li>Como me inscrevo?</li></a>
+					<a href="#consultas"><li>Consultas</li></a>
+					<a href="#cadastre"><li>Cadastre-se</li></a>
+					<a href="#valores"><li>O que guia o projeto?</li></a>
 				</ul>
 			</div>
-		</div>
+		</nav>
 
     <header>
 	    <div class="container">
-				<div class="row">
-					<div class="col-xs-1 col-xs-offset-11 hamburguer" onclick="myFunction(this)">
-						<div class="bar1"></div>
-						<div class="bar2"></div>
-						<div class="bar3"></div>
-					</div>
-				</div>
-
         <div class="row cabecalho">
 
           <div class="text-center col-md-3 col-md-offset-2 col-sm-4 col-xs-12 logo">
@@ -77,3 +72,18 @@
 				</div>
       </div>
     </header>
+		<!-- <div class="panel-group" id="accordion">
+		 <div class="panel panel-default">
+			 <div class="panel-heading">
+				 <h4 class="panel-title">
+					 <a data-toggle="collapse" data-parent="#accordion" href="#institucional">
+					 Institucional</a>
+				 </h4>
+			 </div>
+			 <div id="institucional" class="panel-collapse collapse in">
+				 <div class="panel-body">
+					 lala
+			 	 </div>
+			 </div>
+		 </div>
+		</div> -->
