@@ -1,6 +1,6 @@
 <footer class="container-fluid">
       <section class= "margin row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
-  <section class="row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
+  <section class="row azulClarinho" id="contatoDesenvolvedores">
     <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="row noPadding">
 
