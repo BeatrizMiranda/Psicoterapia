@@ -122,8 +122,8 @@
   <h1 class="text-center"> Cadastre-se </h1>
   <div class="container">
     <div class="row caixaCadastre">
-
-          <form class="col-md-6 col-sm-6 col-xs-12">
+      
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
               <legend class="scheduler-border">Inscrição</legend>
               <p class="text-center">
@@ -131,29 +131,29 @@
               </p>
 
               <div class="row">
-                <form id="formulario"  action="" method="get">
+                <form id="formulario" action="" method="post">
 
                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
                     <label for="nome">Nome: </label>
-                    <input type="text" class="form-control" id="nome" placeholder="Nome" required="required">
+                    <input name="nome" type="text" class="form-control" id="nome" placeholder="Nome" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
                     <label for="telefone">Telefone: </label>
-                    <input type="text" class="form-control telefone" id="telefone" placeholder="Telefone" required="required">
+                    <input type="text" name="telefone" class="form-control telefone" id="telefone" placeholder="Telefone" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
                     <label for="email">E-mail: </label>
-                    <input type="text" class="form-control" id="email" placeholder="Email" required="required">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
-                  <button type="submit" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
+                  <button type="submit" name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
 
                 </form>
               </div>
             </fieldset>
-          </form>
+          </div>
 
 
-          <form class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
               <legend class="scheduler-border">Alguma Dúvida?</legend>
               <div class="row contato">
@@ -171,7 +171,7 @@
 
               </div>
             </fieldset>
-          </form>
+          </div>
 
     </div>
   </div>
