@@ -1,11 +1,6 @@
 <footer class="container-fluid">
-
-<<<<<<< HEAD
       <section class= "margin row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
-=======
   <section class="row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
->>>>>>> fb6e2a5f63ff74efd33153e626d7825f5eb580ed
-
     <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="row noPadding">
 

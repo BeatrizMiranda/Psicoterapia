@@ -290,7 +290,7 @@ Inicio Sessão Como começo
 
 .caixaComoComeco div div{
   margin: 10px;
-  border: solid 2px;
+  border: solid 2px rgb(30,84,108);
   border-radius: 5px;
   text-align: center;
   min-height: 270px;
