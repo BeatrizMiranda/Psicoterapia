@@ -409,10 +409,9 @@ Inicio da Sessão Cadastre-se
   padding: 20px 0px;
 }
 
-/* .caixaCadastre form{
-  text-align: left;
-  min-height: 260px;
-} */
+.caixaCadastre div{
+  min-height: 69px;
+}
 /*o Boostrap muda todo o fieldset */
 fieldset.scheduler-border {
     border: 2px solid rgb(30,84,108) !important;
