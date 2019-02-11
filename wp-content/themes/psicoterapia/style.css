@@ -49,6 +49,10 @@ span{
 	font-family: Catamaran-ExtraLight;
   color: #1e546c;
 }
+abbr{
+  text-decoration: none;
+  cursor: pointer;
+}
 .tituloSessoes{
   padding-bottom: 15px;
   padding-top: 10px;
@@ -59,16 +63,15 @@ Inicio de menu bar
 *
 */
 
-.menuFixo{
-  padding:10px;
-  position: fixed;
+#menu{
+  padding-top:10px;
   top: 0;
   background-color: white;
   width:100%;
-  z-index: 99;
+  z-index: 1;
   margin-top: 0;
 }
-.tituloMenu{
+.tituloMenu {
   color: #1e546c;
   font-family: Catamaran-ExtraLight;
   font-size: 26px;
@@ -102,19 +105,20 @@ Inicio de menu bar
 	background-color: rgba(234, 249, 255,.9);
   z-index: 1;
   position: fixed;
-  top: 65px;
+  top: 62px;
+  height: 100%;
 }
 .menuDown ul{
   padding:0;
   padding-top: 30px;
 }
-.menuDown ul li, .menuDown ul li ul li{
+.menuDown ul li{
   list-style: none;
   padding:10px;
   border-radius: 5px;
 }
 
-.menuDown ul li a{
+.menuDown a{
   text-decoration: none;
   color: black;
 }
@@ -122,7 +126,7 @@ Inicio de menu bar
 .menuDown ul li:hover{
 	background-color: rgba(213, 232, 239,.8);
 }
-.menuDown ul li:hover a{
+.menuDown ul a li:hover{
   text-shadow: white 0.1em 0.1em 0.2em;
 }
 
@@ -145,6 +149,7 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
+  text-decoration: none;
 }
 
 a.vem-conhecer:hover{
@@ -253,21 +258,20 @@ INICIO SESSÃO SOBRE NOS
 
 .como-surgiu-tit{
 	color: #fff;
-	text-align: left;
 }
-span.como-surgiu-texto{
+.como-surgiu-texto{
 	color: #fff;
-	text-align: left !important;
+  font-family: Catamaran-ExtraLight;
+  padding:15px;
 }
 .container-dados-oms{
 	border: 2px solid #fff;
 	padding: 20px;
-	margin-top: 30px;
+	margin-top: 80px;
 	border-radius: 6px;
 }
 span.texto-dados-oms{
 	color: #fff;
-	text-align: left !important;
 }
 
 /*
@@ -279,7 +283,6 @@ FIM SESSÃO SOBRE NOS
 Inicio Sessão Como começo
 *
 */
-
 .comoComeco{
   color: rgb(30,84,108);
   padding: 15px;

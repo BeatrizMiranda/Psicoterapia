@@ -17,11 +17,11 @@
   <body>
 		<nav class="container-fluid navbar" id="menu">
 			<div class="row menuFixo">
-				<div class="col-xs-2 text-center">
-					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50"/>
+				<div class="col-xs-2 text-center ">
+					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
 				</div>
 				<div class="col-xs-8 text-center tituloMenu navbar-brand">
-					Psicoterapia para Todos
+					<span>Psicoterapia para Todos</span>
 				</div>
 				<div class="col-xs-2 hamburguer" onclick="myFunction(this)">
 					<div class="bar1"></div>
@@ -30,29 +30,22 @@
 				</div>
 			</div>
 		</nav>
-		<nav class="menuDown">
-			<div class="col-md-12">
+
+	 <nav class="menuDown">
+			<div class="col-md-3 col-md-offset-9 col-xs-12">
 				<ul>
-					<li><a>Sobre Nos</a></li>
-					<li><a>Como começo?</a></li>
-					<li><a>Como me inscrevo?</a></li>
-					<li><a>Consultas?</a></li>
-					<li><a>Cadastre-se?</a></li>
-					<li><a>O que guia o projeto?</a></li>
+					<a href="#sobre_nos"><li>Sobre nós</li></a>
+					<a href="#comoComeco"><li>Como começo?</li></a>
+					<a href="#comoInscrevo"><li>Como me inscrevo?</li></a>
+					<a href="#consultas"><li>Consultas</li></a>
+					<a href="#cadastre"><li>Cadastre-se</li></a>
+					<a href="#valores"><li>O que guia o projeto?</li></a>
 				</ul>
 			</div>
 		</nav>
 
     <header>
 	    <div class="container">
-				<div class="row">
-					<div class="col-xs-1 col-xs-offset-11 hamburguer" onclick="myFunction(this)">
-						<div class="bar1"></div>
-						<div class="bar2"></div>
-						<div class="bar3"></div>
-					</div>
-				</div>
-
         <div class="row cabecalho">
 
           <div class="text-center col-md-3 col-md-offset-2 col-sm-4 col-xs-12 logo">

@@ -15,17 +15,17 @@
         <div class="col-md-5 col-sm-6 col-md-offset-1 col-xs-12">
           <h2 class="como-surgiu-tit">  Como surgiu? </h2>
 
-          <span class="como-surgiu-texto text-left">
+          <div class="text-justify como-surgiu-texto">
             O projeto surgiu a partir da iniciativa de um grupo de profissionais que constataram que apesar da grande procura
             pela psicoterapia, muitos clientes não aderiram por limitações financeiras.
           <br>
             Como enfrentamento dessa problemática, pretendemos estruturar uma rede de profissionais engajados na cauda da saúde
             mental e que compreendam a realidade de nossa população.
-          </span>
+          </div>
         </div>
-        <div class="col-md-5 col-sm-6 col-xs-11 text-left container-dados-oms">
+        <div class="col-md-5 col-sm-6 col-xs-11 text-justify container-dados-oms">
           <span class="texto-dados-oms">
-            Temos uma demanda social bastante urgente, conforme apontam os dados fornecidos pela OMS no Brasil.
+            Temos uma demanda social bastante urgente, conforme apontam os dados fornecidos pela <abbr title="Organização Mundial da Saúde">OMS</abbr> no Brasil.
 
             A depressão atinge 11,5 milhões de pessoas (5.8% da população), enquanto distúrbios relacionados a ansiedade afetam mais de 18.6 milhões de Brasilleiros (9.3% da população).
           </span>
@@ -37,7 +37,7 @@
   </div>
 </section>
 
-<section class="comoComeco">
+<section id="comoComeco">
   <div class="container">
     <h1 class="tituloSessoes text-center">Como começo?</h1>
     <div class="row caixaComoComeco">
@@ -73,19 +73,17 @@
 
 <section id="comoInscrevo" class="azulClarinho">
   <div class="container">
+    <h1 class="tituloSessoes text-center"> Como me inscrevo? </h1>
 
-  <h1 class="tituloSessoes text-center"> Como me inscrevo? </h1>
-
-  <p>
-    Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
-    um de nossos profissionais entrará em contato para agendar a triagem.
-    <a href="#cadastre">Clique aqui</a> para ir ao formulário.
-  </p>
-  <p>
-    A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
-    documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
-  </p>
-
+    <p>
+      Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
+      um de nossos profissionais entrará em contato para agendar a triagem.
+      <a href="#cadastre">Clique aqui</a> para ir ao formulário.
+    </p>
+    <p>
+      A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
+      documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
+    </p>
   </div>
 </section>
 
