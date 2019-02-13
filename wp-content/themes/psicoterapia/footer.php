@@ -87,9 +87,11 @@
         <div class="col-md-10 col-sm-10 col-xs-12">
           <div class="row">
 
-            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center img-fluid">
+              <span>
                 Esse projeto foi desenvolvido em parceria com o IF(meninas){nas exatas}, que visa promover
-                a participação feminina na área de Exatas, motivando alunas a ingressar e permanecer na área.
+                a participação feminina <br> na área de Exatas, motivando alunas a ingressar e permanecer na área.
+              </span>
             </div>
 
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -97,22 +99,22 @@
 
                 <a href="http://bra.ifsp.edu.br/ifmeninas/" target="_blank" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/web.svg" width="25" alt="icone referente ao site if Meninas"/>
-                  bra.ifsp.edu.br/ifmeninas/
+                  <span>bra.ifsp.edu.br/ifmeninas/</span>
                 </a>
 
                 <a href="mailto:ifmeninas@gmail.com" target="_blank" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="25" alt="ícone de email"/>
-                  ifmeninas@gmail.com
+                  <span>ifmeninas@gmail.com</span>
                 </a>
 
                 <a id="facebook" target="_blank" href="https://www.facebook.com/ifmeninas/" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="25" alt="ícone do facebook"/>
-                  ifmeninas
+                  <span>ifmeninas</span>
                 </a>
 
                 <a id="twitter" target="_blank" href="https://twitter.com/ifmeninasnacomp" class="col-md-3 col-sm-3 col-xs-12">
                   <img src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="25" alt="ícone do Twitter"/>
-                  ifmeninasnacomp
+                  <span>ifmeninasnacomp</span>
                 </a>
 
               </div>

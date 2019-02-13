@@ -55,7 +55,6 @@
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div>
           <h2>Quais são os documentos obrigatórios?</h2>
-          <br/><br/>
           <span>
           <ul>
             <li>- Xerox do RG e do CPF,</li>
@@ -74,16 +73,17 @@
 <section id="comoInscrevo" class="azulClarinho">
   <div class="container">
     <h1 class="tituloSessoes text-center"> Como me inscrevo? </h1>
-
-    <p>
-      Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
-      um de nossos profissionais entrará em contato para agendar a triagem.
-      <a href="#cadastre">Clique aqui</a> para ir ao formulário.
-    </p>
-    <p>
-      A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
-      documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
-    </p>
+    <span>
+      <p>
+        Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
+        um de nossos profissionais entrará em contato para agendar a triagem.
+        <a href="#cadastre">Clique aqui</a> para ir ao formulário.
+      </p>
+      <p>
+        A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
+        documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
+      </p>
+    </span>
   </div>
 </section>
 
@@ -125,27 +125,29 @@
 
           <div class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
-              <legend class="scheduler-border">Inscrição</legend>
+              <legend class="scheduler-border">
+                <span>Inscrição</span>
+                </legend>
               <p class="text-center">
-                Faça o seu cadastro que entraremos em contato!
+                <span>Faça o seu cadastro que entraremos em contato!</span>
               </p>
 
               <div class="row">
                 <form id="formulario" action="" method="post">
 
                   <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                    <label for="nome">Nome: </label>
+                    <label for="nome"> <span>Nome:</span> </label>
                     <input name="nome" type="text" class="form-control" id="nome" placeholder="Nome" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                    <label for="telefone">Telefone: </label>
+                    <label for="telefone"> <span>Telefone:</span> </label>
                     <input type="text" name="telefone" class="form-control telefone" id="telefone" placeholder="Telefone" required="required">
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                    <label for="email">E-mail: </label>
+                    <label for="email"><span>E-mail:</span> </label>
                     <input type="text" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
-                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
+                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-10 col-xs-offset-1"><span>Enviar </span></button>
                 </form>
               </div>
             </fieldset>
@@ -154,20 +156,20 @@
 
           <div class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
-              <legend class="scheduler-border">Alguma Dúvida?</legend>
+              <legend class="scheduler-border"> <span>Alguma Dúvida?</span></legend>
               <div class="row contato">
 
                 <img class=" col-md-2 col-xs-3 icon" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
-                <p class="col-md-10 col-xs-12 text-center">Ligue ou mande uma mensagem: <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
+                <p class="col-md-10 col-xs-12 text-center"><span>Ligue ou mande uma mensagem:</span> <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
 
                 <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
-                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 15px;" > Mande um email: </p>
+                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 15px;" > <span>Mande um email:</span> </p>
 
-                <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></p>
+                <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com"><span>psicoterapia.todos@outlook.com</span></a></p>
 
                 <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
                 <p class="col-md-10 col-xs-12 text-center" style="padding-top: 20px;" >Acesse nosso facebook: </p>
-                <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a> </p>
+                <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs"><span>Projeto Psicoterapia para Todos</span></a> </p>
 
               </div>
             </fieldset>
@@ -182,7 +184,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
-        Seu cadastro foi realizado com sucesso!
+        <span>Seu cadastro foi realizado com sucesso!</span>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -200,7 +202,7 @@
 
       <div class="col-md-4 col-xs-12">
         <h1 class="text-center">Missão</h1>
-        Tornar a psicoterapia acessível para maior faixa da poplação, levando conscientização sobre a importância dos cuidados com a saúde mental.
+        <span>Tornar a psicoterapia acessível para maior faixa da poplação, levando conscientização sobre a importância dos cuidados com a saúde mental.</span>
       </div>
 
       <div class="col-md-4 col-xs-12">
@@ -210,7 +212,7 @@
 
       <div class="col-md-4 col-xs-12">
         <h1 class="text-center">Visão</h1>
-        Ser reconhecido pela excelência de serviço, conduta ética e comprometimento com a causa da saúde mental.
+        <span>Ser reconhecido pela excelência de serviço, conduta ética e comprometimento com a causa da saúde mental.</span>
       </div>
 
     </div>
@@ -218,9 +220,11 @@
       <div class="col-md-3"></div>
       <div class="col-md-6 col-xs-12">
         <h1 class="text-center">Valores</h1>
-        - Compreensão do ser humano como ser biopsicossocial.<br/>
-        - Comprometimento com as causas sociais.<br/>
-        - Respeito às subjetividades.<br/>
+        <span>
+          - Compreensão do ser humano como ser biopsicossocial.<br/>
+          - Comprometimento com as causas sociais.<br/>
+          - Respeito às subjetividades.<br/>
+        </span>
       </div>
       <div class="col-md-3"></div>
 

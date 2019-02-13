@@ -71,13 +71,30 @@ Inicio de menu bar
   margin-top: 0;
   border-bottom: 1px solid #eee;
 }
+
+@media (max-width: 575px){
+	#menu{
+  		padding-top:0px;
+  	}
+
+  	.logoMenu{
+  		width: 45px !important; 
+  		padding-top: 5px;
+  	}
+}
+
 .tituloMenu {
   color: #1e546c;
   font-family: Catamaran-ExtraLight;
   font-size: 26px;
 }
 
-
+@media (max-width: 575px){
+	.hamburguer{
+		padding-top: 5px;
+    	padding-left: 5px;
+	}
+}
 .bar1, .bar2, .bar3 {
   cursor: pointer;
   width: 35px;
@@ -150,7 +167,12 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
-  text-decoration: none;
+  	text-decoration: none;
+}
+@media only screen and (max-width: 575px) {
+	a.vem-conhecer{
+		margin-top: -15px;
+	}
 }
 
 a.vem-conhecer:hover{
@@ -306,8 +328,21 @@ Inicio Sessão Como começo
 .caixaComoComeco div div ul{
   list-style-type: none;
   padding-left:0;
+  margin-top: 50px;
 }
 
+@media (max-width: 769px){
+	#comoComeco{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.caixaComoComeco div{
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
 
 /*
 Fim Sessão Como começo
@@ -365,6 +400,12 @@ Inicio da Sessão Consultas
   padding: 15px;
   padding-bottom: 30px;
 }
+@media (max-width: 475px){
+	#consultas{
+		padding-left: 0px;
+  		padding-right: 0px;
+	}
+}
 
 #consultas h3{
   padding-bottom: 15px;
@@ -373,7 +414,12 @@ Inicio da Sessão Consultas
 .caixaConsulta{
   padding: 8px;
 }
-
+@media (max-width: 575px){
+	.caixaConsulta{
+  		padding-left: 0px;
+  		padding-right: 0px;
+  	}
+}
 .caixaConsulta div{
   border: solid 2px rgb(30,84,108);
   border-radius: 5px;
@@ -410,6 +456,13 @@ Inicio da Sessão Cadastre-se
   background-color: rgb(225,238,255);
   color: rgb(30,84,108);
   padding: 30px 30px;
+}
+@media (max-width: 575px){
+	.corpo-cadastre {
+		padding-right: 0px;
+		padding-left: 0px;
+
+	}
 }
 
 .corpo-cadastre h1 {
@@ -480,6 +533,9 @@ Inicio da Sessão Valores
 #valores h1{
   color: white;
 }
+#valores span{
+	color: #fff;
+}
 #valores div{
   padding:5px;
   margin:0;
@@ -512,6 +568,11 @@ inicio do footer
 #desenvolvedores{
   text-align: center;
 }
+@media only screen and (max-width: 769px) {
+	#desenvolvedores{
+	  padding: 20px 20px;
+	}
+}
 
 #desenvolvedores div{
   padding-top: 5px;
@@ -534,15 +595,11 @@ footer{
   padding:40px;
 }
 #linkContatos{
-  margin: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
 }
 @media only screen and (max-width: 769px) {
   #contato{
     padding:5px;
-  }
-
-  #linkContatos a, div{
-    margin: 10px 0px 10px 0px;
   }
   #desenvolvedores div{
     padding-top: 0px;
@@ -551,6 +608,7 @@ footer{
 }
 .textoifmeninas{
   font-weight: bold;
+  font-size: 17px;
 
 }
 

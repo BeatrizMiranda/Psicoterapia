@@ -19,7 +19,7 @@
   <body>
 		<nav class="container-fluid navbar" id="menu">
 			<div class="row menuFixo">
-				<div class="col-xs-2 text-center ">
+				<div class="col-xs-2 text-center img-logo-menu-fixo">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
 				</div>
 				<div class="col-xs-8 text-center tituloMenu navbar-brand">
