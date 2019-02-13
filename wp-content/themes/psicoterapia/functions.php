@@ -14,5 +14,8 @@
   }
   if(isset($_POST['cadastro'])){
     registrarCadastro();
+    global $modal;
+    $modal = true;
+    // $('#submitModal').modal('show');
   }
 ?>

@@ -26,44 +26,47 @@
                 <div class="row">
 
                   <div class="col-md-4 col-sm-4 col-xs-4">
-                    <div class="row">
-
-                      <div class="foto col-md-12 col-sm-12 col-xs-12">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/angelo.jpg" width="100" alt="Foto da desenvolvedor Ângelo"/>
+                    <a target="_blank" href="https://www.linkedin.com/in/%C3%A2ngelo-lanch-90b0b8169/">
+                      <div class="row">
+                        <div class="foto col-md-12 col-sm-12 col-xs-12">
+                          <img src="<?php echo get_stylesheet_directory_uri();?>/img/angelo.jpg" width="100" alt="Foto da desenvolvedor Ângelo"/>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          Ângelo Soares
+                        </div>
                       </div>
-
-                      <div class="col-md-12 col-sm-12 col-xs-12">
-                        Ângelo Soares
-                      </div>
-
-                    </div>
+                    </a>
                   </div>
 
                   <div class="col-md-4 col-sm-4 col-xs-4">
-                    <div class="row">
+                    <a  target="_blank" href="https://www.linkedin.com/in/beatriz-miranda-ferreira/">
+                      <div class="row">
 
-                      <div class="foto col-md-12 col-sm-12 col-xs-12">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/beatriz.jpg" width="100" alt="Foto da desenvolvedora Beatriz"/>
+                        <div class="foto col-md-12 col-sm-12 col-xs-12">
+                          <img src="<?php echo get_stylesheet_directory_uri();?>/img/beatriz.jpg" width="100" alt="Foto da desenvolvedora Beatriz"/>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          Beatriz Miranda
+                        </div>
+
                       </div>
-
-                      <div class="col-md-12 col-sm-12 col-xs-12">
-                        Beatriz Miranda
-                      </div>
-
-                    </div>
+                    </a>
                   </div>
 
                   <div class="col-md-4 col-sm-4 col-xs-4">
-                    <div class="row">
+                    <a  target="_blank" href="https://www.linkedin.com/in/laura-a-de-almeida-chaile/">
+                      <div class="row">
 
-                      <div class="foto col-md-12 col-sm-12 col-xs-12">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/laura.jpg" width="100" alt="Foto da desenvolvedora Laura"/>
-                      </div>
+                        <div class="foto col-md-12 col-sm-12 col-xs-12">
+                          <img src="<?php echo get_stylesheet_directory_uri();?>/img/laura.jpg" width="100" alt="Foto da desenvolvedora Laura"/>
+                        </div>
 
-                      <div class="col-md-12 col-sm-12 col-xs-12">
-                        Laura Chaile
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          Laura Chaile
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
 
                 </div>
