@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); global $modal; ?>
 
 <section id="sobre_nos">
   <div class="row sobre-nos">
@@ -181,9 +181,6 @@
 <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="submitModalLabel">Cadastrado com sucesso</h5>
-      </div>
       <div class="modal-body">
         Seu cadastro foi realizado com sucesso!
       </div>

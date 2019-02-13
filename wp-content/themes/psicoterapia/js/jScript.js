@@ -1,7 +1,6 @@
 /*Função do menu*/
 function myFunction(x) {
   x.classList.toggle("change");
-
   if($('.hamburguer').hasClass('change')){
     $('.menuDown').css("display", "block");
   }else{
@@ -10,6 +9,10 @@ function myFunction(x) {
 }
 
 $(document).ready(function () {
+  $('#formulario').submit(function(){
+    $('#submitModal').modal('show');
+  });
+
   $('.menuDown').css("display", "none");
   $('.tituloMenu span, .logoMenu').css("display", "none");
 
