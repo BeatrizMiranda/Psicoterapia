@@ -197,7 +197,7 @@
 <div id="valores">
   <section class="container">
 
-    <h1 class="text-center"> O que guia o projeto? </h1>
+    <h1 class="text-center valores-titulo"> O que guia o projeto? </h1>
 
     <div class="row">
 

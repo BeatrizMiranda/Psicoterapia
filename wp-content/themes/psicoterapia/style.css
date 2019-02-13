@@ -55,7 +55,6 @@ abbr{
 }
 .tituloSessoes{
   padding-bottom: 15px;
-  padding-top: 10px;
 }
 
 /*
@@ -70,6 +69,7 @@ Inicio de menu bar
   width:100%;
   z-index: 1;
   margin-top: 0;
+  border-bottom: 1px solid #eee;
 }
 .tituloMenu {
   color: #1e546c;
@@ -173,6 +173,7 @@ header .container{
 }
 .cabecalho{
   margin-top: 10px;
+  padding-bottom: 35px;
 }
 
 .cabecalho .titulo{
@@ -247,11 +248,13 @@ INICIO SESSÃO SOBRE NOS
 
 .sobre-nos{
 	margin: 0;
+	padding-bottom: 20px;
 	background-color: #7ca7db;
 }
 
 .sobre-nos .titulo{
 	padding-top: 40px;
+	padding-bottom: 0;
 	color: #fff;
 	font-weight: bolder;
 	letter-spacing: 1.5px;
@@ -259,16 +262,17 @@ INICIO SESSÃO SOBRE NOS
 
 .como-surgiu-tit{
 	color: #fff;
+	margin-top: 5px;
 }
 .como-surgiu-texto{
 	color: #fff;
-  font-family: Catamaran-ExtraLight;
-  padding:15px;
+  	font-family: Catamaran-ExtraLight;
+  	padding:15px;
 }
 .container-dados-oms{
 	border: 2px solid #fff;
 	padding: 20px;
-	margin-top: 80px;
+	margin-top: 55px;
 	border-radius: 6px;
 }
 span.texto-dados-oms{
@@ -284,9 +288,10 @@ FIM SESSÃO SOBRE NOS
 Inicio Sessão Como começo
 *
 */
-.comoComeco{
+#comoComeco{
   color: rgb(30,84,108);
-  padding: 15px;
+  padding: 30px;
+  padding-bottom: 40px;
 }
 
 .caixaComoComeco div div{
@@ -358,6 +363,7 @@ Inicio da Sessão Consultas
 
 #consultas{
   padding: 15px;
+  padding-bottom: 30px;
 }
 
 #consultas h3{
@@ -403,11 +409,12 @@ Inicio da Sessão Cadastre-se
 .corpo-cadastre {
   background-color: rgb(225,238,255);
   color: rgb(30,84,108);
+  padding: 30px 30px;
 }
 
 .corpo-cadastre h1 {
   font-family: Catamaran-ExtraLight;
-  padding: 20px 0px;
+  padding-bottom: 10px;
 }
 
 .caixaCadastre div{
@@ -464,8 +471,12 @@ Inicio da Sessão Valores
   background-color: rgb(124,167,219);
   color: white;
   text-align: center;
-  padding:20px;
+  padding: 30px 50px;
 }
+#valores .valores-titulo{
+	padding-top: 0;
+}
+
 #valores h1{
   color: white;
 }
