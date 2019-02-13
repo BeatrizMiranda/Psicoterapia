@@ -107,6 +107,7 @@ Inicio de menu bar
   position: fixed;
   top: 62px;
   height: 100%;
+  box-shadow-left: grey 0.1em 0.1em 0.2em;
 }
 .menuDown ul{
   padding:0;
@@ -410,7 +411,7 @@ Inicio da Sessão Cadastre-se
 }
 
 .caixaCadastre div{
-  min-height: 69px;
+  min-height: 91.5px;
 }
 /*o Boostrap muda todo o fieldset */
 fieldset.scheduler-border {
@@ -613,10 +614,22 @@ FIM do footer
 	}
   .emailLink{
     margin-bottom: 0px;
+    font-size: 15px;
   }
+  .icon{
+    display: none;
+  }
+
 
   /* fotter */
   .foto img{
     width: 70px;
   }
+}
+
+/*  Tabela dos cadastrados no site  */
+table {
+  border: solid  rgb(124,167,219) 1px;
+  width:70%;
+  text-align: center;
 }

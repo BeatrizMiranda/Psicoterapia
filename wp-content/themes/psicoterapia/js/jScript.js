@@ -50,12 +50,13 @@ $(document).ready(function () {
     /************ link interno no menu, scroll leve **************/
 
     $('.menuDown a[href^="#"], .botao-cabecalho a[href^="#"], #comoInscrevo a[href^="#"]').on('click', function(e) {
-    // prevenir que o link funcione da forma padrão que no caso seria "pulando" para o elemento com o id
-    e.preventDefault();
-    //variável id com o valor refentente ao link clicado
-    var id = $(this).attr('href'), targetOffset = $(id).offset().top;
-    $('html, body').animate({
-        scrollTop: targetOffset - 110
-    }, 500);
-});
+      // prevenir que o link funcione da forma padrão que no caso seria "pulando" para o elemento com o id
+      e.preventDefault();
+      //variável id com o valor refentente ao link clicado
+      var id = $(this).attr('href'), targetOffset = $(id).offset().top;
+      $('html, body').animate({
+          scrollTop: targetOffset - 110
+      }, 500);
+    });
+
 });

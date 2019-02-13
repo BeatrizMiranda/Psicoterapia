@@ -122,7 +122,7 @@
   <h1 class="text-center"> Cadastre-se </h1>
   <div class="container">
     <div class="row caixaCadastre">
-      
+
           <div class="col-md-6 col-sm-6 col-xs-12">
             <fieldset class="scheduler-border">
               <legend class="scheduler-border">Inscrição</legend>
@@ -145,8 +145,7 @@
                     <label for="email">E-mail: </label>
                     <input type="text" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
-                  <button type="submit" name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
-
+                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-offset-8">Enviar</button>
                 </form>
               </div>
             </fieldset>
@@ -158,16 +157,17 @@
               <legend class="scheduler-border">Alguma Dúvida?</legend>
               <div class="row contato">
 
-                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
-                <p class="col-md-10 col-xs-9 text-center">Ligue ou mande uma mensagem: <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
+                <img class=" col-md-2 col-xs-3 icon" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
+                <p class="col-md-10 col-xs-12 text-center">Ligue ou mande uma mensagem: <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
 
-                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
-                <p class="col-md-10 col-xs-9 text-center"> Um nos mande um email: </p>
+                <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
+                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 15px;" > Mande um email: </p>
 
-                <p class="col-md-10 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></p>
+                <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com">psicoterapia.todos@outlook.com</a></p>
 
-                <img class=" col-md-2 col-xs-3" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
-                <p class="col-md-10 col-xs-9 text-center">Acesse nosso facebook: <br> <a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a> </p>
+                <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
+                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 20px;" >Acesse nosso facebook: </p>
+                <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a> </p>
 
               </div>
             </fieldset>
@@ -176,6 +176,23 @@
     </div>
   </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="submitModalLabel">Cadastrado com sucesso</h5>
+      </div>
+      <div class="modal-body">
+        Seu cadastro foi realizado com sucesso!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="valores">
   <section class="container">

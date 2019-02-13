@@ -5,7 +5,9 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<meta name="theme-color" content="#7ca7db">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
+		<meta name="msapplication-navbutton-color" content="#7ca7db">
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -55,8 +57,8 @@
           </div>
 
           <div class="col-md-5 col-sm-8 col-xs-11 text-xs-center text-sm-center titulo">
-            <h1>Psicoterapia para Todos</h1>
-            <h2>Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
+            <h1 class="text-center" >Psicoterapia para Todos</h1>
+            <h2 class="text-center" >Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
 					</div>
 
         </div>
@@ -72,18 +74,3 @@
 				</div>
       </div>
     </header>
-		<!-- <div class="panel-group" id="accordion">
-		 <div class="panel panel-default">
-			 <div class="panel-heading">
-				 <h4 class="panel-title">
-					 <a data-toggle="collapse" data-parent="#accordion" href="#institucional">
-					 Institucional</a>
-				 </h4>
-			 </div>
-			 <div id="institucional" class="panel-collapse collapse in">
-				 <div class="panel-body">
-					 lala
-			 	 </div>
-			 </div>
-		 </div>
-		</div> -->
