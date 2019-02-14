@@ -147,7 +147,7 @@
                     <label for="email"><span>E-mail:</span> </label>
                     <input type="text" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
-                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-10 col-xs-10 col-xs-offset-1"><span>Enviar </span></button>
+                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-9 col-md-3 col-xs-5 col-xs-offset-5">Enviar</button>
                 </form>
               </div>
             </fieldset>
