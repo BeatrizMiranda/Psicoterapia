@@ -3,6 +3,7 @@ function myFunction(x) {
   x.classList.toggle("change");
   if($('.hamburguer').hasClass('change')){
     $('.menuDown').css("display", "block");
+
   }else{
     $('.menuDown').css("display", "none");
   }
