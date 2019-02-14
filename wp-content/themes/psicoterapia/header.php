@@ -42,14 +42,13 @@
 					</p>
 					<span id="seta" class="glyphicon glyphicon-menu-down col-xs-2"></span>
 				</div>
-
 				<ul id="menuInstitucional">
-					<a href="#sobre_nos"><li>Sobre nós</li></a>
-					<a href="#comoComeco"><li>Como começo?</li></a>
-					<a href="#comoInscrevo"><li>Como me inscrevo?</li></a>
-					<a href="#consultas"><li>Consultas</li></a>
-					<a href="#cadastre"><li>Cadastre-se</li></a>
-					<a href="#valores"><li>O que guia o projeto?</li></a>
+					<a href="<?php echo is_home() ?  "#sobre_nos" :  get_home_url()."#sobre_nos";?>"><li>Sobre nós</li></a>
+					<a href="<?php echo is_home() ?  "#comoComeco" :  get_home_url()."#comoComeco";?>"><li>Como começo?</li></a>
+					<a href="<?php echo is_home() ?  "#comoInscrevo" :  get_home_url()."#comoInscrevo";?>"><li>Como me inscrevo?</li></a>
+					<a href="<?php echo is_home() ?  "#consultas" :  get_home_url()."#consultas";?>"><li>Consultas</li></a>
+					<a href="<?php echo is_home() ?  "#cadastre" :  get_home_url()."#cadastre";?>"><li>Cadastre-se</li></a>
+					<a href="<?php echo is_home() ?  "#valores" :  get_home_url()."#valores";?>"><li>O que guia o projeto?</li></a>
 				</ul>
 			</div>
 		</nav>
