@@ -25,7 +25,7 @@
 				<div class="col-xs-8 text-center tituloMenu navbar-brand">
 					<span>Psicoterapia para Todos</span>
 				</div>
-				<div class="col-xs-2 hamburguer" onclick="myFunction(this)">
+				<div class="col-xs-2 hamburguer" onclick="menuFunction(this)">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
 					<div class="bar3"></div>
@@ -34,8 +34,16 @@
 		</nav>
 
 	 <nav class="menuDown">
-			<div class="col-md-3 col-md-offset-9 col-xs-12">
-				<ul>
+			<div class="col-md-3 col-md-offset-9 col-xs-12 divMenu">
+
+				<div class="row" id="institucional" onclick="instFunction(this)">
+					<p class="col-xs-10">
+						Institucional
+					</p>
+					<span id="seta" class="glyphicon glyphicon-menu-down col-xs-2"></span>
+				</div>
+
+				<ul id="menuInstitucional">
 					<a href="#sobre_nos"><li>Sobre nós</li></a>
 					<a href="#comoComeco"><li>Como começo?</li></a>
 					<a href="#comoInscrevo"><li>Como me inscrevo?</li></a>

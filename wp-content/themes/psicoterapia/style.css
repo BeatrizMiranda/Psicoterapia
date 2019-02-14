@@ -118,17 +118,28 @@ Inicio de menu bar
 }
 
 /* menu dropdown aparecendo */
-.menuDown div{
+.divMenu{
 	background-color: rgba(234, 249, 255,.9);
   z-index: 1;
   position: fixed;
   top: 62px;
   height: 100%;
-  border-left: solid rgba(197, 213, 219, .3) 2px; 
+  border-left: solid rgba(197, 213, 219, .3) 2px;
 }
+#institucional{
+  margin-top:12px;
+  padding:5px;
+  padding-top: 15px;
+}
+#institucional:hover{
+  background-color: rgba(213, 232, 239,.8);
+}
+
 .menuDown ul{
   padding:0;
-  padding-top: 30px;
+}
+#menuInstitucional{
+  padding-left: 10px;
 }
 .menuDown ul li{
   list-style: none;
