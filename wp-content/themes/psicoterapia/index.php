@@ -148,7 +148,7 @@
                     <label for="email"><span>E-mail:</span> </label>
                     <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
-                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-9 col-md-3 col-xs-5 col-xs-offset-5">Enviar</button>
+                  <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-8 col-md-3 col-xs-6 col-xs-offset-3">Enviar</button>
                 </form>
               </div>
             </fieldset>
@@ -159,18 +159,25 @@
             <fieldset class="scheduler-border">
               <legend class="scheduler-border"> <span>Alguma Dúvida?</span></legend>
               <div class="row contato">
+                
+                <div class="col-xs-12" style="padding-top: 20px;">
+                  <img class=" col-md-2 col-xs-3 icon" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
+                  <p class="col-md-10 col-xs-12 text-center"><span>Ligue ou mande uma mensagem:</span> <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
+                </div>
+                
+                <div class="col-xs-12" style="padding-top: 15px;">
+                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" 
+                       src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
+                  <p class="col-md-10 col-xs-12 text-center" > <span>Mande um email:</span> </p>
+                  <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com"><span>psicoterapia.todos@outlook.com</span></a></p>
+                </div>
 
-                <img class=" col-md-2 col-xs-3 icon" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
-                <p class="col-md-10 col-xs-12 text-center"><span>Ligue ou mande uma mensagem:</span> <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
-
-                <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
-                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 15px;" > <span>Mande um email:</span> </p>
-
-                <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com"><span>psicoterapia.todos@outlook.com</span></a></p>
-
-                <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
-                <p class="col-md-10 col-xs-12 text-center" style="padding-top: 20px;" >Acesse nosso facebook: </p>
-                <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs"><span>Projeto Psicoterapia para Todos</span></a> </p>
+                <div class="col-xs-12">
+                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" 
+                       src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
+                  <p class="col-md-10 col-xs-12 text-center" style="padding-top: 20px;" >Acesse nosso facebook: </p>
+                  <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs"><span>Projeto Psicoterapia para Todos</span></a> </p>
+                </div>
 
               </div>
             </fieldset>

@@ -80,11 +80,11 @@
 
       <section id="ifMeninas" class="row">
 
-        <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-12">
+        <div class="col-md-1 col-md-offset-1 col-sm-1 col-xs-12 text-center">
           <img src="<?php echo get_stylesheet_directory_uri();?>/img/ifMeninas.png" width="100" alt="Logo do IF Meninas"/>
         </div>
 
-        <div class="col-md-10 col-sm-10 col-xs-12">
+        <div class="col-md-8 col-md-offset-1 col-sm-10 col-xs-12">
           <div class="row">
 
             <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center img-fluid">

@@ -212,12 +212,12 @@ header .container{
 .cabecalho .titulo{
 	color: #1e546c;
 }
-.cabecalho .logo{
+.cabecalho .logo img{
   text-align: center;
 }
 
 @media (max-width: 1025px){
-	.cabecalho .logo{
+	.cabecalho .logo img{
 		width: 240px;
     padding-top: 20px;
 	}
@@ -225,7 +225,7 @@ header .container{
 
 @media (max-width: 769px){
 
-	.cabecalho .logo{
+	.cabecalho .logo img{
 		width: 240px;
 		padding-left: 30px;
     padding-top: 10px;
@@ -240,8 +240,15 @@ header .container{
 	}
 }
 
+@media (max-width: 525px){
+  .cabecalho .logo img{
+    position: inline-block;
+    padding-left: calc(50%-(110px));
+  }
+}
+
 @media (max-width: 321px){
-	.cabecalho .logo{
+	.cabecalho .logo img{
 		width: 200px;
 	}
 
@@ -507,23 +514,20 @@ fieldset.scheduler-border {
   color: #1e546c;
   font-size: 17px;
   border:none;
-  padding:5px 12px;
-  width:118px;
+  padding: 7px 12px;
 }
 .botao:hover{
   background-color: #1e546c;
   color: #fff !important;
 }
-.contato{
-  padding: 9px;
-}
+
 .contato img{
   padding-left: 25px;
   margin-top: 16px;
 }
 
 .emailLink{
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 /*
 FIM da Sessão Cadastre-se
@@ -595,6 +599,12 @@ inicio do footer
   padding-bottom: 5px;
 }
 
+@media (max-width: 525px){
+  #desenvolvedores div{
+    padding: 0;
+  }
+}
+
 .foto img{
   border-radius: 50%;
 }
@@ -612,9 +622,27 @@ footer{
 #linkContatos{
   padding: 20px 0px 20px 0px;
 }
+
+#linkContatos a{
+  padding: 0;
+}
+
+@media only screen and (max-width: 425px) {
+  #linkContatos{
+    padding-left: calc(25%);
+    padding-bottom: 8px;
+  }
+
+   #linkContatos a{
+    padding-bottom: 8px;
+  }
+}
+
+
 @media only screen and (max-width: 769px) {
   #contato{
     padding:5px;
+    padding-left: 30px;
   }
   #desenvolvedores div{
     padding-top: 0px;
@@ -664,23 +692,23 @@ FIM do footer
     font-size: 18px;
 
   }
+
   /* botao Call Action  */
   .botao-cabecalho{
     margin-top: -17px;
   }
+  
+
   /* cabecalho */
-
-	header .container{
-		padding: 20px ;
-	}
-
 	.cabecalho{
 		margin: 0;
 		text-align: center;
 	}
 
- 	.cabecalho .logo{
-		width: 250px;
+ 	.cabecalho .logo img{
+		width: 240px;
+    padding: 0;
+    padding-bottom: 20px; 
 	}
 
   .cabecalho .titulo h2{
