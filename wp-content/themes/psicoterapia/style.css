@@ -78,8 +78,8 @@ Inicio de menu bar
   	}
 
   	.logoMenu{
-  		width: 45px !important; 
-  		padding-top: 5px;
+  		width: 45px !important;
+  		padding-top: 15px;
   	}
 }
 
@@ -91,8 +91,8 @@ Inicio de menu bar
 
 @media (max-width: 575px){
 	.hamburguer{
-		padding-top: 5px;
-    	padding-left: 5px;
+		padding-top: 15px;
+    padding-left: 5px;
 	}
 }
 .bar1, .bar2, .bar3 {
@@ -118,17 +118,28 @@ Inicio de menu bar
 }
 
 /* menu dropdown aparecendo */
-.menuDown div{
+.divMenu{
 	background-color: rgba(234, 249, 255,.9);
   z-index: 1;
   position: fixed;
   top: 62px;
   height: 100%;
-  box-shadow-left: grey 0.1em 0.1em 0.2em;
+  border-left: solid rgba(197, 213, 219, .3) 2px;
 }
+#institucional, #blog{
+  margin-top:12px;
+  padding:5px;
+  padding-top: 15px;
+}
+#institucional:hover, #blog:hover{
+  background-color: rgba(213, 232, 239,.8);
+}
+
 .menuDown ul{
   padding:0;
-  padding-top: 30px;
+}
+#menuInstitucional{
+  padding-left: 10px;
 }
 .menuDown ul li{
   list-style: none;
@@ -167,11 +178,11 @@ a.vem-conhecer{
 	padding: 10px 20px;
 	background: #afc9e8;
 	border-radius: 10px;
-  	text-decoration: none;
+  text-decoration: none;
 }
 @media only screen and (max-width: 575px) {
 	a.vem-conhecer{
-		margin-top: -15px;
+		margin-top: -50px !important;
 	}
 }
 
@@ -403,7 +414,7 @@ Inicio da Sessão Consultas
 @media (max-width: 475px){
 	#consultas{
 		padding-left: 0px;
-  		padding-right: 0px;
+  	padding-right: 0px;
 	}
 }
 
@@ -426,7 +437,6 @@ Inicio da Sessão Consultas
   padding: 0 10px 0 10px;
   margin:9px;
   min-height: 230px;
-
   align-items: center;
 }
 .caixaConsulta div h3{
@@ -498,6 +508,11 @@ fieldset.scheduler-border {
   font-size: 17px;
   border:none;
   padding:5px 12px;
+  width:118px;
+}
+.botao:hover{
+  background-color: #1e546c;
+  color: #fff !important;
 }
 .contato{
   padding: 9px;
@@ -524,7 +539,7 @@ Inicio da Sessão Valores
   background-color: rgb(124,167,219);
   color: white;
   text-align: center;
-  padding: 30px 50px;
+  padding: 30px 0px;
 }
 #valores .valores-titulo{
 	padding-top: 0;
@@ -642,12 +657,16 @@ FIM do footer
 	  font-size: 30px;
 	}
   /* MENU */
+  .menuFixo{
+    padding-bottom: 10px;
+  }
   .tituloMenu{
     font-size: 18px;
+
   }
   /* botao Call Action  */
   .botao-cabecalho{
-    margin-top: -35px;
+    margin-top: -17px;
   }
   /* cabecalho */
 
@@ -688,7 +707,6 @@ FIM do footer
   .icon{
     display: none;
   }
-
 
   /* fotter */
   .foto img{

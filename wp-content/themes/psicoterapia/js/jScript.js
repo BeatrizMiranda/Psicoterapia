@@ -1,10 +1,23 @@
 /*Função do menu*/
-function myFunction(x) {
+function menuFunction(x) {
   x.classList.toggle("change");
   if($('.hamburguer').hasClass('change')){
     $('.menuDown').css("display", "block");
+
   }else{
     $('.menuDown').css("display", "none");
+  }
+}
+function instFunction(y) {
+  y.classList.toggle("changeIns");
+  if($('#institucional').hasClass('changeIns')){
+    $('#menuInstitucional').slideDown();
+    $('#seta').removeClass("glyphicon-menu-down");
+    $('#seta').addClass("glyphicon-menu-up");
+  }else{
+    $('#menuInstitucional').slideUp();
+    $('#seta').removeClass("glyphicon-menu-up");
+    $('#seta').addClass("glyphicon-menu-down");
   }
 }
 
@@ -13,8 +26,7 @@ $(document).ready(function () {
     $('#submitModal').modal('show');
   });
 
-  $('.menuDown').css("display", "none");
-  $('.tituloMenu span, .logoMenu').css("display", "none");
+  $('.tituloMenu span, .logoMenu, .menuDown, #menuInstitucional').css("display", "none");
 
   $('.telefone').mask('(00) 00000-0000');
 

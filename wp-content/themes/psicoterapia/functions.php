@@ -16,6 +16,10 @@
     registrarCadastro();
     global $modal;
     $modal = true;
-    // $('#submitModal').modal('show');
   }
+  function new_excerpt_more($more) {
+    global $post;
+    return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Leia mais</a>';
+  }
+  add_filter('excerpt_more', 'new_excerpt_more');
 ?>
