@@ -93,6 +93,7 @@
     <div class="row">
       <?php
         $args = array(
+          'category_name' => 'consultas',
           'orderby'     => 'date'
         );
 
@@ -145,7 +146,7 @@
                   </div>
                   <div class="form-group col-md-6 col-sm-6 col-xs-12">
                     <label for="email"><span>E-mail:</span> </label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" required="required">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="required">
                   </div>
                   <button id="botaoFormulario" type="submit"  name="cadastro" class="btn btn-primary botao col-md-offset-9 col-md-3 col-xs-5 col-xs-offset-5">Enviar</button>
                 </form>

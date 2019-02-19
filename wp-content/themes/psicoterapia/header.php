@@ -50,6 +50,14 @@
 					<a href="<?php echo is_home() ?  "#cadastre" :  get_home_url()."#cadastre";?>"><li>Cadastre-se</li></a>
 					<a href="<?php echo is_home() ?  "#valores" :  get_home_url()."#valores";?>"><li>O que guia o projeto?</li></a>
 				</ul>
+				<div class="row" id="blog">
+					<a href="<?php echo get_site_url(); ?>/blog">
+						<p class="col-xs-10">
+							Blog
+						</p>
+					</a>
+				</div>
+
 			</div>
 		</nav>
 
