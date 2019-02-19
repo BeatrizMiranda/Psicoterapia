@@ -20,7 +20,7 @@
           <div class="row noPadding">
 
               <div class="col-md-12 col-xs-12 azulescuro padding">
-                <h3>O site foi desenvolvido por</h3>
+                <h3>Equipe de desenvolvimento</h3>
               </div>
               <div class="col-md-12 col-sm-12 col-xs-12" id="desenvolvedores">
                 <div class="row">
@@ -89,7 +89,7 @@
 
             <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center img-fluid">
               <span>
-                Esse projeto foi desenvolvido em parceria com o IF(meninas){nas exatas}, que visa promover
+                Esse projeto foi desenvolvido pelo IF(meninas){nas exatas}, que visa promover
                 a participação feminina <br> na área de Exatas, motivando alunas a ingressar e permanecer na área.
               </span>
             </div>

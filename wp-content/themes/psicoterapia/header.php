@@ -5,9 +5,17 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="theme-color" content="#7ca7db">
-		<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
-		<meta name="msapplication-navbutton-color" content="#7ca7db">
+
+    <!-- favicon na aba do navegador -->
+    <link rel="icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png">
+    <!--[if IE]><link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"><![endif]-->
+    
+
+    <!-- para deixar a aba no  mobile colorida -->
+	<meta name="theme-color" content="#7ca7db">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
+	<meta name="msapplication-navbutton-color" content="#7ca7db">
+
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -50,13 +58,13 @@
 	    <div class="container">
         <div class="row cabecalho">
 
-          <div class="text-center col-md-3 col-md-offset-2 col-sm-4 col-xs-12 logo">
-            <img class="text-center"
-            src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
-            width="220px" alt="Logo do Psicoterapia"/>
+          <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 text-xs-center logo">
+            <img class="text-xs-center img-fluid"
+		         src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
+		         width="220px" alt="Logo do Psicoterapia"/>
           </div>
 
-          <div class="col-md-5 col-sm-8 col-xs-11 text-xs-center text-sm-center titulo">
+          <div class="col-md-5 col-sm-8 col-xs-12 text-xs-center text-sm-center titulo">
             <h1 class="text-center" >Psicoterapia para Todos</h1>
             <h2 class="text-center" >Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
 					</div>
