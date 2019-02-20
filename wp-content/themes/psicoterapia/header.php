@@ -9,7 +9,7 @@
     <!-- favicon na aba do navegador -->
     <link rel="icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png">
     <!--[if IE]><link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"><![endif]-->
-    
+
 
     <!-- para deixar a aba no  mobile colorida -->
 	<meta name="theme-color" content="#7ca7db">
@@ -28,7 +28,9 @@
 		<nav class="container-fluid navbar" id="menu">
 			<div class="row menuFixo">
 				<div class="col-xs-2 text-center img-logo-menu-fixo">
-					<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
+					<a href="<?php echo get_site_url();?>">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
+					</a>
 				</div>
 				<div class="col-xs-8 text-center tituloMenu navbar-brand">
 					<span>Psicoterapia para Todos</span>

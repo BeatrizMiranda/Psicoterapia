@@ -88,7 +88,49 @@
       endwhile; endif
     ?>
   </div>
+</section>
 
+<section id="demaisNoticias">
+  <div class="container">
+    <h1 class="tituloSessoes text-center"> Artigos que talvez te interesse: </h1>
+    <div class="row">
+      <?php
+        $argum = array(
+          'category_name' => 'noticiasBlog',
+          'orderby'     => 'date',
+          'posts_per_page' => 3,
+          'offset' => 5,
+
+        );
+
+        $the_last_query = new WP_Query($argum);
+
+        if ($the_last_query->have_posts()):
+          while ($the_last_query->have_posts()): $the_last_query->the_post();
+      ?>
+
+      <div class="col-md-4 col-xs-12 caixaNoticia">
+        <div class="noticia">
+          <div class="conteudo">
+            <h3 class="text-center"><?php the_title(); ?></h3>
+            <span>
+              <?php the_excerpt(__('(more…)')); ?>
+            </span>
+          </div>
+          <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+            <div class="col contLendo text-center">
+              Continuar lendo
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <?php
+        endwhile; endif
+      ?>
+    </div>
+
+  </div>
 </section>
 
 <?php get_footer(); ?>
