@@ -1,11 +1,28 @@
 <?php /* Template Name: Blog */ get_header();?>
 
-<section class="container">
+<section id="intuitoBlog">
+  <div class="container">
+    <h1 class="tituloSessoes text-center"> Blog Psicoterapia para Todos </h1>
+    <span>
+      <p>
+        Esse espaço é para falar um pouco sobre o intuito de blog, porque ele foi construido
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+      </p>
+    </span>
+  </div>
+</section>
+
+<section id="noticiaPrincipal" class="container">
   <div class="row">
     <?php
       $args = array(
         'category_name' => 'noticiasBlog',
-        'orderby'     => 'date'
+        'orderby'     => 'date',
+        'posts_per_page' => 1,
+
       );
 
       $custom_query = new WP_Query( $args );
@@ -14,17 +31,62 @@
         while ($custom_query->have_posts()): $custom_query->the_post();
     ?>
 
-    <div class="col-xs-12">
-
+    <div class="col-xs-12 noticia">
+      <div class="conteudo">
         <h3 class="text-center"> <?php the_title(); ?> </h3>
 
         <span>
         <?php the_excerpt();?>
-      </span>
+        </span>
+      </div>
+        <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+          <div class="col contLendo text-center">
+            Continuar lendo
+          </div>
+        </a>
     </div>
-    <a href="<?php echo get_post_permalink(the_post()->ID)?>">Leia mais +</a>
 
     <?php endwhile; endif ?>
+  </div>
+
+</section>
+
+<section id="outrasNoticia" class="container">
+  <div class="row">
+    <?php
+      $arg = array(
+        'category_name' => 'noticiasBlog',
+        'orderby'     => 'date',
+        'posts_per_page' => 4,
+        'offset' =>1,
+
+      );
+
+      $the_query = new WP_Query( $arg);
+
+      if ($the_query->have_posts()):
+        while ($the_query->have_posts()): $the_query->the_post();
+    ?>
+
+    <div class="col-md-6 col-xs-12 caixaNoticia">
+      <div class="noticia">
+        <div class="conteudo">
+          <h3 class="text-center"><?php the_title(); ?></h3>
+          <span>
+            <?php the_excerpt(__('(more…)')); ?>
+          </span>
+        </div>
+        <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+          <div class="col contLendo text-center">
+            Continuar lendo
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <?php
+      endwhile; endif
+    ?>
   </div>
 
 </section>
