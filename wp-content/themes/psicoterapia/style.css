@@ -608,6 +608,9 @@ inicio do footer
 .foto img{
   border-radius: 50%;
 }
+.foto img:hover{
+  box-shadow: gray 0.2em 0.1em 0.5em;
+}
 
 footer{
     font-size: 16px;

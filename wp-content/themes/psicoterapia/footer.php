@@ -31,8 +31,8 @@
                         <div class="foto col-md-12 col-sm-12 col-xs-12">
                           <img src="<?php echo get_stylesheet_directory_uri();?>/img/angelo.jpg" width="100" alt="Foto da desenvolvedor Ângelo"/>
                         </div>
-                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2">
-                          Ângelo Soares 
+                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2" style="margin-left:0;">
+                          Ângelo Soares
                         </div>
                       </div>
                     </a>
@@ -46,7 +46,7 @@
                           <img src="<?php echo get_stylesheet_directory_uri();?>/img/beatriz.jpg" width="100" alt="Foto da desenvolvedora Beatriz"/>
                         </div>
 
-                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2">
+                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2" style="margin-left:0;">
                           Beatriz Miranda
                         </div>
 
@@ -62,7 +62,7 @@
                           <img src="<?php echo get_stylesheet_directory_uri();?>/img/laura.jpg" width="100" alt="Foto da desenvolvedora Laura"/>
                         </div>
 
-                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2">
+                        <div class="col-md-12 col-sm-12 col-xs-8 col-xs-offset-2" style="margin-left:0;">
                           Laura Chaile
                         </div>
                       </div>

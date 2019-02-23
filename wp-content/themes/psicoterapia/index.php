@@ -1,4 +1,4 @@
-<?php get_header(); global $modal; ?>
+ <?php get_header(); global $modal; ?>
 
 <section id="sobre_nos">
   <div class="row sobre-nos">
@@ -67,8 +67,6 @@
     </div>
   </div>
 </section>
-
-
 
 <section id="comoInscrevo" class="azulClarinho">
   <div class="container">
@@ -159,21 +157,21 @@
             <fieldset class="scheduler-border">
               <legend class="scheduler-border"> <span>Alguma Dúvida?</span></legend>
               <div class="row contato">
-                
+
                 <div class="col-xs-12" style="padding-top: 20px;">
                   <img class=" col-md-2 col-xs-3 icon" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" alt="ícone de telefone">
                   <p class="col-md-10 col-xs-12 text-center"><span>Ligue ou mande uma mensagem:</span> <br> <a href="tel:11950302017">(11) 95030-2017 </a>- Vivo  </p>
                 </div>
-                
+
                 <div class="col-xs-12" style="padding-top: 15px;">
-                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" 
+                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;"
                        src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" alt="ícone de email">
                   <p class="col-md-10 col-xs-12 text-center" > <span>Mande um email:</span> </p>
                   <p class="col-md-10 col-xs-12 text-center emailLink"> <a  href="mailto:psicoterapia.todos@outlook.com"><span>psicoterapia.todos@outlook.com</span></a></p>
                 </div>
 
                 <div class="col-xs-12">
-                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;" 
+                  <img class=" col-md-2 col-xs-3 icon" style="padding-top: 10px;"
                        src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" alt="ícone do facebook">
                   <p class="col-md-10 col-xs-12 text-center" style="padding-top: 20px;" >Acesse nosso facebook: </p>
                   <p class="col-md-10 col-xs-12 text-center"><a target="_blank" href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs"><span>Projeto Psicoterapia para Todos</span></a> </p>
@@ -239,6 +237,6 @@
     </div>
 
   </section>
-</div>
+</div> 
 
 <?php get_footer(); ?>
