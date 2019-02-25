@@ -208,7 +208,7 @@
 
       <div class="col-md-4 col-xs-12">
         <h1 class="text-center">Missão</h1>
-        <span>Tornar a psicoterapia acessível para maior faixa da poplação, levando conscientização sobre a importância dos cuidados com a saúde mental.</span>
+        <span>Tornar a psicoterapia acessível para maior faixa da população, levando conscientização sobre a importância dos cuidados com a saúde mental.</span>
       </div>
 
       <div class="col-md-4 col-xs-12">
@@ -237,6 +237,6 @@
     </div>
 
   </section>
-</div> 
+</div>
 
 <?php get_footer(); ?>
