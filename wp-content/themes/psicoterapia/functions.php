@@ -17,9 +17,11 @@
     global $modal;
     $modal = true;
   }
-  function new_excerpt_more($more) {
-    global $post;
-    return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Leia mais</a>';
+
+
+// função para limitar palavras nas tumbs das noticias
+  function custom_excerpt_length( $length ) {
+    return 25;
   }
-  add_filter('excerpt_more', 'new_excerpt_more');
+  add_filter( 'excerpt_length', 'custom_excerpt_length');
 ?>

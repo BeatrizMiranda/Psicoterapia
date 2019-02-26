@@ -39,7 +39,7 @@
         <?php the_excerpt();?>
         </span>
       </div>
-        <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+        <a href="<?php echo get_post_permalink(get_the_ID())?>">
           <div class="col contLendo text-center">
             Continuar lendo
           </div>
@@ -76,7 +76,7 @@
             <?php the_excerpt(__('(more…)')); ?>
           </span>
         </div>
-        <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+        <a href="<?php echo get_post_permalink(get_the_ID())?>">
           <div class="col contLendo text-center">
             Continuar lendo
           </div>
@@ -117,7 +117,7 @@
               <?php the_excerpt(__('(more…)')); ?>
             </span>
           </div>
-          <a href="<?php echo get_post_permalink(the_post()->ID)?>">
+          <a href="<?php echo get_post_permalink(get_the_ID())?>">
             <div class="col contLendo text-center">
               Continuar lendo
             </div>
