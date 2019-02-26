@@ -62,7 +62,7 @@ Inicio de menu bar
 *
 */
 
-#menu{
+#menu, #menuNotAberta{
   padding-top:10px;
   top: 0;
   background-color: white;
@@ -73,17 +73,17 @@ Inicio de menu bar
 }
 
 @media (max-width: 575px){
-	#menu{
+	  #menu, #menuNotAberta{
   		padding-top:0px;
   	}
 
-  	.logoMenu{
+  	.logoMenu, .logoMenuNotAberta{
   		width: 45px !important;
   		padding-top: 15px;
   	}
 }
 
-.tituloMenu {
+.tituloMenu, .tituloMenuNotAberta {
   color: #1e546c;
   font-family: Catamaran-ExtraLight;
   font-size: 26px;
@@ -834,4 +834,23 @@ table {
   padding:5px;
   background-color: rgb(225, 238, 255);
   border-top: 2px solid rgb(30,84,108);
+}
+
+/* blog */
+.setaVoltar .voltar{
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.setaVoltar a{
+  text-decoration: none;
+}
+.setaVoltar .glyphicon{
+  font-size: 30px;
+  vertical-align:-20%;
+  cursor: pointer;
 }
