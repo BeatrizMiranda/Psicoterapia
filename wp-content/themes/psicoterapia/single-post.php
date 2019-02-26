@@ -72,25 +72,32 @@
 				</div>
 
 			</div>
-		</nav>
+	 </nav>
 
+		<div class="container">
+			<div class="row setaVoltar">
+				<a href="<?php echo get_site_url(); ?>/blog">
+					<span class="glyphicon glyphicon-menu-left"></span>
+					<span class="voltar">Voltar</span>
+				</a>
+			</div>
+		</div>
 
-<section class="container">
-  <div class="row">
-    <?php
+		<section class="container">
+		  <div class="row">
+		    <?php
 
-      if (have_posts()):
-        while (have_posts()): the_post();
-    ?>
+		      if (have_posts()):
+		        while (have_posts()): the_post();
+		    ?>
+				
+	        <h3 class="text-center"> <?php the_title(); ?> </h3>
 
-        <h3 class="text-center"> <?php the_title(); ?> </h3>
+	        <span>
+	        	<?php the_content();?>
+	        </span>
 
-        <span>
-        <?php the_content();?>
-        </span>
-
-    <?php endwhile; endif ?>
-  </div>
-
-</section>
+		    <?php endwhile; endif ?>
+		  </div>
+		</section>
 <?php get_footer();?>

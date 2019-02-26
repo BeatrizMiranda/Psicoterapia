@@ -24,4 +24,6 @@
     return 25;
   }
   add_filter( 'excerpt_length', 'custom_excerpt_length');
+
+add_theme_support( 'post-thumbnails');
 ?>
