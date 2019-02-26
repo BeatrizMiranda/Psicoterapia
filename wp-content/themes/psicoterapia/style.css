@@ -119,20 +119,49 @@ Inicio de menu bar
 
 /* menu dropdown aparecendo */
 .divMenu{
-	background-color: rgba(234, 249, 255,.9);
+	background-color: rgba(30, 84, 108, 0.7);
   z-index: 1;
   position: fixed;
   top: 62px;
   height: 100%;
-  border-left: solid rgba(197, 213, 219, .3) 2px;
+  border-left: solid rgb(86,161,211) 3px;
+  border-top: solid rgb(86,161,211) 3px;
+  border-top-left-radius: 1em;
+
+ /* .azul{
+  background-color: rgb(86,161,211);
+  color: white;
+}
+.azulClarinho{
+  background-color: rgb(225,238,255);
+}
+.azulFinal{
+  background-color: rgb(167, 195, 230)
+}
+.azulescuro{
+  background-color: rgb(30,84,108);
+  color: white;
+}*/
+
 }
 #institucional, #blog{
   margin-top:12px;
   padding:5px;
   padding-top: 15px;
+  color: white;
+
 }
 #institucional:hover, #blog:hover{
-  background-color: rgba(213, 232, 239,.8);
+  border-top: solid rgb(86,161,211) 1px;
+  border-radius: 2px;
+  border-bottom: solid rgb(86,161,211) 1px;
+  background-color: rgb(30, 84, 108);
+  cursor: pointer;
+}
+
+#seta {
+  color:  white;
+  font-size: 24px;
 }
 
 .menuDown ul{
@@ -149,7 +178,7 @@ Inicio de menu bar
 
 .menuDown a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .menuDown ul li:hover{
