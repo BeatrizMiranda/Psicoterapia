@@ -71,17 +71,28 @@
 <section id="comoInscrevo" class="azulClarinho">
   <div class="container">
     <h1 class="tituloSessoes text-center"> Como me inscrevo? </h1>
-    <span>
-      <p>
-        Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
-        um de nossos profissionais entrará em contato para agendar a triagem.
-        <a href="#cadastre">Clique aqui</a> para ir ao formulário.
-      </p>
-      <p>
-        A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
-        documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
-      </p>
-    </span>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <span>
+            <p>
+              A triagem é gratuita, para que você possa conhecer o profissional, apresentar a
+              documentação, tirar dúvidas e juntos planejarem o processo terapêutico.
+            </p>
+          </span>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 linkFormulario">
+          <span>
+            <p>
+              Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
+              um de nossos profissionais entrará em contato para agendar a triagem.
+              <br><br>
+              <a href="#cadastre" class="btn btn-primary botao ">Clique aqui</a> para ir ao formulário.
+            </p>
+          </span>
+        </div>
+
+      </div>
+
   </div>
 </section>
 
