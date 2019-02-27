@@ -67,7 +67,7 @@ Inicio de menu bar
   top: 0;
   background-color: white;
   width:100%;
-  z-index: 1;
+  z-index: 9;
   margin-top: 0;
   border-bottom: 1px solid #eee;
 }
@@ -120,7 +120,7 @@ Inicio de menu bar
 /* menu dropdown aparecendo */
 .divMenu{
 	background-color: rgba(30, 84, 108, 0.7);
-  z-index: 1;
+  z-index: 9;
   position: fixed;
   top: 62px;
   height: 100%;
@@ -619,6 +619,10 @@ inicio do footer
   padding-right: 15px;
   padding-bottom: 5px;
 }
+.rowExtourando{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 @media (max-width: 525px){
   #desenvolvedores div{
@@ -845,4 +849,46 @@ table {
   font-size: 30px;
   vertical-align:-20%;
   cursor: pointer;
+}
+
+.divPost{
+    padding:50px 0 50px 0;
+}
+.tituloPost h1{
+  font-weight:bolder;
+  text-transform: capitalize;
+}
+
+.compartilhar{
+  z-index: 8;
+  position: relative;
+  padding:15px 5px 0 17px;
+}
+@media only screen and (min-width: 1200px) {
+  .compartilhar{
+    right:0;
+    z-index: 8;
+    position: relative;
+    padding:15px 5px 0 17px;
+    border-left:solid #eef0f2 2px;
+    border-top: solid #eef0f2 2px;
+    border-bottom:solid #eef0f2 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .caixaPost{
+    margin-right: -85px;
+  }
+}
+.compartilhar img{
+  margin-bottom: 15px;
+  box-shadow: gray 0.1em 0.1em 0.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.imgPost img{
+  width: 280px;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: gray 0.1em 0.1em 0.2em;
 }

@@ -83,21 +83,50 @@
 			</div>
 		</div>
 
-		<section class="container">
+		<section class="container divPost">
 		  <div class="row">
-		    <?php
+				<div class="col-md-3 imgPost">
+					<img src="<?php echo get_the_post_thumbnail_url() ?>"
+					alt="<?php echo get_the_post_thumbnail_caption()?>"/>
+				</div>
 
-		      if (have_posts()):
-		        while (have_posts()): the_post();
-		    ?>
-				
-	        <h3 class="text-center"> <?php the_title(); ?> </h3>
+				<div class="col-md-9">
+					<div class="row caixaPost">
+						<div class="col-sx-11 col-md-11">
+							<div class="row">
 
-	        <span>
-	        	<?php the_content();?>
-	        </span>
+								<div class="col-xs-12 tituloPost text-left">
+									<?php
 
-		    <?php endwhile; endif ?>
+							      if (have_posts()):
+							        while (have_posts()): the_post();
+							    ?>
+
+						        <h1> <?php the_title(); ?> </h1>
+								</div>
+								<div class="col-sx-11 col-md-11">
+					        <span>
+					        	<?php the_content();?>
+					        </span>
+
+							    <?php endwhile; endif ?>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-xs-1 col-md-1">
+							<div class="compartilhar row">
+								<img title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
+								<img title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+								<img title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
+								<img title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
 		  </div>
 		</section>
 <?php get_footer();?>

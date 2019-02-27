@@ -86,7 +86,7 @@
               Basta deixar um meio de contato (celular, telefone ou e-mail) e o mais breve possível
               um de nossos profissionais entrará em contato para agendar a triagem.
               <br><br>
-              <a href="#cadastre" class="btn btn-primary botao ">Clique aqui</a> para ir ao formulário.
+              <a href="#cadastre" >Clique aqui</a> para ir ao formulário.
             </p>
           </span>
         </div>
