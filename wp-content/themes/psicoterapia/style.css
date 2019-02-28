@@ -124,9 +124,6 @@ Inicio de menu bar
   position: fixed;
   top: 62px;
   height: 100%;
-  border-left: solid rgb(86,161,211) 3px;
-  border-top: solid rgb(86,161,211) 3px;
-  border-top-left-radius: 1em;
 
  /* .azul{
   background-color: rgb(86,161,211);
@@ -152,9 +149,7 @@ Inicio de menu bar
 
 }
 #institucional:hover, #blog:hover{
-  border-top: solid rgb(86,161,211) 1px;
-  border-radius: 2px;
-  border-bottom: solid rgb(86,161,211) 1px;
+  
   background-color: rgb(30, 84, 108);
   cursor: pointer;
 }
@@ -173,7 +168,7 @@ Inicio de menu bar
 .menuDown ul li{
   list-style: none;
   padding:10px;
-  border-radius: 5px;
+  
 }
 
 .menuDown a{
@@ -182,10 +177,7 @@ Inicio de menu bar
 }
 
 .menuDown ul li:hover{
-	background-color: rgba(213, 232, 239,.8);
-}
-.menuDown ul a li:hover{
-  text-shadow: white 0.1em 0.1em 0.2em;
+	background-color: rgb(30, 84, 108);
 }
 
 
