@@ -706,7 +706,7 @@ FIM do footer
 	}
 }
 
-/* Configuração da tela pequena */
+/* Configuração da tela pequena mobile */
 
 @media (max-width: 525px){
 	h1{
@@ -718,15 +718,12 @@ FIM do footer
   }
   .tituloMenu{
     font-size: 18px;
-
   }
 
   /* botao Call Action  */
   .botao-cabecalho{
     margin-top: -17px;
   }
-
-
   /* cabecalho */
 	.cabecalho{
 		margin: 0;
@@ -844,6 +841,7 @@ table {
 }
 .setaVoltar a{
   text-decoration: none;
+  padding-left: 0px;
 }
 .setaVoltar .glyphicon{
   font-size: 30px;
@@ -851,9 +849,6 @@ table {
   cursor: pointer;
 }
 
-.divPost{
-    padding:50px 0 50px 0;
-}
 .tituloPost h1{
   font-weight:bolder;
   text-transform: capitalize;
@@ -864,20 +859,34 @@ table {
   position: relative;
   padding:15px 5px 0 17px;
 }
-@media only screen and (min-width: 1200px) {
-  .compartilhar{
-    right:0;
-    z-index: 8;
-    position: relative;
-    padding:15px 5px 0 17px;
-    border-left:solid #eef0f2 2px;
-    border-top: solid #eef0f2 2px;
-    border-bottom:solid #eef0f2 2px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+
+.compartilhar{
+  border-left:solid #eef0f2 2px;
+  border-top: solid #eef0f2 2px;
+  border-bottom:solid #eef0f2 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+@media only screen and (min-width: 1010px) {
+  .telaGrande{
+    display: block;
   }
-  .caixaPost{
-    margin-right: -85px;
+  .notAberta{
+    padding-left: 90px;
+  }
+  .mobileSocial{
+    display: none;
+  }
+}
+
+@media (max-width: 525px){
+  .telaGrande{
+    display: none !important;
+  }
+  .mobileSocial{
+    display: block;
   }
 }
 .compartilhar img{
@@ -891,4 +900,8 @@ table {
   margin-top: 25px;
   border-radius: 10px;
   box-shadow: gray 0.1em 0.1em 0.2em;
+}
+.divPosts{
+  padding-top: 40px;
+  padding-bottom:40px;
 }
