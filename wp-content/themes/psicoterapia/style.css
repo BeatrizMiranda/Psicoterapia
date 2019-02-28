@@ -67,7 +67,7 @@ Inicio de menu bar
   top: 0;
   background-color: white;
   width:100%;
-  z-index: 1;
+  z-index: 9;
   margin-top: 0;
   border-bottom: 1px solid #eee;
 }
@@ -120,25 +120,11 @@ Inicio de menu bar
 /* menu dropdown aparecendo */
 .divMenu{
 	background-color: rgba(30, 84, 108, 0.7);
-  z-index: 1;
+  z-index: 9;
   position: fixed;
   top: 62px;
   height: 100%;
 
- /* .azul{
-  background-color: rgb(86,161,211);
-  color: white;
-}
-.azulClarinho{
-  background-color: rgb(225,238,255);
-}
-.azulFinal{
-  background-color: rgb(167, 195, 230)
-}
-.azulescuro{
-  background-color: rgb(30,84,108);
-  color: white;
-}*/
 
 }
 #institucional, #blog{
@@ -388,10 +374,6 @@ Fim Sessão Como começo
 *
 */
 
-/*
-Inicio da Sessão Como me inscrevo
-*
-*/
 
 
 
@@ -410,6 +392,16 @@ Inicio da Sessão Como me inscrevo
   background-color: rgb(30,84,108);
   color: white;
 }
+
+/*
+Inicio da Sessão Como me inscrevo
+*
+*/
+
+.linkFormulario a{
+  font-size: 22px;
+}
+
 
 #comoInscrevo{
   padding: 30px;
@@ -619,6 +611,10 @@ inicio do footer
   padding-right: 15px;
   padding-bottom: 5px;
 }
+.rowExtourando{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 @media (max-width: 525px){
   #desenvolvedores div{
@@ -702,7 +698,7 @@ FIM do footer
 	}
 }
 
-/* Configuração da tela pequena */
+/* Configuração da tela pequena mobile */
 
 @media (max-width: 525px){
 	h1{
@@ -714,15 +710,12 @@ FIM do footer
   }
   .tituloMenu{
     font-size: 18px;
-
   }
 
   /* botao Call Action  */
   .botao-cabecalho{
     margin-top: -17px;
   }
-
-
   /* cabecalho */
 	.cabecalho{
 		margin: 0;
@@ -840,9 +833,67 @@ table {
 }
 .setaVoltar a{
   text-decoration: none;
+  padding-left: 0px;
 }
 .setaVoltar .glyphicon{
   font-size: 30px;
   vertical-align:-20%;
   cursor: pointer;
+}
+
+.tituloPost h1{
+  font-weight:bolder;
+  text-transform: capitalize;
+}
+
+.compartilhar{
+  z-index: 8;
+  position: relative;
+  padding:15px 5px 0 17px;
+}
+
+.compartilhar{
+  border-left:solid #eef0f2 2px;
+  border-top: solid #eef0f2 2px;
+  border-bottom:solid #eef0f2 2px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+@media only screen and (min-width: 1010px) {
+  .telaGrande{
+    display: block;
+  }
+  .notAberta{
+    padding-left: 90px;
+  }
+  .mobileSocial{
+    display: none;
+  }
+}
+
+@media (max-width: 525px){
+  .telaGrande{
+    display: none !important;
+  }
+  .mobileSocial{
+    display: block;
+  }
+}
+.compartilhar img{
+  margin-bottom: 15px;
+  box-shadow: gray 0.1em 0.1em 0.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.imgPost img{
+  width: 280px;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: gray 0.1em 0.1em 0.2em;
+}
+.divPosts{
+  padding-top: 40px;
+  padding-bottom:40px;
 }

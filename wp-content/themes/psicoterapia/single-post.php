@@ -76,28 +76,105 @@
 
 		<div class="container">
 			<div class="row setaVoltar">
-				<a href="<?php echo get_site_url(); ?>/blog">
+				<a class="col-xs-4" href="<?php echo get_site_url(); ?>/blog">
 					<span class="glyphicon glyphicon-menu-left"></span>
 					<span class="voltar">Voltar</span>
 				</a>
 			</div>
 		</div>
+		<div class="divPosts">
 
-		<section class="container">
-		  <div class="row">
-		    <?php
+		<section class="container-fluid notAberta">
+			<div class="row">
+				<div class="col-md-3 col-xs-12 imgPost text-center">
+					<img src="<?php echo get_the_post_thumbnail_url() ?>"
+					alt="<?php echo get_the_post_thumbnail_caption()?>"/>
+				</div>
 
-		      if (have_posts()):
-		        while (have_posts()): the_post();
-		    ?>
-				
-	        <h3 class="text-center"> <?php the_title(); ?> </h3>
+				<div class="col-md-9 col-xs-12">
+				 <div class="row caixaPost">
+					 <div class="col-md-11 col-sx-11">
+						 <div class="row">
+							 <div class="col-xs-12 tituloPost text-left">
+								 <?php
 
-	        <span>
-	        	<?php the_content();?>
-	        </span>
+									 if (have_posts()):
+										 while (have_posts()): the_post();
+								 ?>
 
-		    <?php endwhile; endif ?>
-		  </div>
+									 <h1> <?php the_title(); ?> </h1>
+							 </div>
+							 <div class="col-sx-11 col-md-11">
+								 <span>
+									 <?php the_content();?>
+								 </span>
+
+								 <?php endwhile; endif ?>
+							 </div>
+						 </div>
+
+					 </div>
+					 <div class="col-md-1 col-xs-1 telaGrande">
+						 <div class="compartilhar">
+							 <img title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
+  						 <img title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+							 <img title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
+							 <img title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+			</div>
 		</section>
+	<div class="container mobileSocial">
+		<h3>Compartilhe:</h3>
+		<div class="row">
+			<img class="col-xs-3" title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
+			<img class="col-xs-3" title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+			<img class="col-xs-3" title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
+			<img class="col-xs-3" title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+		</div>
+	</div>
+</div>
+<section class="demaisNoticias">
+  <div class="container">
+    <h1 class="tituloSessoes text-center"> Artigos que talvez te interesse: </h1>
+    <div class="row">
+      <?php
+        $argum = array(
+          'category_name' => 'noticiasBlog',
+          'orderby'     => 'date',
+          'posts_per_page' => 3,
+        
+        );
+
+        $the_last_query = new WP_Query($argum);
+
+        if ($the_last_query->have_posts()):
+          while ($the_last_query->have_posts()): $the_last_query->the_post();
+      ?>
+
+      <div class="col-md-4 col-xs-12 caixaNoticia">
+        <div class="noticia">
+          <div class="conteudo">
+            <h3 class="text-center"><?php the_title(); ?></h3>
+            <span>
+              <?php the_excerpt(__('(more…)')); ?>
+            </span>
+          </div>
+          <a href="<?php echo get_post_permalink(get_the_ID())?>">
+            <div class="col contLendo text-center">
+              Continuar lendo
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <?php
+        endwhile; endif
+      ?>
+    </div>
+
+  </div>
+</section>
 <?php get_footer();?>

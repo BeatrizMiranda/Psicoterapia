@@ -90,7 +90,7 @@
   </div>
 </section>
 
-<section id="demaisNoticias">
+<section class="demaisNoticias">
   <div class="container">
     <h1 class="tituloSessoes text-center"> Artigos que talvez te interesse: </h1>
     <div class="row">
