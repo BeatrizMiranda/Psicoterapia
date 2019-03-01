@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content ="Encontre um psicólogo perto de você e pague uma taxa simbólica pelo atendimento! O Psicoterapia para Todos é um projeto que acredita que o acesso a terapia deve ser para todos. Contamos com uma rede de profissionais engajados com a democratização da saúde mental!ê">
 		<meta name="keywords" content="Psicoterapia, terapia, psicólogo, consulta, sessão, clínica, atendimento, saúde mental, ong, preço acessível, grátis, limitação financeira, baixa renda, psicopedagogia, casal, família, avaliação neuropsicológica">
-		
+
 
 
     <!-- favicon na aba do navegador -->
@@ -116,7 +116,7 @@
 					 </div>
 					 <div class="col-md-1 col-xs-1 telaGrande">
 						 <div class="compartilhar">
-							 <a target="_blank"  name="fb_share" type="button_count" share_url="<?php echo get_permalink(); ?>";>
+							 <a href="https://www.facebook.com/sharer.php?u=<?php the_permalink() ?>" target="_blank" title="Compartilhar <?php the_title();?> no Facebook">
 			 				 		<img title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
 			 				 </a>
 							 <a href="mailto:?subject=Psicoterapia para Todos&body=Confira esse post do site Psicoterapia para todos<?php echo get_permalink(); ?>">
@@ -141,9 +141,9 @@
 			<a target="_blank" href="http://twitter.com/share"  data-url="<?php echo get_permalink(); ?>" data-text="Confira o post do site Psicoterapia: " data-count="horizontal" data-lang="pt">
 			 <img class="col-xs-3" title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
 			</a>
-			<a target="_blank" ></a>
-				<img class="col-xs-3" title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
-
+			<a href="https://www.facebook.com/sharer.php?u=<?php the_permalink() ?>" target="_blank" title="Compartilhar <?php the_title();?> no Facebook">
+				 <img class="col-xs-3" title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+			</a>
 			<a href="mailto:?subject=Psicoterapia para Todos&body=Confira esse post do site Psicoterapia para todos <?php echo get_permalink(); ?>">
 			 <img class="col-xs-3" title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
 			</a>
