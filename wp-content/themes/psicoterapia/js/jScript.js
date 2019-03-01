@@ -8,6 +8,7 @@ function menuFunction(x) {
     $('.menuDown').css("display", "none");
   }
 }
+
 function instFunction(y) {
   y.classList.toggle("changeIns");
   if($('#institucional').hasClass('changeIns')){

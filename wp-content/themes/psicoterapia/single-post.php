@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content ="Encontre um psicólogo perto de você e pague uma taxa simbólica pelo atendimento! O Psicoterapia para Todos é um projeto que acredita que o acesso a terapia deve ser para todos. Contamos com uma rede de profissionais engajados com a democratização da saúde mental!ê">
 		<meta name="keywords" content="Psicoterapia, terapia, psicólogo, consulta, sessão, clínica, atendimento, saúde mental, ong, preço acessível, grátis, limitação financeira, baixa renda, psicopedagogia, casal, família, avaliação neuropsicológica">
+		
 
 
     <!-- favicon na aba do navegador -->
     <link rel="icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png">
-    <!--[if IE]><link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"><![endif]-->
 
 
     <!-- para deixar a aba no  mobile colorida -->
-	<meta name="theme-color" content="#7ca7db">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
-	<meta name="msapplication-navbutton-color" content="#7ca7db">
+		<meta name="theme-color" content="#7ca7db">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
+		<meta name="msapplication-navbutton-color" content="#7ca7db">
 
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -116,10 +116,16 @@
 					 </div>
 					 <div class="col-md-1 col-xs-1 telaGrande">
 						 <div class="compartilhar">
-							 <img title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
-  						 <img title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
-							 <img title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
-							 <img title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+							 <a target="_blank"  name="fb_share" type="button_count" share_url="<?php echo get_permalink(); ?>";>
+			 				 		<img title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+			 				 </a>
+							 <a href="mailto:?subject=Psicoterapia para Todos&body=Confira esse post do site Psicoterapia para todos<?php echo get_permalink(); ?>">
+							 	<img title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
+							 </a>
+							 <a target="_blank" href="http://twitter.com/share"  data-url="<?php echo get_permalink(); ?>" data-text="Confira o post do site Psicoterapia: " data-count="horizontal" data-lang="pt">
+							 	<img title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+							 </a>
+							 <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 						 </div>
 					 </div>
 				 </div>
@@ -129,10 +135,20 @@
 	<div class="container mobileSocial">
 		<h3>Compartilhe:</h3>
 		<div class="row">
-			<img class="col-xs-3" title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
-			<img class="col-xs-3" title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
-			<img class="col-xs-3" title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
-			<img class="col-xs-3" title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+			<a href="whatsapp://send?text=Confira esse post do site Psicoterapia para todos: <?php echo get_permalink(); ?>" target="_blank">
+				<img class="col-xs-3" title="Compartilhe no WhatsApp" src="<?php echo get_stylesheet_directory_uri();?>/img/whatsapp.svg" width="40" alt="ícone de telefone">
+			</a>
+			<a target="_blank" href="http://twitter.com/share"  data-url="<?php echo get_permalink(); ?>" data-text="Confira o post do site Psicoterapia: " data-count="horizontal" data-lang="pt">
+			 <img class="col-xs-3" title="Compartilhe no Twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter.svg" width="40" alt="ícone do Twitter"/>
+			</a>
+			<a target="_blank" ></a>
+				<img class="col-xs-3" title="Compartilhe no Facebook" src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.svg" width="40" alt="ícone do facebook"/>
+
+			<a href="mailto:?subject=Psicoterapia para Todos&body=Confira esse post do site Psicoterapia para todos <?php echo get_permalink(); ?>">
+			 <img class="col-xs-3" title="Compartilhe por E-mail" src="<?php echo get_stylesheet_directory_uri();?>/img/email.svg" width="40" alt="ícone de email"/>
+			</a>
+
+
 		</div>
 	</div>
 </div>
@@ -145,7 +161,7 @@
           'category_name' => 'noticiasBlog',
           'orderby'     => 'date',
           'posts_per_page' => 3,
-        
+					'post__not_in'=> array($post->ID),
         );
 
         $the_last_query = new WP_Query($argum);

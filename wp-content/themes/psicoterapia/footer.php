@@ -127,5 +127,7 @@
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.mask.min.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jScript.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri();?>/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Facebook pluguin -->
+		<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
   </body>
 </html>
