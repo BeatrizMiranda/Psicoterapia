@@ -90,8 +90,6 @@
   </div>
 </section>
 
-<h1>OI LAURA</h1>
-
 <section class="demaisNoticias">
   <div class="container">
     <h1 class="tituloSessoes text-center"> Artigos que talvez te interesse: </h1>

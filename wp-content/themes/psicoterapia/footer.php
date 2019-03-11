@@ -86,7 +86,7 @@
 
             <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center img-fluid">
               <span>
-                Esse projeto foi desenvolvido pelo IF(meninas){nas exatas}, que visa promover
+                Esse site foi desenvolvido pelo IF(meninas){nas exatas}, que visa promover
                 a participação feminina <br> na área de Exatas, motivando alunas a ingressar e permanecer na área.
               </span>
             </div>
@@ -129,5 +129,6 @@
     <script src="<?php echo get_stylesheet_directory_uri();?>/bootstrap/js/bootstrap.min.js"></script>
     <!-- Facebook pluguin -->
 		<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+
   </body>
 </html>

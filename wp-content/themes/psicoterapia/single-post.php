@@ -70,6 +70,13 @@
 						</p>
 					</a>
 				</div>
+				<div class="row" id="blog">
+					<a href="<?php echo get_site_url(); ?>/encontrepsicologo">
+						<p class="col-xs-10">
+							Encontre seu Psicologo!
+						</p>
+					</a>
+				</div>
 
 			</div>
 	 </nav>

@@ -1,3 +1,4 @@
+<?php /* Template Name: encontrepsicologo */ ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
@@ -9,15 +10,15 @@
 		<meta name="keywords" content="Psicoterapia, terapia, psicólogo, consulta, sessão, clínica, atendimento, saúde mental, ong, preço acessível, grátis, limitação financeira, baixa renda, psicopedagogia, casal, família, avaliação neuropsicológica">
 
 
+
     <!-- favicon na aba do navegador -->
     <link rel="icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png">
-    <!--[if IE]><link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"><![endif]-->
 
 
     <!-- para deixar a aba no  mobile colorida -->
-	<meta name="theme-color" content="#7ca7db">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
-	<meta name="msapplication-navbutton-color" content="#7ca7db">
+		<meta name="theme-color" content="#7ca7db">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#7ca7db">
+		<meta name="msapplication-navbutton-color" content="#7ca7db">
 
     <!--Bootstrap-->
     <link href="<?php echo get_stylesheet_directory_uri();?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,14 +29,14 @@
   </head>
 
   <body>
-		<nav class="container-fluid navbar" id="menu">
+		<nav class="container-fluid navbar" id="menuNotAberta">
 			<div class="row menuFixo">
 				<div class="col-xs-2 text-center img-logo-menu-fixo">
 					<a href="<?php echo get_site_url();?>">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenu"/>
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo psicoterapia" width="50" class="logoMenuNotAberta"/>
 					</a>
 				</div>
-				<div class="col-xs-8 text-center tituloMenu navbar-brand">
+				<div class="col-xs-8 text-center tituloMenuNotAberta navbar-brand">
 					<span>Psicoterapia para Todos</span>
 				</div>
 				<div class="col-xs-2 hamburguer" onclick="menuFunction(this)">
@@ -79,33 +80,13 @@
 				</div>
 
 			</div>
-		</nav>
+	 </nav>
 
-    <header>
-	    <div class="container">
-        <div class="row cabecalho">
+   <section>
+     <div class="col-xs-12 text-center">
+         <h1> Encontre seu Psicologo </h1>
+     </div>
+   </section>
 
-          <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 text-xs-center logo">
-            <img class="text-xs-center img-fluid"
-		         src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png"
-		         width="220px" alt="Logo do Psicoterapia"/>
-          </div>
 
-          <div class="col-md-5 col-sm-8 col-xs-12 text-xs-center text-sm-center titulo">
-            <h1 class="text-center" >Psicoterapia para Todos</h1>
-            <h2 class="text-center" >Uma equipe de psicólogos que acredita que a psicoterapia deve ser para todos</h2>
-					</div>
-
-        </div>
-				<div class="row">
-					<div class="col-md-1 col-md-offset-11 col-xs-5 col-xs-offset-7 row">
-						<div class="ba col-xs-5 selecao">
-							<p>A+</p>
-						</div>
-						<div class="bd col-xs-offset-1 col-xs-5 selecao">
-							<p>A-</p>
-						</div>
-					</div>
-				</div>
-      </div>
-    </header>
+<?php get_footer()?>

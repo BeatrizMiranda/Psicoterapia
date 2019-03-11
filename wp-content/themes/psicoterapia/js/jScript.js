@@ -9,6 +9,7 @@ function menuFunction(x) {
   }
 }
 
+
 function instFunction(y) {
   y.classList.toggle("changeIns");
   if($('#institucional').hasClass('changeIns')){
@@ -74,5 +75,9 @@ $(document).ready(function () {
           scrollTop: targetOffset - 110
       }, 500);
     });
+
+    var map;
+
+
 
 });
