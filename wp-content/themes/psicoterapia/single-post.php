@@ -87,6 +87,15 @@
 					<span class="glyphicon glyphicon-menu-left"></span>
 					<span class="voltar">Voltar</span>
 				</a>
+
+				<div class="col-xs-2 col-xs-offset-6 row">
+					<div class="ba col-xs-5 selecao">
+						<p>A+</p>
+					</div>
+					<div class="bd col-xs-offset-1 col-xs-5 selecao">
+						<p>A-</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="divPosts">

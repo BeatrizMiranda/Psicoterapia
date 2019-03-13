@@ -135,7 +135,7 @@ Inicio de menu bar
 
 }
 #institucional:hover, #blog:hover{
-  
+
   background-color: rgb(30, 84, 108);
   cursor: pointer;
 }
@@ -154,7 +154,7 @@ Inicio de menu bar
 .menuDown ul li{
   list-style: none;
   padding:10px;
-  
+
 }
 
 .menuDown a{
@@ -539,6 +539,7 @@ fieldset.scheduler-border {
   margin-top: 16px;
 }
 
+
 .emailLink{
     margin-bottom: 17px;
 }
@@ -633,6 +634,9 @@ footer{
     font-size: 16px;
     color: #1e546c;
 }
+#contatoDesenvolvedores{
+  margin-top:3px;
+}
 #ifMeninas{
   padding: 15px 0px 15px 0px;
 }
@@ -673,6 +677,10 @@ footer{
   font-weight: bold;
   font-size: 17px;
 
+}
+#contato p span{
+  color: rgb(30,84,108);
+  font-weight:bolder;
 }
 
 /*
@@ -896,4 +904,10 @@ table {
 .divPosts{
   padding-top: 40px;
   padding-bottom:40px;
+}
+
+/* pagina encontre seu psicologo */
+
+.tituloPsicologo h1{
+  font-weight: bolder;
 }

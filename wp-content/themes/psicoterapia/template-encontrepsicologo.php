@@ -46,6 +46,20 @@
 				</div>
 			</div>
 		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-md-offset-11 col-xs-5 col-xs-offset-7 row">
+					<div class="ba col-xs-5 selecao">
+						<p>A+</p>
+					</div>
+					<div class="bd col-xs-offset-1 col-xs-5 selecao">
+						<p>A-</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
 
 	 <nav class="menuDown">
 			<div class="col-md-3 col-md-offset-9 col-xs-12 divMenu">
@@ -81,12 +95,8 @@
 
 			</div>
 	 </nav>
+	 <div class="text-center tituloPsicologo">
+		 <h1>Encontre seu Psicologo!</h1>
+	 </div>
 
-   <section>
-     <div class="col-xs-12 text-center">
-         <h1> Encontre seu Psicologo </h1>
-     </div>
-   </section>
-
-
-<?php get_footer()?>
+<?php get_footer(); ?>

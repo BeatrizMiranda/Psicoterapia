@@ -1,6 +1,6 @@
     <footer class="container-fluid">
 
-      <section class="row azulClarinho" style="margin-top:3px;" id="contatoDesenvolvedores">
+      <section class="row azulClarinho" id="contatoDesenvolvedores">
 
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row noPadding">
@@ -9,9 +9,9 @@
                 <h3>Contato</h3>
               </div>
               <div id="contato" class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 text-center">
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Email:    </span> <a href="mailto:psicoterapia.todos@outlook.com">Psicoterapia.todos@outlook.com</a></p>
-                <p><span style="color: rgb(30,84,108); font-weight:bolder;">Facebook: </span> <a href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></p>
+                <p><span>Celular:  </span> <a href="tel:11950302017">(11) 95030-2017 </a> </p>
+                <p><span>Email:    </span> <a href="mailto:psicoterapia.todos@outlook.com">Psicoterapia.todos@outlook.com</a></p>
+                <p><span>Facebook: </span> <a href="https://www.facebook.com/projetopsicoterapiaparatodos/?ref=br_rs">Projeto Psicoterapia para Todos</a></p>
               </div>
 
           </div>
@@ -87,7 +87,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12 textoifmeninas text-center img-fluid">
               <span>
                 Esse site foi desenvolvido pelo IF(meninas){nas exatas}, que visa promover
-                a participação feminina <br> na área de Exatas, motivando alunas a ingressar e permanecer na área.
+                a participação de mulheres <br> na área de Exatas, motivando alunas a ingressar e permanecer na área.
               </span>
             </div>
 
