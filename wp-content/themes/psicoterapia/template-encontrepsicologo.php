@@ -98,5 +98,6 @@
 	 <div class="text-center tituloPsicologo">
 		 <h1>Encontre seu Psicologo!</h1>
 	 </div>
+	 <br>
 
 <?php get_footer(); ?>

@@ -57,7 +57,7 @@
       $arg = array(
         'category_name' => 'noticiasBlog',
         'orderby'     => 'date',
-        'posts_per_page' => 4,
+        // 'posts_per_page' => 4,
         'offset' =>1,
 
       );
@@ -90,7 +90,7 @@
   </div>
 </section>
 
-<section class="demaisNoticias">
+<!-- <section class="demaisNoticias">
   <div class="container">
     <h1 class="tituloSessoes text-center"> Artigos que talvez te interesse: </h1>
     <div class="row">
@@ -131,6 +131,6 @@
     </div>
 
   </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>
