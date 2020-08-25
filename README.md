@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="psicoterapia" title="#psicoterapia" src="./assets/psicoterapia.png" />
+    <img alt="psicoterapia" title="#psicoterapia" src="./assets/psicoterapiaBanner.png" />
 </h1>
 
 <h4 align="center"> 
@@ -37,10 +37,11 @@ A iniciativa de criar o site nasceu quando a ONG entrou em contato com o Institu
 
 O layout do site foi pensado a transimitir calma aos usuários, tendo em vista que a procura por saúde mental muitas vezes vem de alguém que já está no seu limite, buscamos manter a interface limpa, clara, e azul.
 
-### Mobile Screens
+### Screens
 
 <p align="center">
-  
+  <img src="./assets/contato.png" widh="500px"/>
+  <img src="./assets/sobre.png" widh="500px"/>
 </p>
 
 ## 🛠 Tecnologias
