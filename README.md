@@ -52,6 +52,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML][html]
 - [CSS][css]
 - [PHP][php]
+- [JavaScript][js]
 
 ## 🎥 Como executar o projeto
 
@@ -89,10 +90,10 @@ $
 
 ## 📝 Licença
 
-<p>Feito por: </br>
-- [Angelo Lanche][angelo]</p>
-- [Beatriz Miranda][bia]</br>
-- [Laura Chaile][laura]</br>
+Feito por:
+- [Angelo Lanche][angelo]
+- [Beatriz Miranda][bia]
+- [Laura Chaile][laura]
 
 
 <p>Este projeto está sobe a licença MIT.</p>
