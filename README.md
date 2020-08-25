@@ -49,8 +49,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/CSS/)
 - [PHP](https://www.w3schools.com/PHP/)
+- [JavaScript](https://www.w3schools.com/js/)
 
-## :calling: Como executar o projeto
+## 🎥 Como executar o projeto
 
 ### Pré-requisitos
 
@@ -92,15 +93,22 @@ por fim entre no link `http://localhost/Psicoterapia`.
 
 ## 📝 Licença
 
-Feito por: Beatriz Miranda, Laura Chaile, Angelo Lanch - 
-Este projeto está sobe a licença MIT.
+Feito por:
+- [Angelo Lanche](https://www.linkedin.com/in/angelo-lanch/)
+- [Beatriz Miranda](https://www.linkedin.com/in/beatriz-miranda-ferreira)
+- [Laura Chaile](https://www.linkedin.com/in/laura-a-de-almeida-chaile/)
 
 
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
+<p>Este projeto está sobe a licença MIT.</p>
+
+
+[html]: https://html.spec.whatwg.org/multipage/
+[css]: https://www.w3.org/Style/CSS/specs.en.html
+[js]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [vscode]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [license]: https://opensource.org/licenses/MIT
+[php]: https://www.php.net/docs.php
+[angelo]: https://www.linkedin.com/in/angelo-lanch/ 
+[bia]: https://www.linkedin.com/in/beatriz-miranda-ferreira/
+[laura]: https://www.linkedin.com/in/laura-a-de-almeida-chaile/
