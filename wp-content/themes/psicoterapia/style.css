@@ -62,6 +62,11 @@ Inicio de menu bar
 *
 */
 
+.img-logo-menu-fixo{ 
+  display: flex;
+  justify-content:flex-end;
+}
+
 #menu, #menuNotAberta{
   padding-top:10px;
   top: 0;
