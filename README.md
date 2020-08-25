@@ -40,27 +40,29 @@ O layout do site foi pensado a transimitir calma aos usuários, tendo em vista q
 ### Screens
 
 <p align="center">
-  <img src="./assets/contato.png" widh="500px"/>
-  <img src="./assets/sobre.png" widh="500px"/>
+  <img src="./assets/Layout.png" width="80%"/>
 </p>
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
-- [HTML][html]
-- [CSS][css]
-- [PHP][php]
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/CSS/)
+- [PHP](https://www.w3schools.com/PHP/)
 
 ## :calling: Como executar o projeto
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), 
+[Git](https://git-scm.com)
+[Xampp](https://www.apachefriends.org/pt_br/index.html) 
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
 ### :cat: Clonando o Repositório
+Você deve colocar o seu repositorio dentro da pasta htdocs dentro da sua pasta xampp.
+O default dessa pasta é `C:\xampp\htdocs` 
 
 ```bash
 # Clone este repositório
@@ -68,14 +70,17 @@ $ git clone https://github.com/BeatrizMiranda/Psicoterapia
             
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Psicoterapia
+
+# Comando que abre seu editor direto na pasta
+$ code .
 ```
 
 ### :repeat: Rodando a aplicação
-```bash
-# Execute a aplicação
-$ yarn start (um escrip que executará o comando expo start)
+Após clonado abra o xampp e coloque para iniciar o apache e o MySQL
+<img src="./assets/xampp.png" widh="500px"/>
 
-```
+Logo em seguida clique em admin no MySQL e importe o banco. (está na pasta `.\wp-content\themes\psicoterapia\banco\psicoterapia.sql`)
+por fim entre no link `http://localhost/Psicoterapia`.
 
 ## :raising_hand: Para contribuir com o projeto
 
@@ -87,7 +92,7 @@ $ yarn start (um escrip que executará o comando expo start)
 
 ## 📝 Licença
 
-Feito por: Beatriz Miranda, Laura Chaile, Angelo Lanch
+Feito por: Beatriz Miranda, Laura Chaile, Angelo Lanch - 
 Este projeto está sobe a licença MIT.
 
 
