@@ -40,7 +40,9 @@ O layout do site foi pensado a transimitir calma aos usuários, tendo em vista q
 ### Screens
 
 <p align="center">
+  <p>Contato</p>
   <img src="./assets/contato.png" widh="500px"/>
+  <p>Sobre nós</p>
   <img src="./assets/sobre.png" widh="500px"/>
 </p>
 
@@ -51,7 +53,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS][css]
 - [PHP][php]
 
-## :calling: Como executar o projeto
+## 🎥 Como executar o projeto
 
 ### Pré-requisitos
 
@@ -73,7 +75,7 @@ $ cd Psicoterapia
 ### :repeat: Rodando a aplicação
 ```bash
 # Execute a aplicação
-$ yarn start (um escrip que executará o comando expo start)
+$ 
 
 ```
 
@@ -87,15 +89,22 @@ $ yarn start (um escrip que executará o comando expo start)
 
 ## 📝 Licença
 
-Feito por: Beatriz Miranda, Laura Chaile, Angelo Lanch
-Este projeto está sobe a licença MIT.
+<p>Feito por: </br>
+- Angelo Lanche [entre em contato com o Ângelo]</p>
+- Beatriz Miranda [entre em contato com a Bia]</br>
+- Laura Chaile [entre em contato com a Laura]</br>
 
 
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
+<p>Este projeto está sobe a licença MIT.</p>
+
+
+[html]: https://html.spec.whatwg.org/multipage/
+[css]: https://www.w3.org/Style/CSS/specs.en.html
+[js]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [vscode]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [license]: https://opensource.org/licenses/MIT
+[php]: https://www.php.net/docs.php
+[entre com contato com o Ângelo]: https://www.linkedin.com/in/angelo-lanch/ 
+[entre com contato com a Bia]: https://www.linkedin.com/in/beatriz-miranda-ferreira/
+[entre com contato com a Laura]: https://www.linkedin.com/in/laura-a-de-almeida-chaile/
