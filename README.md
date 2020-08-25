@@ -90,9 +90,9 @@ $
 ## 📝 Licença
 
 <p>Feito por: </br>
-- Angelo Lanche [entre em contato com o Ângelo]</p>
-- Beatriz Miranda [entre em contato com a Bia]</br>
-- Laura Chaile [entre em contato com a Laura]</br>
+- [Angelo Lanche][angelo]</p>
+- [Beatriz Miranda][bia]</br>
+- [Laura Chaile][laura]</br>
 
 
 <p>Este projeto está sobe a licença MIT.</p>
@@ -105,6 +105,6 @@ $
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [license]: https://opensource.org/licenses/MIT
 [php]: https://www.php.net/docs.php
-[entre com contato com o Ângelo]: https://www.linkedin.com/in/angelo-lanch/ 
-[entre com contato com a Bia]: https://www.linkedin.com/in/beatriz-miranda-ferreira/
-[entre com contato com a Laura]: https://www.linkedin.com/in/laura-a-de-almeida-chaile/
+[angelo]: https://www.linkedin.com/in/angelo-lanch/ 
+[bia]: https://www.linkedin.com/in/beatriz-miranda-ferreira/
+[laura]: https://www.linkedin.com/in/laura-a-de-almeida-chaile/
